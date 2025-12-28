@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "project": "Dicas Rápidas para Motociclistas",
+    "author": "Wings Motorcycle Course",
+    "version": "1.0",
+    "lastUpdate": "2025-01-01"
+  },
+  "categories": {
+    "seguranca": {
+      "label": "Segurança",
+      "color": "#D4AF37",
+      "icon": "security"
+    },
+    "manutencao": {
+      "label": "Manutenção",
+      "color": "#1E88E5",
+      "icon": "build"
+    },
+    "pilotagem": {
+      "label": "Pilotagem",
+      "color": "#43A047",
+      "icon": "two_wheeler"
+    },
+    "equipamentos": {
+      "label": "Equipamentos",
+      "color": "#FB8C00",
+      "icon": "sports_motorsports"
+    },
+    "viagem": {
+      "label": "Viagem de Moto",
+      "color": "#8E24AA",
+      "icon": "map"
+    },
+    "economia": {
+      "label": "Economia",
+      "color": "#BDBDBD",
+      "icon": "attach_money"
+    }
+  },
+  "tips": []
+}
