@@ -756,6 +756,730 @@
     "text": "Condução consciente reduz desgaste e aumenta vida útil dos componentes.",
     "category": "economia",
     "level": "intermediário"
-  }
+  },
+    
+  {
+    "id": 101,
+    "title": "Antecipe sem pressa",
+    "text": "Antecipar riscos não significa acelerar decisões. Leia o trânsito com calma e aja com precisão.",
+    "category": "seguranca",
+    "level": "iniciante"
+  },
+  {
+    "id": 102,
+    "title": "Mantenha rota de fuga",
+    "text": "Sempre tenha um espaço livre para desviar ou frear. Rotas de fuga salvam em emergências.",
+    "category": "seguranca",
+    "level": "intermediário"
+  },
+  {
+    "id": 103,
+    "title": "Evite mudanças bruscas",
+    "text": "Trocas rápidas de direção reduzem estabilidade. Seja progressivo nos comandos.",
+    "category": "seguranca",
+    "level": "iniciante"
+  },
+  {
+    "id": 104,
+    "title": "Trânsito exige leitura constante",
+    "text": "O cenário muda o tempo todo. Atualize sua leitura do ambiente a cada segundo.",
+    "category": "seguranca",
+    "level": "intermediário"
+  },
+  {
+    "id": 105,
+    "title": "Domínio técnico amplia margem",
+    "text": "Quanto maior o domínio da técnica, maior a margem para lidar com imprevistos.",
+    "category": "seguranca",
+    "level": "avançado"
+  },
+  {
+    "id": 106,
+    "title": "Evite rodar colado",
+    "text": "Rodar muito próximo reduz visibilidade e tempo de reação. Dê espaço.",
+    "category": "seguranca",
+    "level": "iniciante"
+  },
+  {
+    "id": 107,
+    "title": "Respeite seu estado emocional",
+    "text": "Raiva, ansiedade ou euforia interferem na pilotagem. Se necessário, pare e respire.",
+    "category": "seguranca",
+    "level": "intermediário"
+  },
+  {
+    "id": 108,
+    "title": "Escolha bem sua posição na via",
+    "text": "Posicionar-se corretamente aumenta visibilidade e reduz riscos.",
+    "category": "seguranca",
+    "level": "intermediário"
+  },
+  {
+    "id": 109,
+    "title": "Consistência é mais segura que velocidade",
+    "text": "Manter ritmo constante reduz surpresas e melhora a leitura do trânsito.",
+    "category": "seguranca",
+    "level": "avançado"
+  },
+
+  {
+    "id": 110,
+    "title": "Ajuste retrovisores corretamente",
+    "text": "Retrovisores bem ajustados ampliam sua percepção do entorno.",
+    "category": "manutencao",
+    "level": "iniciante"
+  },
+  {
+    "id": 111,
+    "title": "Verifique folgas anormais",
+    "text": "Folgas excessivas indicam desgaste. Atenção a pedaleiras, guidão e balança.",
+    "category": "manutencao",
+    "level": "intermediário"
+  },
+  {
+    "id": 112,
+    "title": "Cuide do sistema de arrefecimento",
+    "text": "Temperatura fora do normal indica problema. Observe o painel e vazamentos.",
+    "category": "manutencao",
+    "level": "intermediário"
+  },
+  {
+    "id": 113,
+    "title": "Manutenção correta evita pane",
+    "text": "Cuidar hoje evita ficar parado amanhã. Preventivo é sempre melhor.",
+    "category": "manutencao",
+    "level": "avançado"
+  },
+  {
+    "id": 114,
+    "title": "Use peças de qualidade",
+    "text": "Componentes confiáveis garantem desempenho e segurança.",
+    "category": "manutencao",
+    "level": "avançado"
+  },
+
+  {
+    "id": 115,
+    "title": "Controle vem da base",
+    "text": "Pés bem posicionados e joelhos firmes melhoram o controle da moto.",
+    "category": "pilotagem",
+    "level": "iniciante"
+  },
+  {
+    "id": 116,
+    "title": "Coordenação melhora fluidez",
+    "text": "Sincronizar acelerador, embreagem e freios torna a pilotagem mais suave.",
+    "category": "pilotagem",
+    "level": "intermediário"
+  },
+  {
+    "id": 117,
+    "title": "Antecipe a curva antes de entrar",
+    "text": "Planejar a curva antes da entrada evita correções no meio do trajeto.",
+    "category": "pilotagem",
+    "level": "intermediário"
+  },
+  {
+    "id": 118,
+    "title": "Precisão reduz esforço",
+    "text": "Quanto mais preciso o comando, menos esforço físico e mental.",
+    "category": "pilotagem",
+    "level": "avançado"
+  },
+
+  {
+    "id": 119,
+    "title": "Equipamento certo reduz tensão",
+    "text": "Quando o equipamento funciona bem, o corpo relaxa e a atenção aumenta.",
+    "category": "equipamentos",
+    "level": "iniciante"
+  },
+  {
+    "id": 120,
+    "title": "Vista-se para cair, não para desfilar",
+    "text": "Priorize proteção. Estilo vem depois da segurança.",
+    "category": "equipamentos",
+    "level": "intermediário"
+  },
+  {
+    "id": 121,
+    "title": "Proteção integral aumenta foco",
+    "text": "Sentir-se protegido permite pilotar com mais atenção e menos medo.",
+    "category": "equipamentos",
+    "level": "avançado"
+  },
+  {
+    "id": 122,
+    "title": "Cuide do equipamento como da moto",
+    "text": "Equipamento em bom estado protege melhor e dura mais.",
+    "category": "equipamentos",
+    "level": "avançado"
+  },
+
+  {
+    "id": 123,
+    "title": "Hidratação influencia desempenho",
+    "text": "Desidratação reduz reflexos. Beba água durante viagens.",
+    "category": "viagem",
+    "level": "iniciante"
+  },
+  {
+    "id": 124,
+    "title": "Planeje abastecimentos",
+    "text": "Conhecer pontos de parada evita estresse e decisões apressadas.",
+    "category": "viagem",
+    "level": "intermediário"
+  },
+
+  {
+    "id": 125,
+    "title": "Condução consciente evita gastos",
+    "text": "Pilotar com consciência reduz consumo, manutenção e imprevistos.",
+    "category": "economia",
+    "level": "intermediário"
+  },
+    
+  {
+    "id": 126,
+    "title": "Leia o trânsito em camadas",
+    "text": "Observe não só o que está à frente, mas também laterais e retrovisores. A leitura em camadas amplia sua reação.",
+    "category": "seguranca",
+    "level": "iniciante"
+  },
+  {
+    "id": 127,
+    "title": "Antecipe sem assumir riscos",
+    "text": "Antecipar não é se expor. Avalie espaço, tempo e consequências antes de agir.",
+    "category": "seguranca",
+    "level": "intermediário"
+  },
+  {
+    "id": 128,
+    "title": "Reduza riscos em vias conhecidas",
+    "text": "A familiaridade pode gerar descuido. Mantenha atenção mesmo em trajetos diários.",
+    "category": "seguranca",
+    "level": "iniciante"
+  },
+  {
+    "id": 129,
+    "title": "Escolha trajetórias limpas",
+    "text": "Prefira áreas da pista com melhor aderência e visibilidade. Trajetória limpa é mais segura.",
+    "category": "seguranca",
+    "level": "intermediário"
+  },
+  {
+    "id": 130,
+    "title": "Ajuste a pilotagem ao fluxo",
+    "text": "Integrar-se ao ritmo do trânsito reduz conflitos e surpresas.",
+    "category": "seguranca",
+    "level": "intermediário"
+  },
+  {
+    "id": 131,
+    "title": "Respeite limites em vias rápidas",
+    "text": "Velocidade elevada reduz tempo de reação. Mantenha margem para corrigir.",
+    "category": "seguranca",
+    "level": "avançado"
+  },
+  {
+    "id": 132,
+    "title": "Evite decisões por impulso",
+    "text": "Reações impulsivas costumam gerar erros. Respire, avalie e execute.",
+    "category": "seguranca",
+    "level": "intermediário"
+  },
+  {
+    "id": 133,
+    "title": "Concentre-se no que controla",
+    "text": "Você não controla os outros, mas controla sua velocidade, posição e decisões.",
+    "category": "seguranca",
+    "level": "iniciante"
+  },
+  {
+    "id": 134,
+    "title": "Treino amplia margem de segurança",
+    "text": "Quanto mais treinado, maior a margem para reagir com precisão.",
+    "category": "seguranca",
+    "level": "avançado"
+  },
+
+  {
+    "id": 135,
+    "title": "Atenção ao aperto de parafusos",
+    "text": "Vibrações podem afrouxar parafusos. Inspeções rápidas evitam problemas.",
+    "category": "manutencao",
+    "level": "iniciante"
+  },
+  {
+    "id": 136,
+    "title": "Troque fluidos conforme uso",
+    "text": "Condições severas exigem intervalos menores de troca.",
+    "category": "manutencao",
+    "level": "intermediário"
+  },
+  {
+    "id": 137,
+    "title": "Observe desgaste irregular",
+    "text": "Desgaste desigual indica desalinhamento ou suspensão comprometida.",
+    "category": "manutencao",
+    "level": "intermediário"
+  },
+  {
+    "id": 138,
+    "title": "Mantenha conexões elétricas limpas",
+    "text": "Oxidação causa falhas intermitentes. Limpeza preventiva ajuda.",
+    "category": "manutencao",
+    "level": "avançado"
+  },
+  {
+    "id": 139,
+    "title": "Pequenos cuidados evitam grandes reparos",
+    "text": "Atenção aos detalhes reduz custos e paradas inesperadas.",
+    "category": "manutencao",
+    "level": "avançado"
+  },
+
+  {
+    "id": 140,
+    "title": "Base estável melhora controle",
+    "text": "Pés firmes e postura neutra aumentam estabilidade em qualquer situação.",
+    "category": "pilotagem",
+    "level": "iniciante"
+  },
+  {
+    "id": 141,
+    "title": "Controle de entrada define a curva",
+    "text": "Entrar bem posicionado evita correções e mantém fluidez.",
+    "category": "pilotagem",
+    "level": "intermediário"
+  },
+  {
+    "id": 142,
+    "title": "Precisão reduz desgaste",
+    "text": "Comandos precisos preservam pneus, freios e energia do piloto.",
+    "category": "pilotagem",
+    "level": "intermediário"
+  },
+  {
+    "id": 143,
+    "title": "Domínio técnico traz constância",
+    "text": "Técnica sólida permite repetir bons resultados com segurança.",
+    "category": "pilotagem",
+    "level": "avançado"
+  },
+
+  {
+    "id": 144,
+    "title": "Ajuste o equipamento ao corpo",
+    "text": "Equipamento bem ajustado protege melhor e reduz fadiga.",
+    "category": "equipamentos",
+    "level": "iniciante"
+  },
+  {
+    "id": 145,
+    "title": "Proteções certas ampliam confiança",
+    "text": "Quando o equipamento protege, o foco permanece na pilotagem.",
+    "category": "equipamentos",
+    "level": "intermediário"
+  },
+  {
+    "id": 146,
+    "title": "Qualidade supera quantidade",
+    "text": "Poucas peças boas protegem mais do que muitas de baixa qualidade.",
+    "category": "equipamentos",
+    "level": "avançado"
+  },
+  {
+    "id": 147,
+    "title": "Equipamento acompanha evolução",
+    "text": "À medida que você evolui, seu equipamento deve acompanhar.",
+    "category": "equipamentos",
+    "level": "avançado"
+  },
+
+  {
+    "id": 148,
+    "title": "Ajuste o ritmo ao clima",
+    "text": "Vento, frio e calor afetam concentração. Adeque pausas e velocidade.",
+    "category": "viagem",
+    "level": "intermediário"
+  },
+  {
+    "id": 149,
+    "title": "Planeje pernoites com antecedência",
+    "text": "Dormir bem garante segurança no dia seguinte de viagem.",
+    "category": "viagem",
+    "level": "avançado"
+  },
+
+  {
+    "id": 150,
+    "title": "Conservação reduz custos futuros",
+    "text": "Cuidar hoje evita gastos maiores amanhã.",
+    "category": "economia",
+    "level": "iniciante"
+  },
+
+  {
+    "id": 151,
+    "title": "Observe o comportamento antes da manobra",
+    "text": "Mudanças de velocidade e posicionamento costumam anteceder manobras. Leia os sinais antes de agir.",
+    "category": "seguranca",
+    "level": "iniciante"
+  },
+  {
+    "id": 152,
+    "title": "Mantenha atenção em áreas escolares",
+    "text": "Crianças e pedestres surgem inesperadamente. Reduza a velocidade e aumente a atenção.",
+    "category": "seguranca",
+    "level": "iniciante"
+  },
+  {
+    "id": 153,
+    "title": "Evite rodar muito próximo ao meio-fio",
+    "text": "Sujeira, areia e desníveis são mais comuns perto do meio-fio. Prefira trajetórias limpas.",
+    "category": "seguranca",
+    "level": "intermediário"
+  },
+  {
+    "id": 154,
+    "title": "Adapte a pilotagem em horários críticos",
+    "text": "Horários de pico exigem mais paciência e leitura do trânsito.",
+    "category": "seguranca",
+    "level": "iniciante"
+  },
+  {
+    "id": 155,
+    "title": "Evite disputas silenciosas",
+    "text": "Mesmo sem palavras, disputas acontecem no trânsito. Não entre nesse jogo.",
+    "category": "seguranca",
+    "level": "intermediário"
+  },
+  {
+    "id": 156,
+    "title": "Consciência supera reflexo",
+    "text": "Reflexo ajuda, mas consciência evita a situação de risco antes que ela aconteça.",
+    "category": "seguranca",
+    "level": "avançado"
+  },
+  {
+    "id": 157,
+    "title": "Gerencie riscos continuamente",
+    "text": "A cada trecho, reavalie riscos e ajuste sua pilotagem.",
+    "category": "seguranca",
+    "level": "avançado"
+  },
+  {
+    "id": 158,
+    "title": "Não subestime pequenos trajetos",
+    "text": "Percursos curtos também apresentam riscos. Mantenha atenção do início ao fim.",
+    "category": "seguranca",
+    "level": "iniciante"
+  },
+  {
+    "id": 159,
+    "title": "Escolha a faixa mais previsível",
+    "text": "Faixas com menos cruzamentos e entradas oferecem mais segurança.",
+    "category": "seguranca",
+    "level": "intermediário"
+  },
+
+  {
+    "id": 160,
+    "title": "Aperto correto evita quebras",
+    "text": "Torque adequado preserva peças e evita falhas estruturais.",
+    "category": "manutencao",
+    "level": "intermediário"
+  },
+  {
+    "id": 161,
+    "title": "Observe desgaste dos pneus em conjunto",
+    "text": "Desgaste dianteiro e traseiro contam histórias diferentes. Analise ambos.",
+    "category": "manutencao",
+    "level": "avançado"
+  },
+  {
+    "id": 162,
+    "title": "Manutenção planejada reduz paradas",
+    "text": "Planejar revisões evita imprevistos e aumenta disponibilidade da moto.",
+    "category": "manutencao",
+    "level": "iniciante"
+  },
+  {
+    "id": 163,
+    "title": "Cuide do sistema de freios completo",
+    "text": "Discos, pastilhas e fluido trabalham juntos. Atenção ao conjunto.",
+    "category": "manutencao",
+    "level": "avançado"
+  },
+  {
+    "id": 164,
+    "title": "Atenção a ruídos fora do padrão",
+    "text": "Sons diferentes indicam desgaste ou folga. Investigue cedo.",
+    "category": "manutencao",
+    "level": "intermediário"
+  },
+
+  {
+    "id": 165,
+    "title": "Controle começa no olhar",
+    "text": "Direcionar o olhar corretamente orienta corpo e moto.",
+    "category": "pilotagem",
+    "level": "iniciante"
+  },
+  {
+    "id": 166,
+    "title": "Antecipe ações com suavidade",
+    "text": "Movimentos antecipados e suaves mantêm estabilidade.",
+    "category": "pilotagem",
+    "level": "intermediário"
+  },
+  {
+    "id": 167,
+    "title": "A constância melhora desempenho",
+    "text": "Manter ritmo previsível aumenta segurança e eficiência.",
+    "category": "pilotagem",
+    "level": "intermediário"
+  },
+  {
+    "id": 168,
+    "title": "Precisão gera confiança",
+    "text": "Comandos precisos fortalecem a confiança em situações complexas.",
+    "category": "pilotagem",
+    "level": "avançado"
+  },
+
+  {
+    "id": 169,
+    "title": "Proteção correta reduz impacto",
+    "text": "Equipamentos adequados diminuem a gravidade das lesões.",
+    "category": "equipamentos",
+    "level": "iniciante"
+  },
+  {
+    "id": 170,
+    "title": "Conforto mantém foco prolongado",
+    "text": "Equipamentos confortáveis evitam distrações em longos períodos.",
+    "category": "equipamentos",
+    "level": "intermediário"
+  },
+  {
+    "id": 171,
+    "title": "Escolha equipamento pelo uso real",
+    "text": "O melhor equipamento é aquele adequado ao seu tipo de pilotagem.",
+    "category": "equipamentos",
+    "level": "intermediário"
+  },
+  {
+    "id": 172,
+    "title": "Proteção acompanha responsabilidade",
+    "text": "Quanto mais você evolui, maior deve ser o nível de proteção.",
+    "category": "equipamentos",
+    "level": "avançado"
+  },
+
+  {
+    "id": 173,
+    "title": "Planeje rotas alternativas",
+    "text": "Ter opções evita decisões apressadas em caso de imprevistos.",
+    "category": "viagem",
+    "level": "intermediário"
+  },
+  {
+    "id": 174,
+    "title": "Chegue antes do cansaço",
+    "text": "Encerrar o dia antes da exaustão mantém segurança no dia seguinte.",
+    "category": "viagem",
+    "level": "avançado"
+  },
+
+  {
+    "id": 175,
+    "title": "Uso consciente reduz desgaste",
+    "text": "Pilotar com consciência preserva componentes e orçamento.",
+    "category": "economia",
+    "level": "iniciante"
+  },
+
+  {
+    "id": 176,
+    "title": "Antecipe cenários complexos",
+    "text": "Ambientes com muitos estímulos exigem leitura antecipada e decisões mais conservadoras.",
+    "category": "seguranca",
+    "level": "intermediário"
+  },
+  {
+    "id": 177,
+    "title": "Respeite o tempo de reação",
+    "text": "Quanto maior a velocidade, maior deve ser a margem para reagir com segurança.",
+    "category": "seguranca",
+    "level": "iniciante"
+  },
+  {
+    "id": 178,
+    "title": "Evite decisões sob estresse",
+    "text": "Estresse compromete julgamento. Se necessário, reduza o ritmo ou faça uma pausa.",
+    "category": "seguranca",
+    "level": "intermediário"
+  },
+  {
+    "id": 179,
+    "title": "Segurança é escolha diária",
+    "text": "Cada decisão no trânsito contribui para um retorno seguro ao final do dia.",
+    "category": "seguranca",
+    "level": "iniciante"
+  },
+  {
+    "id": 180,
+    "title": "Experiência exige responsabilidade",
+    "text": "Quanto maior a experiência, maior a responsabilidade sobre suas escolhas.",
+    "category": "seguranca",
+    "level": "avançado"
+  },
+  {
+    "id": 181,
+    "title": "Margem de erro salva situações",
+    "text": "Pilotar deixando margem para erro permite corrigir imprevistos com segurança.",
+    "category": "seguranca",
+    "level": "avançado"
+  },
+  {
+    "id": 182,
+    "title": "Evite excesso de confiança em grupo",
+    "text": "Pilotar em grupo exige atenção redobrada. Não dependa apenas do ritmo dos outros.",
+    "category": "seguranca",
+    "level": "intermediário"
+  },
+
+  {
+    "id": 183,
+    "title": "Manutenção é parte da pilotagem",
+    "text": "Cuidar da moto é cuidar da sua segurança e desempenho.",
+    "category": "manutencao",
+    "level": "iniciante"
+  },
+  {
+    "id": 184,
+    "title": "Observe mudanças no comportamento da moto",
+    "text": "Pequenas mudanças indicam necessidade de revisão. Atenção aos sinais.",
+    "category": "manutencao",
+    "level": "intermediário"
+  },
+  {
+    "id": 185,
+    "title": "Revisões evitam surpresas",
+    "text": "Manutenção em dia reduz riscos mecânicos durante a pilotagem.",
+    "category": "manutencao",
+    "level": "iniciante"
+  },
+  {
+    "id": 186,
+    "title": "Confiança mecânica gera tranquilidade",
+    "text": "Saber que a moto está em ordem aumenta foco e segurança.",
+    "category": "manutencao",
+    "level": "avançado"
+  },
+
+  {
+    "id": 187,
+    "title": "Controle começa na postura",
+    "text": "Postura correta permite respostas mais rápidas e precisas.",
+    "category": "pilotagem",
+    "level": "iniciante"
+  },
+  {
+    "id": 188,
+    "title": "Ajuste fino melhora rendimento",
+    "text": "Pequenos ajustes de técnica geram grandes ganhos de controle.",
+    "category": "pilotagem",
+    "level": "intermediário"
+  },
+  {
+    "id": 189,
+    "title": "Técnica sólida traz liberdade",
+    "text": "Quanto maior a técnica, mais natural se torna a pilotagem.",
+    "category": "pilotagem",
+    "level": "avançado"
+  },
+
+  {
+    "id": 190,
+    "title": "Equipamento acompanha sua evolução",
+    "text": "À medida que você evolui como piloto, seu equipamento deve acompanhar.",
+    "category": "equipamentos",
+    "level": "intermediário"
+  },
+  {
+    "id": 191,
+    "title": "Proteção adequada reduz riscos reais",
+    "text": "Equipamento correto diminui consequências em situações inesperadas.",
+    "category": "equipamentos",
+    "level": "iniciante"
+  },
+  {
+    "id": 192,
+    "title": "Equipamento confiável gera foco",
+    "text": "Confiar na proteção permite total atenção à pilotagem.",
+    "category": "equipamentos",
+    "level": "avançado"
+  },
+
+  {
+    "id": 193,
+    "title": "Viajar bem é chegar inteiro",
+    "text": "Viagem segura é aquela que respeita limites físicos e técnicos.",
+    "category": "viagem",
+    "level": "iniciante"
+  },
+  {
+    "id": 194,
+    "title": "Planejamento amplia prazer da viagem",
+    "text": "Planejar reduz imprevistos e aumenta o aproveitamento do trajeto.",
+    "category": "viagem",
+    "level": "intermediário"
+  },
+  {
+    "id": 195,
+    "title": "Respeite o ritmo em viagens longas",
+    "text": "Forçar o ritmo compromete segurança e prazer da viagem.",
+    "category": "viagem",
+    "level": "avançado"
+  },
+
+  {
+    "id": 196,
+    "title": "Pilotagem consciente preserva tudo",
+    "text": "Conduzir com consciência preserva moto, corpo e recursos.",
+    "category": "economia",
+    "level": "iniciante"
+  },
+  {
+    "id": 197,
+    "title": "Prevenir é mais barato que reparar",
+    "text": "Cuidar antes evita gastos maiores depois.",
+    "category": "economia",
+    "level": "intermediário"
+  },
+  {
+    "id": 198,
+    "title": "Uso equilibrado reduz custos",
+    "text": "Equilíbrio entre técnica e prudência diminui despesas a longo prazo.",
+    "category": "economia",
+    "level": "avançado"
+  },
+  {
+    "id": 199,
+    "title": "Consciência financeira começa na pilotagem",
+    "text": "Pilotar bem impacta diretamente nos custos de manutenção e consumo.",
+    "category": "economia",
+    "level": "intermediário"
+  },
+  {
+    "id": 200,
+    "title": "Evoluir é pilotar com responsabilidade",
+    "text": "A verdadeira evolução está em pilotar melhor, não apenas mais rápido.",
+    "category": "economia",
+    "level": "avançado"
+   }
 ]
 }
