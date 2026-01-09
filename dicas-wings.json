@@ -2,40 +2,20 @@
   "meta": {
     "project": "Dicas Rápidas para Motociclistas",
     "author": "Wings Motorcycle Course",
-    "version": "1.0",
-    "lastUpdate": "2025-01-01"
+    "version": "2.0",
+    "lastUpdate": "2026-01-09"
   },
   "categories": {
-    "seguranca": {
-      "label": "Segurança",
-      "color": "#D4AF37",
-      "icon": "security"
-    },
-    "manutencao": {
-      "label": "Manutenção",
-      "color": "#1E88E5",
-      "icon": "build"
-    },
-    "pilotagem": {
-      "label": "Pilotagem",
-      "color": "#43A047",
-      "icon": "two_wheeler"
-    },
-    "equipamentos": {
-      "label": "Equipamentos",
-      "color": "#FB8C00",
-      "icon": "sports_motorsports"
-    },
-    "viagem": {
-      "label": "Viagem de Moto",
-      "color": "#8E24AA",
-      "icon": "map"
-    },
-    "economia": {
-      "label": "Economia",
-      "color": "#BDBDBD",
-      "icon": "attach_money"
-    }
+    "seguranca": { "label": "Segurança", "color": "#D4AF37", "icon": "security" },
+    "manutencao": { "label": "Manutenção", "color": "#1E88E5", "icon": "build" },
+    "pilotagem": { "label": "Pilotagem", "color": "#43A047", "icon": "two_wheeler" },
+    "equipamentos": { "label": "Equipamentos", "color": "#FB8C00", "icon": "sports_motorsports" },
+    "viagem": { "label": "Viagem de Moto", "color": "#8E24AA", "icon": "map" },
+    "economia": { "label": "Economia", "color": "#BDBDBD", "icon": "attach_money" },
+    "tecnologia": { "label": "Tecnologia e Gadgets", "color": "#00BCD4", "icon": "settings_input_antenna" },
+    "saude": { "label": "Saúde e Bem-estar", "color": "#E91E63", "icon": "favorite" },
+    "legislacao": { "label": "Legislação Prática", "color": "#607D8B", "icon": "gavel" },
+    "fotografia": { "label": "Dicas de Foto", "color": "#FFEB3B", "icon": "camera_alt" }
   },
   "tips": [
   {
@@ -1485,1801 +1465,3144 @@
       "id": 201,
       "title": "Tecnologia: Calibragem Fria",
       "text": "Sempre calibre os pneus com a moto fria (menos de 3km rodados). O calor expande o ar e gera uma leitura falsa de pressão.",
-      "category": "Tecnologia"
+      "category": "manutencao",
+      "level": "iniciante"
     },
     {
       "id": 202,
       "title": "Segurança: Distância de Parada",
       "text": "Ao parar no semáforo, fique sempre posicionado em uma das laterais do carro à frente, nunca no centro. Isso evita ser prensado em colisões traseiras.",
-      "category": "Segurança"
+      "category": "seguranca",
+      "level": "iniciante"
     },
     {
       "id": 203,
       "title": "Pilotagem: Curva com Garupa",
       "text": "Com passageiro, a moto demora mais para inclinar e para frear. Antecipe todas as manobras em pelo menos 2 segundos.",
-      "category": "Pilotagem"
+      "category": "pilotagem",
+      "level": "intermediario"
     },
     {
       "id": 204,
       "title": "Viagens: Kit de Corrente",
       "text": "Em viagens longas, lubrifique a corrente a cada 500km ou sempre que rodar sob chuva pesada para evitar o travamento dos elos.",
-      "category": "Viagens"
+      "category": "viagem",
+      "level": "intermediario"
     },
     {
       "id": 205,
       "title": "Manutenção: Nível do Óleo",
       "text": "Verifique o nível do óleo com a moto em solo nivelado e com o motor frio ou após 5 minutos de repouso.",
-      "category": "Manutenção"
+      "category": "manutencao",
+      "level": "iniciante"
     },
     {
       "id": 206,
       "title": "Saúde: Hidratação no Inverno",
       "text": "No frio, você sente menos sede, mas o vento seco desidrata rápido. Beba água mesmo sem vontade para manter o reflexo em dia.",
-      "category": "Saúde"
+      "category": "saude",
+      "level": "iniciante"
     },
     {
       "id": 207,
       "title": "Equipamento: Viseira Embaçada",
       "text": "Se não tiver Pinlock, use um pouco de detergente neutro seco no lado interno da viseira para reduzir o embaçamento em dias de chuva.",
-      "category": "Segurança"
+      "category": "equipamentos",
+      "level": "iniciante"
     },
     {
       "id": 208,
       "title": "Curiosidades: O Primeiro Aceno",
       "text": "O costume de acenar para outros motociclistas começou com William Harley e Arthur Davidson como sinal de irmandade na estrada.",
-      "category": "Curiosidades"
+      "category": "pilotagem",
+      "level": "iniciante"
     },
     {
       "id": 209,
       "title": "Tecnologia: ABS Pro",
       "text": "O ABS de curva (Cornering ABS) ajusta a pressão de frenagem conforme a inclinação, evitando que a moto 'levante' e saia da curva.",
-      "category": "Tecnologia"
+      "category": "tecnologia",
+      "level": "avancado"
     },
     {
       "id": 210,
       "title": "Pilotagem: Olhar de Saída",
       "text": "Em curvas fechadas, a moto segue o seu olhar. Aponte o queixo para a saída da curva e o corpo seguirá naturalmente.",
-      "category": "Pilotagem"
+      "category": "pilotagem",
+      "level": "intermediario"
     },
     {
       "id": 211,
       "title": "Viagens: Documentos Digitais",
       "text": "Sempre tenha uma cópia offline do seu documento e seguro no celular. Em serras e divisas de estado, o sinal de internet costuma falhar.",
-      "category": "Viagens"
+      "category": "viagem",
+      "level": "iniciante"
     },
     {
       "id": 212,
       "title": "Segurança: Ponto Cego de Caminhão",
       "text": "Se você não consegue ver os retrovisores do motorista do caminhão, ele certamente não está vendo você. Saia do ponto cego rapidamente.",
-      "category": "Segurança"
+      "category": "seguranca",
+      "level": "intermediario"
     },
     {
       "id": 213,
       "title": "Manutenção: Cabos Lubrificados",
       "text": "Um cabo de embreagem duro cansa a mão e pode romper. Use óleo de máquina fino para manter o acionamento leve.",
-      "category": "Manutenção"
+      "category": "manutencao",
+      "level": "intermediario"
     },
     {
       "id": 214,
       "title": "Saúde: Protetor Auricular",
       "text": "O ruído do vento acima de 100km/h pode causar danos auditivos permanentes. Use protetores em viagens de rodovia.",
-      "category": "Saúde"
+      "category": "saude",
+      "level": "intermediario"
     },
     {
       "id": 215,
       "title": "Equipamento: Luvas de Couro",
       "text": "Luvas de couro oferecem a melhor resistência à abrasão. Certifique-se de que tenham proteções rígidas na palma da mão.",
-      "category": "Segurança"
+      "category": "equipamentos",
+      "level": "intermediario"
     },
     {
       "id": 216,
       "title": "Curiosidades: Motor Boxer",
       "text": "O motor com cilindros opostos (Boxer) ajuda no equilíbrio da moto devido ao centro de gravidade extremamente baixo.",
-      "category": "Curiosidades"
+      "category": "pilotagem",
+      "level": "intermediario"
     },
     {
       "id": 217,
       "title": "Tecnologia: Modos de Potência",
       "text": "O modo 'Rain' não serve apenas para chuva, mas também para pisos escorregadios ou cidades com muitos buracos e paralelepípedos.",
-      "category": "Tecnologia"
+      "category": "tecnologia",
+      "level": "intermediario"
     },
     {
       "id": 218,
       "title": "Pilotagem: Frenagem de Emergência",
       "text": "Em emergências com ABS, pressione os dois freios com força total e não solte. O sistema evitará o travamento automaticamente.",
-      "category": "Pilotagem"
+      "category": "pilotagem",
+      "level": "intermediario"
     },
     {
       "id": 219,
       "title": "Viagens: Bagagem Equilibrada",
       "text": "Tente distribuir o peso igualmente entre as malas laterais. Malas desbalanceadas afetam a estabilidade da moto em altas velocidades.",
-      "category": "Viagens"
+      "category": "viagem",
+      "level": "intermediario"
     },
     {
       "id": 220,
       "title": "Manutenção: Pastilhas de Freio",
       "text": "Se ouvir um ruído metálico ao frear, suas pastilhas chegaram ao fim. Troque imediatamente para não danificar o disco.",
-      "category": "Manutenção"
+      "category": "manutencao",
+      "level": "iniciante"
     },
     {
       "id": 221,
       "title": "Viagens: Check-list de Manhã",
       "text": "Antes de pegar a estrada, verifique os 3 itens vitais: Pressão dos pneus, nível do óleo e funcionamento das luzes de freio.",
-      "category": "Viagens"
+      "category": "viagem",
+      "level": "iniciante"
     },
     {
       "id": 222,
       "title": "Tecnologia: Painéis TFT",
       "text": "Evite limpar telas TFT com álcool. Use apenas um pano de microfibra úmido para não remover a película antirreflexo original.",
-      "category": "Tecnologia"
+      "category": "manutencao",
+      "level": "iniciante"
     },
     {
       "id": 223,
       "title": "Segurança: Farol Alto no Corredor",
       "text": "No corredor, o farol alto 'cega' o retrovisor do motorista. Use o farol baixo para que ele consiga identificar sua distância real.",
-      "category": "Segurança"
+      "category": "seguranca",
+      "level": "iniciante"
     },
     {
       "id": 224,
       "title": "Manutenção: Vida Útil da Bateria",
       "text": "Se a moto ficar parada por mais de 10 dias, desconecte o polo negativo para evitar que o alarme drene a carga totalmente.",
-      "category": "Manutenção"
+      "category": "manutencao",
+      "level": "iniciante"
     },
     {
       "id": 225,
       "title": "Pilotagem: Pedaleiras em Curva",
       "text": "Mantenha a ponta dos pés nas pedaleiras. Se o calcanhar ficar para baixo, seu pé pode prender no asfalto em inclinações maiores.",
-      "category": "Pilotagem"
+      "category": "pilotagem",
+      "level": "intermediario"
     },
     {
       "id": 226,
       "title": "Saúde: Pausas Estratégicas",
       "text": "Em viagens, pare a cada 1h30 para esticar as pernas. Isso previne cãibras e mantém a oxigenação cerebral para foco total.",
-      "category": "Saúde"
+      "category": "saude",
+      "level": "iniciante"
     },
     {
       "id": 227,
       "title": "Curiosidades: A Saudação V-Twin",
       "text": "O famoso sinal de 'V' com os dedos para baixo simboliza o motor V-Twin e também serve para desejar que as 'duas rodas fiquem no chão'.",
-      "category": "Curiosidades"
+      "category": "pilotagem",
+      "level": "iniciante"
     },
     {
       "id": 228,
       "title": "Tecnologia: Sensor de Descanso",
       "text": "Se a moto apaga ao engatar a marcha, o sensor do descanso lateral pode estar sujo de graxa. Uma limpeza rápida resolve o problema.",
-      "category": "Tecnologia"
+      "category": "manutencao",
+      "level": "iniciante"
     },
     {
       "id": 229,
       "title": "Segurança: Faixa de Pedestre Molhada",
       "text": "A tinta das faixas de pedestre torna-se extremamente escorregadia quando molhada. Evite frear ou acelerar sobre elas na chuva.",
-      "category": "Segurança"
+      "category": "seguranca",
+      "level": "iniciante"
     },
     {
       "id": 230,
       "title": "Manutenção: Filtro de Ar",
       "text": "Um filtro de ar sujo aumenta o consumo de combustível e reduz a potência. Verifique-o sempre após rodar em estradas de terra.",
-      "category": "Manutenção"
+      "category": "manutencao",
+      "level": "intermediario"
     },
     {
       "id": 231,
       "title": "Viagens: Dinheiro em Espécie",
       "text": "Sempre leve uma quantia em dinheiro vivo. Pequenos pedágios de interior ou postos remotos podem não aceitar cartões ou PIX.",
-      "category": "Viagens"
+      "category": "viagem",
+      "level": "iniciante"
     },
     {
       "id": 232,
       "title": "Pilotagem: Frenagem de Motor",
       "text": "Use o freio motor em descidas longas de serra. Isso evita o superaquecimento dos discos e preserva o sistema para emergências.",
-      "category": "Pilotagem"
+      "category": "pilotagem",
+      "level": "intermediario"
     },
     {
       "id": 233,
       "title": "Saúde: Proteção UV",
       "text": "O vento mascara o calor, mas o sol queima igual. Use protetor solar no pescoço e braços mesmo em dias nublados na estrada.",
-      "category": "Saúde"
+      "category": "saude",
+      "level": "iniciante"
     },
     {
       "id": 234,
       "title": "Equipamento: Ajuste do Capacete",
       "text": "O capacete ideal deve apertar levemente as bochechas. Se ele balançar ao mexer a cabeça, está grande e não protegerá corretamente.",
-      "category": "Segurança"
+      "category": "equipamentos",
+      "level": "iniciante"
     },
     {
       "id": 235,
       "title": "Curiosidades: Recorde de Velocidade",
       "text": "A motocicleta mais rápida do mundo (streamliner) já ultrapassou os 600 km/h em desertos de sal nos Estados Unidos.",
-      "category": "Curiosidades"
+      "category": "pilotagem",
+      "level": "avancado"
     },
     {
       "id": 236,
       "title": "Tecnologia: Controle de Tração",
       "text": "Em terrenos de areia solta ou lama profunda, desativar o controle de tração pode ajudar a moto a não perder o embalo necessário.",
-      "category": "Tecnologia"
+      "category": "tecnologia",
+      "level": "avancado"
     },
     {
       "id": 237,
       "title": "Manutenção: Folga da Corrente",
       "text": "Uma corrente muito esticada pode quebrar o eixo do pinhão. Deixe sempre a folga recomendada no manual (geralmente 2 a 3 cm).",
-      "category": "Manutenção"
+      "category": "manutencao",
+      "level": "intermediario"
     },
     {
       "id": 238,
       "title": "Segurança: Óleo no Pedágio",
       "text": "Cabines de pedágio acumulam muito óleo de caminhão no centro da faixa. Pare sempre a moto nos trilhos onde passam os pneus dos carros.",
-      "category": "Segurança"
+      "category": "seguranca",
+      "level": "iniciante"
     },
     {
       "id": 239,
       "title": "Viagens: Roupas Reservas",
       "text": "Embale suas roupas em sacos plásticos dentro da mochila. Mesmo baús 'impermeáveis' podem infiltrar água em tempestades fortes.",
-      "category": "Viagens"
+      "category": "viagem",
+      "level": "iniciante"
     },
     {
       "id": 240,
       "title": "Pilotagem: Postura dos Braços",
       "text": "Mantenha os cotovelos relaxados e levemente flexionados. Braços rígidos cansam os ombros e dificultam manobras rápidas.",
-      "category": "Pilotagem"
+      "category": "pilotagem",
+      "level": "iniciante"
     },
     {
       "id": 241,
       "title": "Tecnologia: Bateria Keyless",
       "text": "Se a sua chave é presencial, troque a bateria interna a cada 1 ano. Uma bateria fraca pode impedir o reconhecimento do imobilizador no meio do trajeto.",
-      "category": "Tecnologia"
+      "category": "tecnologia",
+      "level": "intermediario"
     },
     {
       "id": 242,
       "title": "Segurança: Animais na Pista",
       "text": "Ao avistar um animal, não buzine; isso pode assustá-lo e fazê-lo correr em sua direção. Reduza a velocidade e passe por trás do animal.",
-      "category": "Segurança"
+      "category": "seguranca",
+      "level": "iniciante"
     },
     {
       "id": 243,
       "title": "Viagens: Localizador GPS",
       "text": "Em locais sem sinal, use o modo 'Mapas Offline'. O GPS do celular continua funcionando via satélite mesmo sem internet móvel ativa.",
-      "category": "Viagens"
+      "category": "viagem",
+      "level": "intermediario"
     },
     {
       "id": 244,
       "title": "Manutenção: Fluidos de Freio",
       "text": "O fluido de freio absorve umidade do ar. Troque-o a cada 2 anos, mesmo que a quilometragem da moto seja baixa, para evitar falhas por ebulição.",
-      "category": "Manutenção"
+      "category": "manutencao",
+      "level": "intermediario"
     },
     {
       "id": 245,
       "title": "Pilotagem: Frenagem em Curva",
       "text": "Precisa frear dentro da curva? Use o freio traseiro suavemente. Isso ajuda a fechar a trajetória e mantém a suspensão dianteira estável.",
-      "category": "Pilotagem"
+      "category": "pilotagem",
+      "level": "avancado"
     },
     {
       "id": 246,
       "title": "Saúde: Proteção do Pescoço",
       "text": "Use um lenço ou 'buff' no pescoço. Além de proteger contra o sol, evita que insetos ou pequenas pedras atinjam sua pele em alta velocidade.",
-      "category": "Saúde"
+      "category": "saude",
+      "level": "iniciante"
     },
     {
       "id": 247,
       "title": "Curiosidades: A Origem do Nome 'Chopper'",
       "text": "O termo vem de 'to chop' (cortar). Eram motos de série cujos donos cortavam partes supérfluas para torná-las mais leves e rápidas.",
-      "category": "Curiosidades"
+      "category": "pilotagem",
+      "level": "intermediario"
     },
     {
       "id": 248,
       "title": "Equipamento: Limpeza do Pinlock",
       "text": "Nunca use produtos químicos na lente Pinlock. Ela é sensível e deve ser limpa apenas com água morna e sabão neutro para não embaçar.",
-      "category": "Segurança"
+      "category": "equipamentos",
+      "level": "intermediario"
     },
     {
       "id": 249,
       "title": "Tecnologia: Quickshifter",
       "text": "O Quickshifter funciona melhor em rotações médias e altas. Em baixas velocidades, prefira usar a embreagem para evitar trancos no câmbio.",
-      "category": "Tecnologia"
+      "category": "tecnologia",
+      "level": "avancado"
     },
     {
       "id": 250,
       "title": "Segurança: Visibilidade em Túneis",
       "text": "Ao entrar em um túnel, feche um dos olhos por 2 segundos antes. Isso acelera a adaptação da sua visão à mudança brusca de luminosidade.",
-      "category": "Segurança"
+      "category": "seguranca",
+      "level": "intermediario"
     },
     {
       "id": 251,
       "title": "Manutenção: Reaperto de Parafusos",
       "text": "A vibração do motor pode soltar parafusos do chassi e carenagens. Verifique o aperto geral a cada 5.000 km rodados.",
-      "category": "Manutenção"
+      "category": "manutencao",
+      "level": "intermediario"
     },
     {
       "id": 252,
       "title": "Pilotagem: Trail Braking",
       "text": "Manter o freio dianteiro levemente acionado até o ápice da curva melhora a aderência do pneu dianteiro e a precisão da manobra.",
-      "category": "Pilotagem"
+      "category": "pilotagem",
+      "level": "avancado"
     },
     {
       "id": 253,
       "title": "Viagens: Segunda Chave",
       "text": "Nunca viaje sem a chave reserva. Guarde-a em um bolso seguro na sua jaqueta ou com um companheiro de viagem, nunca na própria moto.",
-      "category": "Viagens"
+      "category": "viagem",
+      "level": "iniciante"
     },
     {
       "id": 254,
       "title": "Saúde: Fadiga Mental",
       "text": "Sentir sono ou dificuldade de concentração é sinal de hipoxia leve ou cansaço. Pare imediatamente, caminhe e beba algo gelado.",
-      "category": "Saúde"
+      "category": "saude",
+      "level": "iniciante"
     },
     {
       "id": 255,
       "title": "Curiosidades: Cafe Racer",
       "text": "O estilo surgiu na década de 50, quando jovens ingleses apostavam corridas entre cafés; o objetivo era atingir 100 milhas por hora.",
-      "category": "Curiosidades"
+      "category": "pilotagem",
+      "level": "intermediario"
     },
     {
       "id": 256,
       "title": "Equipamento: Botas de Proteção",
       "text": "Evite usar tênis comuns. Botas específicas para motociclistas protegem o tornozelo contra esmagamentos e torções em quedas leves.",
-      "category": "Segurança"
+      "category": "equipamentos",
+      "level": "iniciante"
     },
     {
       "id": 257,
       "title": "Tecnologia: Sensor de O2",
       "text": "Combustível adulterado danifica a sonda lambda (sensor de oxigênio). Se a luz de injeção acender após um abastecimento, desconfie da carga.",
-      "category": "Tecnologia"
+      "category": "tecnologia",
+      "level": "intermediario"
     },
     {
       "id": 258,
       "title": "Manutenção: Lavagem de Corrente",
       "text": "Use querosene para limpar a corrente e enxágue com água. Evite solventes que podem ressecar os anéis de vedação (o-rings).",
-      "category": "Manutenção"
+      "category": "manutencao",
+      "level": "iniciante"
     },
     {
       "id": 259,
       "title": "Pilotagem: Saída de Curva",
       "text": "Comece a acelerar gradualmente apenas quando o ápice da curva já tiver passado e você visualizar a saída da trajetória.",
-      "category": "Pilotagem"
+      "category": "pilotagem",
+      "level": "intermediario"
     },
     {
       "id": 260,
       "title": "Segurança: Distância do Carro",
       "text": "No trânsito, mantenha distância suficiente para ver os pneus traseiros do carro à frente tocando o asfalto. Isso garante espaço de fuga.",
-      "category": "Segurança"
+      "category": "seguranca",
+      "level": "iniciante"
     },
     {
       "id": 261,
       "title": "Tecnologia: IMU de 6 Eixos",
-      "text": "Motos modernas usam a IMU para detectar inclinação e aceleração. Isso permite que o controle de tração atue de forma preditiva, não apenas corretiva.",
-      "category": "Tecnologia"
+      "text": "Motos modernas usam a IMU para detectar inclinação e aceleração. Isso permite que o controle de tração atue de forma preditiva.",
+      "category": "tecnologia",
+      "level": "avancado"
     },
     {
       "id": 262,
       "title": "Segurança: Óleo de Compressor",
       "text": "Caminhões frigoríficos podem soltar água com resíduos de óleo. Evite rodar diretamente atrás deles em dias quentes e secos.",
-      "category": "Segurança"
+      "category": "seguranca",
+      "level": "intermediario"
     },
     {
       "id": 263,
       "title": "Viagens: Roupas Térmicas",
-      "text": "Use camadas (sistema cebola). Uma base layer sintética mantém o corpo seco, enquanto uma camada térmica retém o calor em climas frios.",
-      "category": "Viagens"
+      "text": "Use o sistema de camadas: uma base layer sintética mantém o corpo seco, enquanto uma camada térmica retém o calor.",
+      "category": "viagem",
+      "level": "intermediario"
     },
     {
       "id": 264,
       "title": "Manutenção: Suspensão Dianteira",
       "text": "Limpe as hastes da suspensão (bengalas) com um pano macio. Sujeira acumulada pode riscar o cromo e causar vazamento nos retentores.",
-      "category": "Manutenção"
+      "category": "manutencao",
+      "level": "intermediario"
     },
     {
       "id": 265,
       "title": "Pilotagem: Posição do Tronco",
       "text": "Em curvas, tente 'beijar o espelho' retrovisor interno. Isso desloca o seu peso para dentro, permitindo que a moto incline menos.",
-      "category": "Pilotagem"
+      "category": "pilotagem",
+      "level": "avancado"
     },
     {
       "id": 266,
       "title": "Saúde: Proteção do Joelho",
-      "text": "O vento frio direto nas articulações causa dores crônicas a longo prazo. Use sempre joelheiras ou calças com proteção térmica.",
-      "category": "Saúde"
+      "text": "O vento frio direto nas articulações causa dores crônicas. Use sempre joelheiras ou calças com proteção térmica.",
+      "category": "saude",
+      "level": "iniciante"
     },
     {
       "id": 267,
       "title": "Curiosidades: Motor Crossplane",
-      "text": "O virabrequim Crossplane (famoso na Yamaha R1) altera a ordem de ignição para dar mais tração e um som semelhante ao de um motor V4.",
-      "category": "Curiosidades"
+      "text": "O virabrequim Crossplane altera a ordem de ignição para dar mais tração e um som semelhante ao de um motor V4.",
+      "category": "pilotagem",
+      "level": "avancado"
     },
     {
       "id": 268,
       "title": "Equipamento: Validade da Jaqueta",
-      "text": "Jaquetas de cordura perdem a resistência à abrasão se ficarem muito tempo expostas ao sol e poluição. Renove seu equipamento a cada 5 anos.",
-      "category": "Segurança"
+      "text": "Jaquetas de cordura perdem a resistência à abrasão se ficarem muito tempo expostas ao sol e poluição. Renove a cada 5 anos.",
+      "category": "equipamentos",
+      "level": "intermediario"
     },
     {
       "id": 269,
       "title": "Tecnologia: Suspensão Eletrônica",
-      "text": "Sistemas semiativos ajustam os amortecedores em milissegundos conforme o tipo de asfalto, garantindo estabilidade máxima em buracos.",
-      "category": "Tecnologia"
+      "text": "Sistemas semiativos ajustam os amortecedores em milissegundos conforme o tipo de asfalto, garantindo estabilidade máxima.",
+      "category": "tecnologia",
+      "level": "avancado"
     },
     {
       "id": 270,
       "title": "Segurança: Retrovisor em 'S'",
-      "text": "Ajuste os espelhos para que você veja apenas uma ponta do seu ombro. Isso maximiza a visão da via e reduz os pontos cegos laterais.",
-      "category": "Segurança"
+      "text": "Ajuste os espelhos para ver apenas uma ponta do seu ombro. Isso maximiza a visão da via e reduz os pontos cegos laterais.",
+      "category": "seguranca",
+      "level": "iniciante"
     },
     {
       "id": 271,
       "title": "Manutenção: Terminal de Bateria",
-      "text": "Zinabre nos polos da bateria causa mau contato e falhas na injeção. Limpe com água quente e aplique vaselina para proteger.",
-      "category": "Manutenção"
+      "text": "Zinabre nos polos da bateria causa mau contato. Limpe com água quente e aplique vaselina sólida para proteger.",
+      "category": "manutencao",
+      "level": "iniciante"
     },
     {
       "id": 272,
       "title": "Pilotagem: Freio Traseiro em Baixa",
       "text": "Em manobras de baixa velocidade (como retornos), use apenas o freio traseiro. O dianteiro pode travar e derrubar a moto parado.",
-      "category": "Pilotagem"
+      "category": "pilotagem",
+      "level": "iniciante"
     },
     {
       "id": 273,
       "title": "Viagens: GPS Offline",
-      "text": "Baixe a área da sua viagem no Google Maps. Se o sinal de dados sumir, a navegação continuará funcionando perfeitamente via satélite.",
-      "category": "Viagens"
+      "text": "Baixe a área da sua viagem no Google Maps. Se o sinal de dados sumir, a navegação continuará via satélite.",
+      "category": "tecnologia",
+      "level": "intermediario"
     },
     {
       "id": 274,
       "title": "Saúde: Tensão nos Braços",
-      "text": "Se suas mãos formigam, você está apertando o guidão com muita força. Relaxar os braços melhora o fluxo sanguíneo e o controle.",
-      "category": "Saúde"
+      "text": "Se suas mãos formigam, você está apertando o guidão com muita força. Relaxar os braços melhora o fluxo sanguíneo.",
+      "category": "saude",
+      "level": "intermediario"
     },
     {
       "id": 275,
       "title": "Curiosidades: Sidecar",
-      "text": "Originalmente criados para transporte militar, os sidecars hoje são peças de coleção que exigem uma técnica de pilotagem única.",
-      "category": "Curiosidades"
+      "text": "Originalmente militares, sidecars hoje são peças de coleção que exigem uma técnica de pilotagem única, sem inclinação de chassi.",
+      "category": "pilotagem",
+      "level": "avancado"
     },
     {
       "id": 276,
-      "title": "Equipamento: Luvas Touchscreen",
-      "text": "Se sua luva não funciona na tela do celular, use um fio condutor ou adesivos específicos na ponta do dedo para facilitar o uso.",
-      "category": "Tecnologia"
+      "title": "Tecnologia: Luvas Touchscreen",
+      "text": "Se sua luva não funciona na tela, use adesivos condutores específicos na ponta do dedo para facilitar o uso do GPS.",
+      "category": "tecnologia",
+      "level": "iniciante"
     },
     {
       "id": 277,
       "title": "Tecnologia: Controle de Empinada",
       "text": "O Anti-wheelie monitora a diferença de velocidade entre as rodas. Se a dianteira sobe, o sistema corta o torque suavemente.",
-      "category": "Tecnologia"
+      "category": "tecnologia",
+      "level": "avancado"
     },
     {
       "id": 278,
       "title": "Manutenção: Óleo de Bengala",
-      "text": "O óleo da suspensão dianteira degrada e perde a viscosidade. Troque-o conforme o manual para manter a frente da moto firme.",
-      "category": "Manutenção"
+      "text": "O óleo da suspensão dianteira degrada e perde viscosidade. Troque conforme o manual para manter a frente da moto firme.",
+      "category": "manutencao",
+      "level": "avancado"
     },
     {
       "id": 279,
       "title": "Pilotagem: Contra-esterço",
-      "text": "Para inclinar a moto rápido, empurre levemente o guidão para o lado oposto da curva. É a física essencial para pilotar acima de 30km/h.",
-      "category": "Pilotagem"
+      "text": "Para inclinar a moto rápido, empurre levemente o guidão para o lado oposto da curva. É a física essencial acima de 30km/h.",
+      "category": "pilotagem",
+      "level": "intermediario"
     },
     {
       "id": 280,
       "title": "Segurança: Saída de Túnel",
-      "text": "Cuidado com rajadas de vento lateral ao sair de túneis ou passar por vãos de pontes. Mantenha os joelhos firmes no tanque.",
-      "category": "Segurança"
+      "text": "Cuidado com rajadas de vento lateral ao sair de túneis ou passar por pontes. Mantenha os joelhos firmes no tanque.",
+      "category": "seguranca",
+      "level": "intermediario"
     },
     {
       "id": 281,
       "title": "Tecnologia: Sensores TPMS",
-      "text": "Sistemas de monitoramento de pressão avisam sobre furos lentos antes mesmo de você sentir a moto instável. Segurança vital em viagens.",
-      "category": "Tecnologia"
+      "text": "Sistemas de monitoramento de pressão avisam sobre furos lentos antes mesmo de você sentir a moto instável.",
+      "category": "tecnologia",
+      "level": "intermediario"
     },
     {
       "id": 282,
-      "title": "Segurança: Distância de Seguimento",
-      "text": "Use a regra dos 2 segundos: escolha um ponto fixo e conte 'dois mil e um, dois mil e dois' após o veículo da frente passar por ele.",
-      "category": "Segurança"
+      "title": "Segurança: Regra dos 2 Segundos",
+      "text": "Use um ponto fixo e conte 'dois mil e um, dois mil e dois' após o veículo da frente passar por ele para manter distância segura.",
+      "category": "seguranca",
+      "level": "iniciante"
     },
     {
       "id": 283,
-      "title": "Viagens: Localização de Postos",
-      "text": "Em regiões desconhecidas, abasteça sempre que chegar na metade do tanque. Pane seca em locais remotos é um risco evitável.",
-      "category": "Viagens"
+      "title": "Viagens: Metade do Tanque",
+      "text": "Em regiões desconhecidas, abasteça sempre que chegar na metade do tanque. Pane seca em locais remotos é um risco alto.",
+      "category": "viagem",
+      "level": "iniciante"
     },
     {
       "id": 284,
       "title": "Manutenção: Coxins de Roda",
-      "text": "Se sentir trancos ao acelerar, as borrachas do cubo traseiro (coxins) podem estar gastas. Elas protegem a transmissão contra impactos.",
-      "category": "Manutenção"
+      "text": "Se sentir trancos ao acelerar, as borrachas do cubo (coxins) podem estar gastas. Elas protegem a transmissão contra impactos.",
+      "category": "manutencao",
+      "level": "intermediario"
     },
     {
       "id": 285,
-      "title": "Pilotagem: Frenagem em Piso Molhado",
-      "text": "Aumente o uso do freio traseiro e reduza a intensidade no dianteiro. A frenagem deve ser 50/50 em vez dos tradicionais 70/30.",
-      "category": "Pilotagem"
+      "title": "Pilotagem: Frenagem no Molhado",
+      "text": "Aumente o uso do freio traseiro e reduza a intensidade no dianteiro. A frenagem deve ser equilibrada em 50/50 na chuva.",
+      "category": "pilotagem",
+      "level": "intermediario"
     },
     {
       "id": 286,
-      "title": "Saúde: Relaxamento da Mandíbula",
-      "text": "Pilotar com os dentes cerrados causa fadiga e dor de cabeça. Conscientemente, relaxe o rosto para reduzir o estresse físico.",
-      "category": "Saúde"
+      "title": "Saúde: Mandíbula Relaxada",
+      "text": "Pilotar com os dentes cerrados causa fadiga e dor de cabeça. Conscientemente, relaxe o rosto para reduzir o estresse.",
+      "category": "saude",
+      "level": "iniciante"
     },
     {
       "id": 287,
-      "title": "Curiosidades: O Nome 'Superbike'",
-      "text": "O termo se popularizou nos anos 70 para descrever motos de 4 cilindros com alta performance que mudaram o mercado mundial.",
-      "category": "Curiosidades"
+      "title": "Curiosidades: Superbike",
+      "text": "O termo se popularizou nos anos 70 para descrever motos de 4 cilindros com alta performance que mudaram o mercado.",
+      "category": "pilotagem",
+      "level": "intermediario"
     },
     {
       "id": 288,
       "title": "Equipamento: Proteção de Peito",
-      "text": "Protetores de tórax inseridos na jaqueta protegem órgãos vitais contra impactos frontais e objetos lançados por outros veículos.",
-      "category": "Segurança"
+      "text": "Protetores de tórax inseridos na jaqueta protegem órgãos vitais contra impactos frontais e pedras lançadas.",
+      "category": "equipamentos",
+      "level": "avancado"
     },
     {
       "id": 289,
       "title": "Tecnologia: Cruise Control",
-      "text": "Use o piloto automático para descansar a mão direita em retas longas, mas mantenha os dedos prontos para acionar o freio se necessário.",
-      "category": "Tecnologia"
+      "text": "Use o piloto automático para descansar a mão direita em retas longas, mas mantenha os dedos prontos para o freio.",
+      "category": "tecnologia",
+      "level": "intermediario"
     },
     {
       "id": 290,
       "title": "Segurança: Linhas de Cerol",
-      "text": "Antenas corta-pipa não são estéticas, são equipamentos de segurança. Em áreas urbanas, elas salvam vidas contra linhas invisíveis.",
-      "category": "Segurança"
+      "text": "Antenas corta-pipa não são estéticas, são segurança. Em áreas urbanas, elas salvam vidas contra linhas invisíveis.",
+      "category": "seguranca",
+      "level": "iniciante"
     },
     {
       "id": 291,
       "title": "Manutenção: Buchas de Balança",
-      "text": "Folgas na balança traseira comprometem a estabilidade em curvas. Peça a verificação desse item em todas as revisões preventivas.",
-      "category": "Manutenção"
+      "text": "Folgas na balança traseira comprometem a estabilidade em curvas. Peça a verificação em revisões preventivas.",
+      "category": "manutencao",
+      "level": "avancado"
     },
     {
       "id": 292,
       "title": "Pilotagem: Troca de Faixa",
-      "text": "Sinalize com antecedência, mas nunca confie apenas na seta. Faça o 'check' visual rápido girando levemente a cabeça.",
-      "category": "Pilotagem"
+      "text": "Sinalize com antecedência, mas nunca confie apenas na seta. Faça o check visual rápido girando levemente a cabeça.",
+      "category": "seguranca",
+      "level": "iniciante"
     },
     {
       "id": 293,
       "title": "Viagens: Spray de Corrente",
-      "text": "Aplique o lubrificante após rodar, com a corrente ainda quente. Isso facilita a penetração do óleo nos pequenos elos e retentores.",
-      "category": "Viagens"
+      "text": "Aplique o lubrificante após rodar, com a corrente ainda quente. Isso facilita a penetração nos pequenos elos.",
+      "category": "manutencao",
+      "level": "iniciante"
     },
     {
       "id": 294,
       "title": "Saúde: Posicionamento Lombar",
-      "text": "Mantenha a coluna ereta e evite 'escorregar' no banco. Uma boa postura distribui o peso entre pernas e tronco, evitando dores.",
-      "category": "Saúde"
+      "text": "Mantenha a coluna ereta e evite 'escorregar' no banco. Uma boa postura distribui o peso entre pernas e tronco.",
+      "category": "saude",
+      "level": "intermediario"
     },
     {
       "id": 295,
       "title": "Curiosidades: Moto Guzzi",
-      "text": "Famosa pelos motores V-Twin transversais, a marca italiana mantém essa arquitetura icônica que facilita o arrefecimento a ar.",
-      "category": "Curiosidades"
+      "text": "Famosa pelos motores V-Twin transversais, a marca italiana mantém essa arquitetura icônica para melhor arrefecimento.",
+      "category": "pilotagem",
+      "level": "intermediario"
     },
     {
       "id": 296,
-      "title": "Equipamento: Meias Térmicas",
-      "text": "Pés frios tiram a sensibilidade para acionar o freio traseiro. Use meias específicas para motociclismo em dias de inverno.",
-      "category": "Saúde"
+      "title": "Saúde: Meias Térmicas",
+      "text": "Pés frios tiram a sensibilidade para o freio traseiro. Use meias específicas para motociclismo em dias de inverno.",
+      "category": "saude",
+      "level": "iniciante"
     },
     {
       "id": 297,
       "title": "Tecnologia: Radar Adaptativo",
-      "text": "Algumas motos modernas mantêm a distância do carro à frente automaticamente. Uma revolução no conforto para viagens longas.",
-      "category": "Tecnologia"
+      "text": "Algumas motos modernas mantêm a distância do carro à frente automaticamente através de radares frontais.",
+      "category": "tecnologia",
+      "level": "avancado"
     },
     {
       "id": 298,
       "title": "Manutenção: Limpeza de Radiador",
-      "text": "Aletas amassadas ou sujas causam superaquecimento. Use apenas água com baixa pressão para limpar o radiador da sua moto.",
-      "category": "Manutenção"
+      "text": "Aletas amassadas ou sujas causam superaquecimento. Use apenas água com baixa pressão para limpar o radiador.",
+      "category": "manutencao",
+      "level": "intermediario"
     },
     {
       "id": 299,
       "title": "Pilotagem: Curva em 'S'",
-      "text": "Em curvas sucessivas, foque na saída da segunda curva. O segredo é posicionar a moto para o ângulo mais aberto possível.",
-      "category": "Pilotagem"
+      "text": "Em curvas sucessivas, foque na saída da segunda curva. O segredo é posicionar a moto para o ângulo mais aberto.",
+      "category": "pilotagem",
+      "level": "avancado"
     },
     {
       "id": 300,
       "title": "Segurança: Visão de Horizonte",
-      "text": "Não olhe para o pneu do carro à frente; olhe através dele ou por cima. Antecipar o que acontece lá na frente evita colisões.",
-      "category": "Segurança"
+      "text": "Não olhe para o pneu do carro à frente; olhe através dele ou por cima. Antecipar o fluxo evita colisões.",
+      "category": "seguranca",
+      "level": "iniciante"
     },
-    {
+   {
       "id": 301,
       "title": "Tecnologia: Sensores de Inclinação",
-      "text": "O sensor de queda desliga o motor automaticamente se a moto inclinar além de um ângulo crítico, evitando danos maiores e incêndios.",
-      "category": "Tecnologia"
+      "text": "O sensor de queda desliga o motor automaticamente se a moto inclinar além de um ângulo crítico, evitando incêndios e danos maiores.",
+      "category": "tecnologia",
+      "level": "intermediario"
     },
     {
       "id": 302,
       "title": "Segurança: Faróis Adaptativos",
-      "text": "Faróis de LED adaptativos iluminam o interior da curva conforme você inclina a moto, eliminando pontos cegos noturnos.",
-      "category": "Segurança"
+      "text": "Faróis de LED adaptativos iluminam o interior da curva conforme você inclina a moto, eliminando os pontos cegos noturnos em serras.",
+      "category": "tecnologia",
+      "level": "avancado"
     },
     {
       "id": 303,
-      "title": "Viagens: Reservas de Emergência",
-      "text": "Em viagens longas, esconda uma quantia de dinheiro em espécie dentro do forro do capacete. Isso salva em caso de perda de carteira.",
-      "category": "Viagens"
+      "title": "Viagens: Reserva de Emergência",
+      "text": "Em viagens longas, esconda uma quantia de dinheiro em espécie dentro do forro do capacete. Útil em caso de perda de carteira em locais remotos.",
+      "category": "viagem",
+      "level": "iniciante"
     },
     {
       "id": 304,
       "title": "Manutenção: Fluidos de Arrefecimento",
-      "text": "Nunca use água de torneira no radiador. O cloro e os minerais causam corrosão interna e podem entupir as galerias do motor.",
-      "category": "Manutenção"
+      "text": "Nunca use água de torneira no radiador. O cloro causa corrosão interna. Use sempre aditivo específico (etilenoglicol) e água desmineralizada.",
+      "category": "manutencao",
+      "level": "intermediario"
     },
     {
       "id": 305,
-      "title": "Pilotagem: Saída de Pedágio",
-      "text": "Redobre a atenção ao arrancar em pedágios. O acúmulo de óleo no centro da faixa é altíssimo e pode causar quedas bobas.",
-      "category": "Pilotagem"
+      "title": "Legislacao: Uso do Corredor",
+      "text": "Embora tolerado, o corredor deve ser usado em velocidade compatível com o fluxo. Em caso de acidente, a velocidade excessiva gera culpa presumida.",
+      "category": "legislacao",
+      "level": "iniciante"
     },
     {
       "id": 306,
       "title": "Saúde: Proteção Solar no Pescoço",
-      "text": "A área entre o capacete e a jaqueta é sensível. Use protetor solar ou bandanas para evitar queimaduras graves em dias de estrada.",
-      "category": "Saúde"
+      "text": "A área entre o capacete e a jaqueta é sensível. Use protetor solar ou bandanas para evitar queimaduras graves pelo sol da estrada.",
+      "category": "saude",
+      "level": "iniciante"
     },
     {
       "id": 307,
-      "title": "Curiosidades: O Primeiro Motor V4",
-      "text": "Embora comuns hoje, os motores V4 foram popularizados nas competições por oferecerem a largura de um motor de 2 cilindros.",
-      "category": "Curiosidades"
+      "title": "Legislacao: Modificações Visuais",
+      "text": "Mudanças de cor em mais de 50% do veículo (incluindo adesivagem) exigem atualização no documento para evitar apreensão em vistorias.",
+      "category": "legislacao",
+      "level": "intermediario"
     },
     {
       "id": 308,
       "title": "Equipamento: Limpeza de Jaqueta",
-      "text": "Não lave sua jaqueta de cordura em máquinas. Use um pano úmido e sabão neutro para não destruir a membrana impermeável interna.",
-      "category": "Segurança"
+      "text": "Não lave jaquetas de cordura em máquinas. O atrito destrói a membrana impermeável interna. Use pano úmido e sabão neutro.",
+      "category": "equipamentos",
+      "level": "iniciante"
     },
     {
       "id": 309,
-      "title": "Tecnologia: Atualização de GPS",
-      "text": "Mantenha o firmware do seu painel TFT atualizado. Fabricantes corrigem bugs de conectividade com smartphones regularmente.",
-      "category": "Tecnologia"
+      "title": "Tecnologia: Atualização de Firmware",
+      "text": "Mantenha o sistema do painel TFT atualizado. Fabricantes corrigem bugs de conectividade Bluetooth e erros de leitura de sensores via software.",
+      "category": "tecnologia",
+      "level": "intermediario"
     },
     {
       "id": 310,
-      "title": "Segurança: Cruzamento de Linha de Trem",
-      "text": "Cruze trilhos de trem sempre o mais próximo possível de um ângulo de 90 graus para evitar que o pneu escorregue no ferro.",
-      "category": "Segurança"
+      "title": "Segurança: Cruzamento de Trilhos",
+      "text": "Cruze trilhos de trem sempre o mais próximo possível de um ângulo de 90 graus para evitar que o pneu escorregue no metal molhado.",
+      "category": "seguranca",
+      "level": "intermediario"
     },
     {
       "id": 311,
-      "title": "Manutenção: Verificação de Coxins",
-      "text": "Vibrações excessivas no guidão podem ser sinal de coxins de motor ressecados. Eles devem ser trocados para evitar trincas no chassi.",
-      "category": "Manutenção"
+      "title": "Manutenção: Buchas de Guia",
+      "text": "Se a suspensão dianteira bater 'seco', as buchas internas podem estar gastas. A troca evita o desgaste prematuro do cromo das bengalas.",
+      "category": "manutencao",
+      "level": "avancado"
     },
     {
       "id": 312,
       "title": "Pilotagem: Frenagem em Brita",
-      "text": "Em estradas de terra ou brita, use quase exclusivamente o freio traseiro. O dianteiro pode travar e causar queda instantânea.",
-      "category": "Pilotagem"
+      "text": "Em estradas de terra ou brita, use quase exclusivamente o freio traseiro. O dianteiro trava fácil e causa quedas instantâneas em baixa velocidade.",
+      "category": "pilotagem",
+      "level": "intermediario"
     },
     {
       "id": 313,
-      "title": "Viagens: Roupas de Baixo Sintéticas",
-      "text": "Evite algodão em viagens longas. Tecidos sintéticos 'dry-fit' secam rápido e evitam assaduras causadas pela umidade do suor.",
-      "category": "Viagens"
+      "title": "Viagens: Tecidos Sintéticos",
+      "text": "Evite algodão em viagens longas. Tecidos dry-fit secam rápido e evitam assaduras causadas pela umidade do suor acumulada sob o couro.",
+      "category": "saude",
+      "level": "iniciante"
     },
     {
       "id": 314,
-      "title": "Saúde: Hidratação e Reflexo",
-      "text": "A desidratação diminui sua velocidade de reação. Beba água a cada parada, mesmo que não sinta sede imediata.",
-      "category": "Saúde"
+      "title": "Legislacao: Capacete Aberto",
+      "text": "Ao usar capacete aberto (tipo Jet), o uso de óculos de proteção específicos é obrigatório. Óculos de sol comuns não substituem o equipamento.",
+      "category": "legislacao",
+      "level": "iniciante"
     },
     {
       "id": 315,
       "title": "Curiosidades: Suspensão Telelever",
-      "text": "Exclusiva da BMW, essa suspensão separa a frenagem do amortecimento, impedindo que a frente da moto mergulhe ao frear forte.",
-      "category": "Curiosidades"
+      "text": "Exclusiva da BMW, essa suspensão separa a frenagem do amortecimento, impedindo que a frente da moto mergulhe em frenagens fortes.",
+      "category": "tecnologia",
+      "level": "avancado"
     },
     {
       "id": 316,
-      "title": "Equipamento: Viseiras Escuras",
-      "text": "Viseiras fumê ou espelhadas são proibidas por lei durante a noite. Sempre carregue a viseira cristal reserva em viagens.",
-      "category": "Segurança"
+      "title": "Legislacao: Viseiras Escuras",
+      "text": "Viseiras fumê, espelhadas ou coloridas são proibidas no período noturno. Use apenas a cristal (transparente) após o pôr do sol.",
+      "category": "legislacao",
+      "level": "iniciante"
     },
     {
       "id": 317,
-      "title": "Tecnologia: App de Telemetria",
-      "text": "Muitos fabricantes oferecem apps que registram seu ângulo de inclinação e força de frenagem. Ótimo para estudar sua evolução técnica.",
-      "category": "Tecnologia"
+      "title": "Tecnologia: Apps de Telemetria",
+      "text": "Use apps que registram ângulo de inclinação e força de frenagem para estudar sua evolução técnica e identificar pontos de melhora.",
+      "category": "tecnologia",
+      "level": "avancado"
     },
     {
       "id": 318,
-      "title": "Manutenção: Terminal de Carga USB",
-      "text": "Verifique se sua tomada USB tem fusível próprio. Em caso de curto por chuva, ela não compromete o sistema elétrico da moto.",
-      "category": "Manutenção"
+      "title": "Manutenção: Tomada USB e Fusível",
+      "text": "Sua tomada USB deve ter fusível próprio. Em caso de curto por infiltração de chuva, ele protege o chicote principal da moto.",
+      "category": "manutencao",
+      "level": "intermediario"
     },
     {
       "id": 319,
-      "title": "Pilotagem: Posição dos Joelhos",
-      "text": "Mantenha os joelhos firmes no tanque. Isso tira o peso dos seus punhos e permite que a frente da moto trabalhe mais livremente.",
-      "category": "Pilotagem"
+      "title": "Pilotagem: Pressão nos Punhos",
+      "text": "Mantenha os joelhos firmes no tanque. Isso tira o peso dos punhos, permitindo que a frente da moto trabalhe livre e com mais precisão.",
+      "category": "pilotagem",
+      "level": "intermediario"
     },
     {
       "id": 320,
-      "title": "Segurança: O Perigo da Sombra",
-      "text": "Em serras, cuidado ao entrar em curvas com sombra. O asfalto ali pode estar úmido ou com gelo, mesmo que o resto da pista esteja seco.",
-      "category": "Segurança"
+      "title": "Segurança: Perigo da Sombra",
+      "text": "Em serras, asfalto sob sombra pode estar úmido ou com óleo, enquanto o resto da pista está seco. Reduza a inclinação nessas áreas.",
+      "category": "seguranca",
+      "level": "intermediario"
     },
     {
       "id": 321,
       "title": "Tecnologia: Bateria de Lítio",
-      "text": "Baterias de lítio são muito leves, mas sofrem no frio extremo. Se a moto não ligar, acenda o farol por 30 segundos para 'acordar' a bateria.",
-      "category": "Tecnologia"
+      "text": "Baterias de lítio perdem carga no frio extremo. Se a moto não ligar, acenda o farol por 30 segundos para 'aquecer' as células químicas.",
+      "category": "tecnologia",
+      "level": "avancado"
     },
     {
       "id": 322,
-      "title": "Segurança: Distância de Caminhão",
-      "text": "Nunca pare colado na traseira de um caminhão em subidas. Ele pode recuar levemente antes de arrancar e atingir sua moto.",
-      "category": "Segurança"
+      "title": "Legislacao: Transporte de Crianças",
+      "text": "A idade mínima para transportar crianças em motocicletas é de 10 anos. Elas devem ter tamanho suficiente para apoiar os pés nas pedaleiras.",
+      "category": "legislacao",
+      "level": "iniciante"
     },
     {
       "id": 323,
-      "title": "Viagens: Localização de Borracharias",
-      "text": "Em viagens por rodovias secundárias, anote onde ficam os borracheiros de caminhão; eles costumam ter compressores potentes para emergências.",
-      "category": "Viagens"
+      "title": "Tecnologia: Intercomunicador Mesh",
+      "text": "Diferente do Bluetooth comum, o sistema Mesh permite que motociclistas saiam do alcance sem derrubar a conexão de todo o grupo.",
+      "category": "tecnologia",
+      "level": "intermediario"
     },
     {
       "id": 324,
-      "title": "Manutenção: Estiramento da Corrente",
-      "text": "A corrente não gasta de forma uniforme. Gire a roda e verifique a tensão em vários pontos para encontrar o ponto mais justo para o ajuste.",
-      "category": "Manutenção"
+      "title": "Manutenção: Estiramento de Corrente",
+      "text": "A corrente gasta de forma desigual. Gire a roda e verifique a tensão em vários pontos; ajuste sempre pelo ponto mais justo.",
+      "category": "manutencao",
+      "level": "intermediario"
     },
     {
       "id": 325,
-      "title": "Pilotagem: Curva com Contra-peso",
-      "text": "Em manobras de baixa velocidade, incline a moto para o lado da curva e jogue seu corpo para o lado oposto para manter o equilíbrio.",
-      "category": "Pilotagem"
+      "title": "Pilotagem: Contra-peso em Baixa",
+      "text": "Em manobras lentas (retornos), incline a moto para o lado da curva e jogue o tronco para o lado oposto para equilibrar o centro de gravidade.",
+      "category": "pilotagem",
+      "level": "intermediario"
     },
     {
       "id": 326,
-      "title": "Saúde: Protetor Bucal",
-      "text": "Se você pratica off-road pesado, um protetor bucal simples evita que você morda a língua ou trinque dentes em impactos secos.",
-      "category": "Saúde"
+      "title": "Saúde: Protetor Bucal Off-Road",
+      "text": "Em trilhas técnicas, o protetor bucal evita que você morda a língua ou trinque dentes em impactos secos de pedras e buracos.",
+      "category": "saude",
+      "level": "avancado"
     },
     {
       "id": 327,
-      "title": "Curiosidades: Freio a Disco",
-      "text": "A primeira moto de série a usar freio a disco dianteiro foi a Honda CB 750 em 1969, revolucionando a segurança nas estradas.",
-      "category": "Curiosidades"
+      "title": "Legislacao: Placa de Identificação",
+      "text": "Placas ilegíveis, com pintura descascada ou sem lacre (em modelos antigos) geram multa gravíssima e apreensão imediata do veículo.",
+      "category": "legislacao",
+      "level": "iniciante"
     },
     {
       "id": 328,
-      "title": "Equipamento: Jaqueta Ventilada",
-      "text": "Jaquetas de 'mesh' (tela) são ideais para o verão brasileiro. Elas permitem a passagem do ar sem abrir mão das proteções rígidas.",
-      "category": "Segurança"
+      "title": "Equipamento: Jaqueta de Tela (Mesh)",
+      "text": "No verão, use jaquetas de mesh. Elas permitem fluxo de ar total sem abrir mão das proteções rígidas nos ombros e cotovelos.",
+      "category": "equipamentos",
+      "level": "iniciante"
     },
     {
       "id": 329,
-      "title": "Tecnologia: Conectividade Bluetooth",
-      "text": "Parear o celular diretamente no painel da moto economiza bateria do smartphone e permite trocar músicas pelos comandos do punho.",
-      "category": "Tecnologia"
+      "title": "Tecnologia: Conectividade de Painel",
+      "text": "Parear o celular no painel da moto economiza bateria do smartphone, pois a tela do aparelho pode ficar desligada durante a navegação.",
+      "category": "tecnologia",
+      "level": "intermediario"
     },
     {
       "id": 330,
-      "title": "Segurança: Visão em Cruzamentos",
-      "text": "Não olhe apenas para o carro; olhe para as rodas dele. O movimento das rodas indica a intenção do motorista antes da lataria se mover.",
-      "category": "Segurança"
+      "title": "Segurança: Rodas de Carros",
+      "text": "Em cruzamentos, olhe para as rodas do carro parado. O movimento delas indica a arrancada antes mesmo da lataria se mover.",
+      "category": "seguranca",
+      "level": "iniciante"
     },
     {
       "id": 331,
       "title": "Manutenção: Lâmpada de Placa",
-      "text": "Uma lâmpada de placa queimada é motivo de multa e apreensão. Verifique-a sempre, pois a vibração costuma soltar o filamento.",
-      "category": "Manutenção"
+      "text": "Uma lâmpada de placa queimada é infração de trânsito. A vibração traseira solta o filamento; verifique-a semanalmente.",
+      "category": "manutencao",
+      "level": "iniciante"
     },
     {
       "id": 332,
-      "title": "Pilotagem: Frenagem em Descida",
-      "text": "Em descidas íngremes, desloque seu quadril um pouco para trás. Isso ajuda a equilibrar a massa e evita que a traseira fique leve demais.",
-      "category": "Pilotagem"
+      "title": "Pilotagem: Frenagem em Ladeira",
+      "text": "Em descidas íngremes, desloque o quadril para trás. Isso equilibra a massa e evita que a traseira fique leve demais em frenagens fortes.",
+      "category": "pilotagem",
+      "level": "intermediario"
     },
     {
       "id": 333,
       "title": "Viagens: Kit de Primeiros Socorros",
-      "text": "Carregue sempre gaze, antisséptico e bandagens. Em locais remotos, pequenos ferimentos precisam de limpeza imediata para evitar infecções.",
-      "category": "Viagens"
+      "text": "Carregue gaze, antisséptico e bandagens. Em locais remotos, pequenos ferimentos precisam de limpeza imediata para evitar infecções.",
+      "category": "viagem",
+      "level": "iniciante"
     },
     {
       "id": 334,
       "title": "Saúde: Alongamento de Pulsos",
-      "text": "Após horas de pilotagem, alongue os pulsos puxando os dedos para trás. Isso evita a síndrome do túnel do carpo e dores agudas.",
-      "category": "Saúde"
+      "text": "Após horas pilotando, alongue os pulsos puxando os dedos para trás. Isso previne a Síndrome do Túnel do Carpo e dores agudas.",
+      "category": "saude",
+      "level": "iniciante"
     },
     {
       "id": 335,
-      "title": "Curiosidades: O Nome 'Hayabusa'",
-      "text": "Hayabusa é o nome japonês para o falcão-peregrino, o pássaro mais rápido do mundo, capaz de mergulhar a mais de 300 km/h.",
-      "category": "Curiosidades"
+      "title": "Legislacao: Pneu Careca",
+      "text": "O limite legal de desgaste (TWI) é de 1,6mm. Abaixo disso, o pneu é considerado liso, gerando multa e risco de aquaplanagem.",
+      "category": "legislacao",
+      "level": "iniciante"
     },
     {
       "id": 336,
-      "title": "Equipamento: Bota Impermeável",
-      "text": "Botas com membrana Gore-Tex são respiráveis. Elas impedem a entrada de água mas deixam o suor sair, mantendo os pés secos.",
-      "category": "Segurança"
+      "title": "Equipamento: Membranas Respiráveis",
+      "text": "Botas com Gore-Tex são superiores: impedem a entrada da água da chuva, mas deixam o vapor do suor sair, mantendo os pés secos.",
+      "category": "equipamentos",
+      "level": "intermediario"
     },
     {
       "id": 337,
-      "title": "Tecnologia: Controle de Freio Motor",
-      "text": "Motos de alta cilindrada permitem ajustar o 'Engine Brake'. Mais freio motor ajuda em pistas travadas; menos ajuda em curvas rápidas.",
-      "category": "Tecnologia"
+      "title": "Tecnologia: Engine Brake Control",
+      "text": "Motos modernas permitem ajustar a força do freio motor. Mais freio motor ajuda em estradas travadas; menos ajuda em curvas rápidas.",
+      "category": "tecnologia",
+      "level": "avancado"
     },
     {
       "id": 338,
-      "title": "Manutenção: Parafusos de Carenagem",
-      "text": "Use arruelas de borracha nos parafusos das carenagens plásticas. Elas absorvem a vibração e evitam que o plástico trinque com o tempo.",
-      "category": "Manutenção"
+      "title": "Manutenção: Arruelas de Carenagem",
+      "text": "Use arruelas de borracha nos parafusos plásticos. Elas absorvem a vibração do motor e evitam que a carenagem trinque nos pontos de fixação.",
+      "category": "manutencao",
+      "level": "intermediario"
     },
     {
       "id": 339,
       "title": "Pilotagem: Aquecimento de Pneus",
-      "text": "Pneus levam cerca de 5km para atingir a temperatura ideal de aderência. Evite inclinações radicais logo após sair de casa.",
-      "category": "Pilotagem"
+      "text": "Ziguezaguear não aquece pneus de moto. O calor vem da deformação da carcaça através de frenagens e acelerações em linha reta.",
+      "category": "pilotagem",
+      "level": "intermediario"
     },
     {
       "id": 340,
-      "title": "Segurança: Mancha de Diesel",
-      "text": "Manchas coloridas (arco-íris) no asfalto molhado indicam vazamento de diesel. É o piso mais escorregadio que existe para uma moto.",
-      "category": "Segurança"
+      "title": "Segurança: Mancha de Arco-Íris",
+      "text": "Manchas coloridas no asfalto molhado indicam vazamento de diesel. É o piso mais escorregadio que existe; evite inclinar sobre elas.",
+      "category": "seguranca",
+      "level": "iniciante"
     },
     {
       "id": 341,
-      "title": "Tecnologia: Atualização de Mapas",
-      "text": "Se o seu GPS integrado estiver lento, verifique se há uma atualização do banco de dados de pontos de interesse (POI) via USB.",
-      "category": "Tecnologia"
+      "title": "Fotografia: Regra dos Terços",
+      "text": "Ao fotografar a moto, imagine uma grade e coloque o objeto principal nos cruzamentos das linhas, não no centro, para fotos mais dinâmicas.",
+      "category": "fotografia",
+      "level": "iniciante"
     },
     {
       "id": 342,
-      "title": "Segurança: Farol de Milha",
-      "text": "Use faróis auxiliares apontados para baixo. Se estiverem muito altos, eles eliminam o contraste e dificultam a visão de buracos.",
-      "category": "Segurança"
+      "title": "Fotografia: Ângulo de Ataque",
+      "text": "Fotos tiradas de baixo para cima (ângulo contra-picado) deixam a moto com aspecto mais imponente e robusto.",
+      "category": "fotografia",
+      "level": "iniciante"
     },
     {
       "id": 343,
-      "title": "Viagens: Alimentação Leve",
-      "text": "Evite refeições pesadas durante o dia de viagem. A digestão lenta causa sonolência e reduz drasticamente seus reflexos.",
-      "category": "Viagens"
+      "title": "Saúde: Alimentação em Viagem",
+      "text": "Evite refeições pesadas (massas e feijoada) no almoço de viagem. A digestão lenta causa sonolência e reduz os reflexos no guidão.",
+      "category": "saude",
+      "level": "iniciante"
     },
     {
       "id": 344,
       "title": "Manutenção: Cabo de Acelerador",
-      "text": "Se o acelerador não retornar sozinho com rapidez, o cabo pode estar desfiando internamente. Troque-o antes que ele trave aberto.",
-      "category": "Manutenção"
+      "text": "Se o acelerador demorar a retornar sozinho, o cabo pode estar desfiando internamente. Troque-o imediatamente para evitar travamentos.",
+      "category": "manutencao",
+      "level": "avancado"
     },
     {
       "id": 345,
       "title": "Pilotagem: Saída de Lombada",
-      "text": "Ao passar por uma lombada, acelere levemente logo após a roda dianteira tocar o chão. Isso estabiliza a suspensão traseira.",
-      "category": "Pilotagem"
+      "text": "Após passar por uma lombada, acelere levemente assim que a roda dianteira tocar o chão. Isso estabiliza a suspensão traseira.",
+      "category": "pilotagem",
+      "level": "intermediario"
     },
     {
       "id": 346,
-      "title": "Saúde: Hidratação em Viagens",
-      "text": "A sede é o primeiro sinal de desidratação. Beba água em pequenos goles a cada 30 minutos para manter o nível de atenção alto.",
-      "category": "Saúde"
+      "title": "Saúde: Hidratação Constante",
+      "text": "A sede já é o início da desidratação. Beba pequenos goles de água a cada parada para manter o foco cerebral e a velocidade de reação.",
+      "category": "saude",
+      "level": "iniciante"
     },
     {
       "id": 347,
       "title": "Curiosidades: Rodas de Magnésio",
-      "text": "Usadas em competições, são muito mais leves que as de alumínio, reduzindo a massa não suspensa e facilitando mudanças de direção.",
-      "category": "Curiosidades"
+      "text": "Usadas em competições, reduzem a massa não suspensa, tornando a moto muito mais rápida para mudar de direção em curvas 'S'.",
+      "category": "tecnologia",
+      "level": "avancado"
     },
     {
       "id": 348,
-      "title": "Equipamento: Protetor de Coluna",
-      "text": "Muitas jaquetas vêm com uma espuma simples. Substitua-a por um protetor de nível CE-2 para garantir proteção real à sua medula.",
-      "category": "Segurança"
+      "title": "Equipamento: Protetor de Coluna CE-2",
+      "text": "Substitua a espuma das jaquetas por protetores de nível CE-2. Eles são testados para absorver impactos reais na medula óssea.",
+      "category": "equipamentos",
+      "level": "intermediario"
     },
     {
       "id": 349,
-      "title": "Tecnologia: App Wings",
-      "text": "Use aplicativos de monitoramento de rotas para compartilhar seu trajeto com amigos em tempo real durante viagens em grupo.",
-      "category": "Tecnologia"
+      "title": "Tecnologia: Sensores de Estacionamento",
+      "text": "Sensores de ré de carros muitas vezes não detectam motos. Nunca pare colado atrás de um carro que está manobrando.",
+      "category": "seguranca",
+      "level": "iniciante"
     },
     {
       "id": 350,
       "title": "Segurança: Vácuo de Caminhão",
-      "text": "Ao ultrapassar um caminhão, o deslocamento de ar pode 'empurrar' a moto. Incline-se levemente contra o vento para compensar.",
-      "category": "Segurança"
+      "text": "Ao ultrapassar carretas, o deslocamento de ar 'puxa' a moto para dentro e depois 'empurra'. Segure firme o guidão e incline-se contra o vento.",
+      "category": "seguranca",
+      "level": "intermediario"
     },
     {
       "id": 351,
-      "title": "Manutenção: Buchas de Coroa",
-      "text": "Verifique as borrachas do amortecedor da coroa. Folgas ali causam trancos na corrente e aceleram o desgaste de todo o kit.",
-      "category": "Manutenção"
+      "title": "Legislacao: Películas em Viseiras",
+      "text": "O uso de películas de controle solar (insulfilm) em viseiras de capacetes é proibido pelo CONTRAN e gera multa.",
+      "category": "legislacao",
+      "level": "iniciante"
     },
     {
       "id": 352,
-      "title": "Pilotagem: Uso do Olhar",
-      "text": "Nunca foque no obstáculo que quer evitar (como um buraco). Olhe para onde você QUER ir e a moto seguirá seu cérebro.",
-      "category": "Pilotagem"
+      "title": "Pilotagem: Olhar para o Destino",
+      "text": "Nunca foque no buraco que quer evitar. Olhe para a saída da trajetória. O corpo e a moto sempre seguem o foco do olhar.",
+      "category": "pilotagem",
+      "level": "iniciante"
     },
     {
       "id": 353,
       "title": "Viagens: Roupas a Vácuo",
-      "text": "Use sacos de compressão manual para suas roupas. Isso economiza até 50% de espaço no seu baú ou mochila de viagem.",
-      "category": "Viagens"
+      "text": "Use sacos de compressão manual para roupas. Isso economiza 50% de espaço no baú e protege as roupas de infiltrações de água.",
+      "category": "viagem",
+      "level": "iniciante"
     },
     {
       "id": 354,
-      "title": "Saúde: Proteção Auditiva",
-      "text": "O barulho constante do vento dentro do capacete causa fadiga mental. Protetores auriculares ajudam você a chegar menos cansado.",
-      "category": "Saúde"
+      "title": "Saúde: Fadiga Mental e Ruído",
+      "text": "O ruído constante do vento causa cansaço extremo. Protetores auriculares reduzem a fadiga e permitem rodar 30% mais tempo por dia.",
+      "category": "saude",
+      "level": "intermediario"
     },
     {
       "id": 355,
-      "title": "Curiosidades: Motor de Passo",
-      "text": "A marcha lenta de motos modernas é controlada por um pequeno motor elétrico que ajusta o ar conforme a temperatura do motor.",
-      "category": "Curiosidades"
+      "title": "Curiosidades: Motor de Passo (IAC)",
+      "text": "Motos modernas usam um motor elétrico para controlar a marcha lenta, garantindo que a moto não apague quando o motor está frio.",
+      "category": "manutencao",
+      "level": "avancado"
     },
     {
       "id": 356,
-      "title": "Equipamento: Balaclava",
-      "text": "Além de manter o forro do capacete limpo por mais tempo, a balaclava protege o rosto contra o impacto de insetos na estrada.",
-      "category": "Segurança"
+      "title": "Equipamento: Uso de Balaclava",
+      "text": "A balaclava mantém o forro do capacete limpo (absorve o suor) e protege o rosto contra o impacto de insetos em alta velocidade.",
+      "category": "equipamentos",
+      "level": "iniciante"
     },
     {
       "id": 357,
-      "title": "Tecnologia: Frenagem Combinada",
-      "text": "O sistema CBS aciona o freio dianteiro automaticamente quando você pisa no traseiro, equilibrando a moto em paradas rápidas.",
-      "category": "Tecnologia"
+      "title": "Tecnologia: Frenagem Combinada (CBS)",
+      "text": "O CBS aciona parte do freio dianteiro quando você pisa no traseiro, ajudando a equilibrar a moto em paradas de emergência.",
+      "category": "tecnologia",
+      "level": "iniciante"
     },
     {
       "id": 358,
-      "title": "Manutenção: Limpeza de Sensores",
-      "text": "Sensores de ABS sujos de lama ou graxa podem enviar sinais errados. Limpe os anéis fônicos nas rodas com uma escova macia.",
-      "category": "Manutenção"
+      "title": "Manutenção: Limpeza de Sensores ABS",
+      "text": "Anéis fônicos sujos de lama ou graxa podem desativar o ABS. Limpe as fendas das rodas com uma escova macia e água.",
+      "category": "manutencao",
+      "level": "intermediario"
     },
     {
       "id": 359,
-      "title": "Pilotagem: Pressão nas Mãos",
-      "text": "Se suas mãos formigam, você está apoiando o peso do corpo nelas. Use o abdômen e as pernas para se segurar na moto.",
-      "category": "Pilotagem"
+      "title": "Pilotagem: Abdômen e Tanque",
+      "text": "Use os músculos abdominais para sustentar o tronco, não as mãos. Punhos relaxados garantem uma pilotagem muito mais precisa.",
+      "category": "pilotagem",
+      "level": "intermediario"
     },
     {
       "id": 360,
       "title": "Segurança: Cruzamento Rural",
-      "text": "Em estradas de terra, cuidado com poeira no asfalto em entradas de fazendas. O solo solto sobre o asfalto é como rolamentos.",
-      "category": "Segurança"
+      "text": "Em entradas de fazendas, cuidado com terra ou poeira sobre o asfalto. O solo solto funciona como rolamentos, eliminando o grip.",
+      "category": "seguranca",
+      "level": "intermediario"
     },
     {
       "id": 361,
-      "title": "Tecnologia: Sensores de O2",
-      "text": "A Sonda Lambda monitora a queima de combustível em tempo real. Se a moto estiver 'manca', o sensor pode estar carbonizado.",
-      "category": "Tecnologia"
+      "title": "Fotografia: Luz de Golden Hour",
+      "text": "Fotografe na primeira ou última hora do sol. A luz suave realça as linhas da moto sem criar sombras duras no motor.",
+      "category": "fotografia",
+      "level": "intermediario"
     },
     {
-      "id": 262,
+      "id": 362,
       "title": "Segurança: Distância em Semáforos",
-      "text": "Ao parar, deixe a moto engatada em primeira e monitore o retrovisor. Se o carro atrás não frear, você tem como escapar.",
-      "category": "Segurança"
+      "text": "Pare com a moto engatada e monitore o retrovisor. Se o carro atrás não reduzir, você terá agilidade para fugir lateralmente.",
+      "category": "seguranca",
+      "level": "iniciante"
     },
     {
       "id": 363,
-      "title": "Viagens: Rastreamento em Tempo Real",
-      "text": "Compartilhe sua localização com familiares via WhatsApp ou Google Maps. Segurança extra para quem viaja sozinho.",
-      "category": "Viagens"
+      "title": "Tecnologia: Rastreamento em Tempo Real",
+      "text": "Compartilhe sua localização com familiares via Google Maps em viagens solo. Segurança extra para casos de acidentes isolados.",
+      "category": "tecnologia",
+      "level": "iniciante"
     },
     {
       "id": 364,
-      "title": "Manutenção: Suspensão Traseira",
-      "text": "O 'link' da suspensão precisa de lubrificação periódica. Se ele travar, a traseira da moto ficará dura e desconfortável.",
-      "category": "Manutenção"
+      "title": "Manutenção: Articulação da Suspensão",
+      "text": "O 'link' da suspensão traseira precisa de graxa a cada 20.000km. Se secar, a suspensão trava e a moto fica instável em curvas.",
+      "category": "manutencao",
+      "level": "avancado"
     },
     {
       "id": 365,
-      "title": "Pilotagem: Frenagem em Descida",
-      "text": "Nunca desça serras em ponto morto (banguela). Sem o freio motor, você sobrecarrega os discos e perde eficiência de frenagem.",
-      "category": "Pilotagem"
+      "title": "Pilotagem: Descer Serras Engatado",
+      "text": "Nunca use o ponto morto em descidas. O freio motor é vital para evitar o superaquecimento (fading) e falha total dos freios.",
+      "category": "pilotagem",
+      "level": "intermediario"
     },
     {
       "id": 366,
-      "title": "Saúde: Alongamento de Panturrilha",
-      "text": "Ficar muito tempo com os pés nas pedaleiras encurta a musculatura. Alongue as pernas em cada parada para evitar cãibras.",
-      "category": "Saúde"
+      "title": "Saúde: Musculatura da Panturrilha",
+      "text": "Ficar muito tempo com os pés nas pedaleiras encurta o músculo. Alongue as pernas em cada parada para evitar cãibras noturnas.",
+      "category": "saude",
+      "level": "iniciante"
     },
     {
       "id": 367,
-      "title": "Curiosidades: Rodas de Carbono",
-      "text": "Usadas em motos de ultra performance, elas reduzem o peso em até 40% em relação às de alumínio, melhorando a agilidade.",
-      "category": "Curiosidades"
+      "title": "Legislacao: Baú e Dimensões",
+      "text": "O baú não pode exceder a largura do guidão nem ultrapassar a extremidade traseira da moto em mais de 50cm.",
+      "category": "legislacao",
+      "level": "iniciante"
     },
     {
       "id": 368,
-      "title": "Equipamento: Vedação do Capacete",
-      "text": "Ruídos excessivos podem ser causados por viseiras desalinhadas. Ajuste os parafusos laterais para uma vedação perfeita.",
-      "category": "Segurança"
+      "title": "Equipamento: Vedação de Viseira",
+      "text": "Se o capacete está barulhento, ajuste os parafusos da base da viseira. Um desalinhamento de 1mm causa turbulências ensurdecedoras.",
+      "category": "equipamentos",
+      "level": "intermediario"
     },
     {
       "id": 369,
       "title": "Tecnologia: Painel TFT Noturno",
-      "text": "Motos modernas mudam a cor do painel no escuro para não ofuscar sua visão. Se o seu não muda, verifique o sensor de luz.",
-      "category": "Tecnologia"
+      "text": "O sensor de luz alterna as cores do painel automaticamente. Se ele não mudar, limpe a lente do sensor no topo do painel.",
+      "category": "tecnologia",
+      "level": "iniciante"
     },
     {
       "id": 370,
-      "title": "Segurança: Animais na Estrada",
-      "text": "Onde há uma vaca ou cavalo, geralmente há outros por perto. Reduza a velocidade e redobre a atenção ao passar por eles.",
-      "category": "Segurança"
+      "title": "Segurança: Animais em Grupo",
+      "text": "Onde há uma vaca ou cavalo, geralmente há outros por perto. Reduza a velocidade e espere por movimentos bruscos do animal.",
+      "category": "seguranca",
+      "level": "iniciante"
     },
     {
       "id": 371,
-      "title": "Manutenção: Lâmpadas de LED",
-      "text": "Ao trocar lâmpadas comuns por LED, verifique se o foco não ficou alto demais, o que pode cegar quem vem no sentido oposto.",
-      "category": "Manutenção"
+      "title": "Manutenção: Foco de Farol LED",
+      "text": "Ao trocar lâmpadas por LED, ajuste o foco. O LED espalha mais a luz e pode cegar quem vem no sentido oposto, causando acidentes.",
+      "category": "manutencao",
+      "level": "intermediario"
     },
     {
       "id": 372,
-      "title": "Pilotagem: Curva com Garupa",
-      "text": "Peça para o passageiro olhar por cima do seu ombro para o lado de dentro da curva. Isso ajuda no equilíbrio da moto.",
-      "category": "Pilotagem"
+      "title": "Pilotagem: Olhar do Garupa",
+      "text": "O garupa deve olhar por cima do seu ombro para o lado de DENTRO da curva. Isso ajuda a moto a inclinar de forma natural.",
+      "category": "pilotagem",
+      "level": "iniciante"
     },
     {
       "id": 373,
-      "title": "Viagens: Check-in de Clima",
-      "text": "Use apps de radar meteorológico antes de partir. Às vezes, esperar 30 minutos evita que você pegue uma tempestade de frente.",
-      "category": "Viagens"
+      "title": "Viagens: Previsão de Radar Meteorológico",
+      "text": "Use apps de radar em tempo real. Muitas vezes, esperar 20 minutos em um posto evita enfrentar o núcleo de uma tempestade.",
+      "category": "viagem",
+      "level": "iniciante"
     },
     {
       "id": 374,
-      "title": "Saúde: Postura dos Punhos",
-      "text": "Mantenha o punho alinhado com o braço ao acelerar. Ângulos muito acentuados podem causar inflamações e perda de força.",
-      "category": "Saúde"
+      "title": "Saúde: Alinhamento de Punhos",
+      "text": "Mantenha o punho reto com o braço ao acelerar. Ângulos acentuados comprimem os nervos e causam formigamento constante.",
+      "category": "saude",
+      "level": "iniciante"
     },
     {
       "id": 375,
-      "title": "Curiosidades: O Nome 'Scooter'",
-      "text": "Vem do inglês 'to scoot' (sair rápido). Foram desenhadas para serem veículos urbanos de fácil agilidade e montagem.",
-      "category": "Curiosidades"
+      "title": "Legislacao: Farol Diurno Obrigatório",
+      "text": "Motos devem rodar com o farol baixo aceso mesmo durante o dia. Em motos modernas, o DRL (luz de posição) cumpre essa função legal.",
+      "category": "legislacao",
+      "level": "iniciante"
     },
     {
       "id": 376,
-      "title": "Equipamento: Botas Cano Curto",
-      "text": "Para uso urbano, botas de cano curto com proteção de maleolo são o equilíbrio ideal entre conforto ao caminhar e segurança.",
-      "category": "Segurança"
+      "title": "Equipamento: Botas de Cano Curto",
+      "text": "Para uso urbano, escolha botas com proteção de maleolo (tornozelo). Elas protegem contra esmagamento lateral em quedas bobas.",
+      "category": "equipamentos",
+      "level": "iniciante"
     },
     {
       "id": 377,
-      "title": "Tecnologia: Chip de Chave",
-      "text": "Nunca guarde a chave reserva junto com a principal. O sinal de uma pode interferir na leitura da outra pelo imobilizador.",
-      "category": "Tecnologia"
+      "title": "Tecnologia: Chip de Imobilizador",
+      "text": "Evite guardar a chave reserva junto com a principal. O sinal de radiofrequência de uma pode anular a outra e impedir a partida.",
+      "category": "tecnologia",
+      "level": "intermediario"
     },
     {
       "id": 378,
       "title": "Manutenção: Filtro de Combustível",
-      "text": "Se a moto falha em altas rotações, o filtro de combustível pode estar entupido. Troque-o conforme o manual do proprietário.",
-      "category": "Manutenção"
+      "text": "Se a moto falha em altas rotações, o filtro de combustível pode estar entupido. Troque-o a cada 15.000km para proteger a bomba.",
+      "category": "manutencao",
+      "level": "intermediario"
     },
     {
       "id": 379,
-      "title": "Pilotagem: Contra-esterço no Corredor",
-      "text": "Use o contra-esterço para desvios rápidos de retrovisores. Pequenos empurrões no guidão tornam a moto muito mais ágil.",
-      "category": "Pilotagem"
+      "title": "Pilotagem: Desvio de Retrovisores",
+      "text": "No corredor, use o contra-esterço para desvios rápidos de retrovisores de carros. Pequenos toques no guidão movem a moto com agilidade.",
+      "category": "pilotagem",
+      "level": "avancado"
     },
     {
       "id": 380,
-      "title": "Segurança: Chuva e Poças",
-      "text": "Evite passar sobre poças d'água; elas podem esconder buracos profundos que danificam a roda ou causam quedas.",
-      "category": "Segurança"
+      "title": "Segurança: Poças e Buracos",
+      "text": "Nunca passe sobre poças d'água desconhecidas; elas escondem buracos profundos que podem quebrar a roda ou travar a frente.",
+      "category": "seguranca",
+      "level": "iniciante"
     },
     {
       "id": 381,
-      "title": "Tecnologia: Diagnóstico OBD2",
-      "text": "Motos modernas possuem entrada OBD2. Com um adaptador bluetooth barato, você pode ler códigos de erro direto no seu smartphone.",
-      "category": "Tecnologia"
+      "title": "Tecnologia: Conector OBD2",
+      "text": "Adaptadores Bluetooth OBD2 permitem ler códigos de erro da injeção no celular, economizando tempo no diagnóstico de sensores sujos.",
+      "category": "tecnologia",
+      "level": "avancado"
     },
     {
       "id": 382,
-      "title": "Segurança: Saída de Garagem",
-      "text": "Ao sair de garagens, pare antes da calçada. Pedestres e ciclistas muitas vezes não ouvem a moto chegando lateralmente.",
-      "category": "Segurança"
+      "title": "Legislacao: Suspensão Modificada",
+      "text": "Alterar a altura da suspensão exige laudo do INMETRO e atualização no documento. Rebaixar a moto altera a ciclística e a segurança.",
+      "category": "legislacao",
+      "level": "intermediario"
     },
     {
       "id": 383,
-      "title": "Viagens: Kit de Reparo de Pneu",
-      "text": "Para pneus sem câmara, o kit 'macarrão' é essencial. Ele permite consertar um furo em minutos sem precisar desmontar a roda.",
-      "category": "Viagens"
+      "title": "Viagens: Kit 'Macarrão' de Pneu",
+      "text": "Para pneus sem câmara, o kit de reparo rápido permite consertar furos de pregos em 5 minutos sem desmontar a roda.",
+      "category": "viagem",
+      "level": "iniciante"
     },
     {
       "id": 384,
-      "title": "Manutenção: Esticadores de Corrente",
-      "text": "Certifique-se de que os dois lados da roda traseira estão na mesma marcação de ajuste para não desalinhada a geometria da moto.",
-      "category": "Manutenção"
+      "title": "Manutenção: Alinhamento de Roda",
+      "text": "Ao ajustar a corrente, certifique-se de que as marcas de ambos os lados da balança estão iguais para não desalinhada a moto.",
+      "category": "manutencao",
+      "level": "intermediario"
     },
     {
       "id": 385,
       "title": "Pilotagem: Frenagem em Cascalho",
-      "text": "No cascalho, a roda dianteira trava muito fácil. Use o freio motor e o freio traseiro com moderação para manter o controle.",
-      "category": "Pilotagem"
+      "text": "No cascalho, a roda dianteira não tem grip. Use o freio traseiro para 'leme' e reduza a marcha suavemente para usar o motor.",
+      "category": "pilotagem",
+      "level": "intermediario"
     },
     {
       "id": 386,
-      "title": "Saúde: Proteção Ocular",
-      "text": "Mesmo com a viseira aberta em baixa velocidade, use óculos de proteção. Poeira ou insetos nos olhos podem causar acidentes sérios.",
-      "category": "Saúde"
+      "title": "Saúde: Proteção de Córnea",
+      "text": "Mesmo com viseira aberta em baixa velocidade, use óculos. Um grão de areia no olho a 40km/h pode causar lesão permanente.",
+      "category": "saude",
+      "level": "iniciante"
     },
     {
       "id": 387,
-      "title": "Curiosidades: Motor de 6 Cilindros",
-      "text": "Motos como a Honda Gold Wing usam 6 cilindros para entregar um funcionamento extremamente suave e sem vibrações em viagens.",
-      "category": "Curiosidades"
+      "title": "Fotografia: Detalhes Mecânicos",
+      "text": "Tire fotos de detalhes: o brilho da corrente lubrificada, o logo no tanque ou as pinças de freio. Isso agrega valor ao seu álbum.",
+      "category": "fotografia",
+      "level": "iniciante"
     },
     {
       "id": 388,
-      "title": "Equipamento: Jaqueta de Couro vs Têxtil",
-      "text": "O couro resiste melhor à brasão (deslize), mas o tecido (cordura) é superior em versatilidade térmica e resistência à água.",
-      "category": "Segurança"
+      "title": "Equipamento: Couro vs Cordura",
+      "text": "Couro oferece a melhor resistência ao deslizamento (abrasão). Tecidos (cordura) oferecem melhor conforto térmico e versatilidade.",
+      "category": "equipamentos",
+      "level": "intermediario"
     },
     {
       "id": 389,
-      "title": "Tecnologia: Suspensão Adaptativa",
-      "text": "Algumas motos reduzem a altura da suspensão automaticamente quando param, facilitando o apoio dos pés no chão para pilotos baixos.",
-      "category": "Tecnologia"
+      "title": "Tecnologia: Seat Height Adjust",
+      "text": "Algumas motos reduzem a pré-carga da suspensão traseira automaticamente ao parar, facilitando o apoio dos pés no chão.",
+      "category": "tecnologia",
+      "level": "avancado"
     },
     {
       "id": 390,
-      "title": "Segurança: Retrovisor de Carro",
-      "text": "Se você consegue ver o rosto do motorista pelo retrovisor dele, há uma chance maior de que ele também esteja vendo você.",
-      "category": "Segurança"
+      "title": "Segurança: Retrovisor de Terceiros",
+      "text": "Se você não vê o rosto do motorista no retrovisor dele, ele definitivamente não sabe que você está ali. Saia do ponto cego.",
+      "category": "seguranca",
+      "level": "iniciante"
     },
     {
       "id": 391,
-      "title": "Manutenção: Buchas de Guia",
-      "text": "Se a suspensão dianteira estiver batendo 'seco', as buchas internas podem estar gastas. A troca evita danos nas bengalas.",
-      "category": "Manutenção"
+      "title": "Legislacao: Viseira Padrão Inmetro",
+      "text": "Toda viseira deve ter no mínimo 2mm de espessura e ser feita de policarbonato para resistir a impactos de pedras sem estilhaçar.",
+      "category": "legislacao",
+      "level": "iniciante"
     },
     {
       "id": 392,
-      "title": "Pilotagem: Posição de Saída",
-      "text": "Ao arrancar em subidas, mantenha o freio traseiro acionado com o pé até sentir a moto querendo andar. Isso evita que ela recue.",
-      "category": "Pilotagem"
+      "title": "Pilotagem: Arrancada em Subida",
+      "text": "Mantenha o freio traseiro pressionado com o pé até sentir a embreagem 'morder'. Isso evita que a moto recue e atinja alguém.",
+      "category": "pilotagem",
+      "level": "iniciante"
     },
     {
       "id": 393,
-      "title": "Viagens: Documentos em Nuvem",
-      "text": "Mantenha fotos dos documentos da moto e seguro em um álbum privado na nuvem. Útil em caso de perda ou roubo dos originais.",
-      "category": "Viagens"
+      "title": "Viagens: Documentação na Nuvem",
+      "text": "Salve fotos do CRLV e CNH no celular para acesso offline. Útil se você perder os documentos físicos em um hotel ou trilha.",
+      "category": "viagem",
+      "level": "iniciante"
     },
     {
       "id": 394,
-      "title": "Saúde: Alongamento de Pescoço",
-      "text": "O peso do capacete tensiona o trapézio. Em cada parada, rotacione o pescoço suavemente para evitar torcicolos na estrada.",
-      "category": "Saúde"
+      "title": "Saúde: Trapézio e Capacete",
+      "text": "O peso do capacete tensiona os ombros. Em paradas, faça rotações leves com o pescoço para evitar torcicolos de estrada.",
+      "category": "saude",
+      "level": "iniciante"
     },
     {
       "id": 395,
       "title": "Curiosidades: Supercharger",
-      "text": "Motos como a Kawasaki H2 usam um compressor mecânico para forçar ar no motor, gerando potências que ultrapassam 300 cv.",
-      "category": "Curiosidades"
+      "text": "Diferente do Turbo, o compressor mecânico entrega potência imediata em baixas rotações, eliminando o atraso (lag) na aceleração.",
+      "category": "tecnologia",
+      "level": "avancado"
     },
     {
       "id": 396,
-      "title": "Equipamento: Luvas de Inverno",
-      "text": "Luvas muito grossas podem tirar a sensibilidade dos comandos. Prefira luvas técnicas finas com membranas térmicas integradas.",
-      "category": "Segurança"
+      "title": "Equipamento: Sensibilidade em Luvas",
+      "text": "Luvas muito grossas de inverno podem travar entre o manete e o guidão. Prefira luvas técnicas finas com isolamento Thinsulate.",
+      "category": "equipamentos",
+      "level": "intermediario"
     },
     {
       "id": 397,
-      "title": "Tecnologia: Farol Sensorizado",
-      "text": "Sistemas modernos detectam a luz ambiente e alternam entre DRL (luz diurna) e farol baixo de forma inteligente.",
-      "category": "Tecnologia"
+      "title": "Tecnologia: Sensores de DRL",
+      "text": "Sistemas modernos detectam a entrada em túneis e ligam o farol baixo automaticamente, voltando para a luz diurna ao sair.",
+      "category": "tecnologia",
+      "level": "iniciante"
     },
     {
       "id": 398,
       "title": "Manutenção: Respiro do Tanque",
-      "text": "Se a moto morre após alguns quilômetros e volta a ligar depois, o respiro do tanque pode estar obstruído, criando vácuo.",
-      "category": "Manutenção"
+      "text": "Se a moto 'morre' após rodar e volta a ligar depois, o respiro pode estar obstruído por sujeira, criando vácuo no tanque.",
+      "category": "manutencao",
+      "level": "avancado"
     },
     {
       "id": 399,
-      "title": "Pilotagem: Olhar Periférico",
-      "text": "Não foque apenas no veículo à frente. Use a visão periférica para monitorar calçadas e entradas de ruas laterais constantemente.",
-      "category": "Pilotagem"
+      "title": "Fotografia: O Reflexo no Tanque",
+      "text": "Use o brilho do tanque para capturar o reflexo da paisagem ou das nuvens. É um ângulo artístico que valoriza a pintura da moto.",
+      "category": "fotografia",
+      "level": "intermediario"
     },
     {
       "id": 400,
-      "title": "Segurança: Freio Motor na Chuva",
-      "text": "Na chuva, reduza as marchas suavemente. Uma redução brusca pode travar a roda traseira se a moto não tiver embreagem deslizante.",
-      "category": "Segurança"
+      "title": "Segurança: Reduções na Chuva",
+      "text": "Sem embreagem deslizante, reduza marchas com o motor em baixa rotação na chuva. Reduções bruscas travam a roda traseira no asfalto liso.",
+      "category": "seguranca",
+      "level": "avancado"
     },
     {
       "id": 401,
       "title": "Tecnologia: Embreagem Deslizante",
       "text": "O sistema Slipper Clutch evita que a roda traseira trave em reduções de marcha agressivas, garantindo estabilidade na entrada de curvas.",
-      "category": "Tecnologia"
+      "category": "tecnologia",
+      "level": "avancado"
     },
     {
       "id": 402,
       "title": "Segurança: Posicionamento em Curva",
-      "text": "Em curvas para a direita, mantenha a cabeça longe da linha central da pista. Mesmo que o pneu esteja na sua faixa, sua cabeça pode invadir a contramão.",
-      "category": "Segurança"
+      "text": "Em curvas para a direita, mantenha a cabeça longe da linha central. Mesmo que o pneu esteja na faixa, sua cabeça pode invadir a contramão.",
+      "category": "seguranca",
+      "level": "intermediario"
     },
     {
       "id": 403,
       "title": "Viagens: Localização de Postos Premium",
-      "text": "Se sua moto exige gasolina de alta octanagem, mapeie postos com bandeiras confiáveis antes de entrar em trechos rurais ou serras.",
-      "category": "Viagens"
+      "text": "Se sua moto exige alta octanagem, mapeie postos confiáveis antes de entrar em trechos rurais onde a gasolina pode ser adulterada.",
+      "category": "viagem",
+      "level": "intermediario"
     },
     {
       "id": 404,
-      "title": "Manutenção: Desgaste de Discos",
-      "text": "Discos de freio têm uma espessura mínima gravada (Min. TH). Abaixo dessa medida, o disco esquenta demais e pode empenar ou quebrar.",
-      "category": "Manutenção"
+      "title": "Manutenção: Espessura de Discos",
+      "text": "Discos de freio têm uma espessura mínima (Min. TH) gravada neles. Abaixo disso, o metal esquenta rápido e pode empenar ou quebrar.",
+      "category": "manutencao",
+      "level": "avancado"
     },
     {
       "id": 405,
-      "title": "Pilotagem: Frenagem em Emergência",
-      "text": "Em frenagens extremas, aperte o tanque com os joelhos. Isso impede que seu corpo seja jogado para a frente, mantendo o controle do guidão.",
-      "category": "Pilotagem"
+      "title": "Pilotagem: Frenagem com os Joelhos",
+      "text": "Em frenagens extremas, aperte o tanque com os joelhos. Isso impede que seu corpo seja jogado à frente, mantendo o controle do guidão.",
+      "category": "pilotagem",
+      "level": "avancado"
     },
     {
       "id": 406,
-      "title": "Saúde: Síndrome do Túnel do Carpo",
-      "text": "Se sentir dormência constante, revise o ângulo dos seus manetes. Eles devem seguir a linha reta dos seus braços quando você está sentado.",
-      "category": "Saúde"
+      "title": "Saúde: Ângulo dos Manetes",
+      "text": "Se sentir dormência, revise o ângulo dos manetes. Eles devem seguir a linha reta dos braços quando você está sentado em posição de pilotagem.",
+      "category": "saude",
+      "level": "intermediario"
     },
     {
       "id": 407,
-      "title": "Curiosidades: Quadro de Treliça",
-      "text": "Famoso nas motos italianas, o quadro em treliça de aço oferece uma excelente rigidez com um peso muito reduzido.",
-      "category": "Curiosidades"
+      "title": "Legislacao: Multa por Viseira Levantada",
+      "text": "Circular com a viseira totalmente levantada com a moto em movimento é infração média. Ela deve estar abaixada ou apenas com uma pequena fresta.",
+      "category": "legislacao",
+      "level": "iniciante"
     },
     {
       "id": 408,
-      "title": "Equipamento: Limpeza de Viseira",
-      "text": "Use apenas água e sabão neutro. Papel toalha ou tecidos ásperos criam micro-riscos que causam reflexos perigosos à noite.",
-      "category": "Segurança"
+      "title": "Fotografia: Detalhes de Textura",
+      "text": "Aproxime a câmera de detalhes como a costura do banco, o metal escovado do motor ou o desenho dos pneus para criar fotos conceituais.",
+      "category": "fotografia",
+      "level": "iniciante"
     },
     {
       "id": 409,
-      "title": "Tecnologia: Acelerador Eletrônico",
-      "text": "O sistema Ride-by-Wire elimina o cabo físico, permitindo que a ECU entregue o torque de forma muito mais linear e suave.",
-      "category": "Tecnologia"
+      "title": "Tecnologia: Ride-by-Wire",
+      "text": "O acelerador eletrônico elimina o cabo físico, permitindo que a central entregue o torque de forma linear, evitando trancos em baixas rotações.",
+      "category": "tecnologia",
+      "level": "avancado"
     },
     {
       "id": 410,
-      "title": "Segurança: Pintura de Faixa",
-      "text": "Faixas brancas recém-pintadas são extremamente escorregadias por causa das microesferas de vidro. Evite inclinar a moto sobre elas.",
-      "category": "Segurança"
+      "title": "Segurança: Microesferas de Vidro",
+      "text": "Faixas brancas recém-pintadas são escorregadias devido às microesferas de vidro. Evite frenagens ou inclinações fortes sobre elas.",
+      "category": "seguranca",
+      "level": "intermediario"
     },
     {
       "id": 411,
-      "title": "Manutenção: Limpeza de Radiador",
-      "text": "Remova insetos mortos das aletas do radiador com uma escova macia. O acúmulo bloqueia o fluxo de ar e superaquece o motor.",
-      "category": "Manutenção"
+      "title": "Legislacao: Placa Mercosul",
+      "text": "Placas do modelo Mercosul não possuem lacre físico, mas devem estar legíveis e sem qualquer tipo de película ou moldura que cubra os caracteres.",
+      "category": "legislacao",
+      "level": "iniciante"
     },
     {
       "id": 412,
       "title": "Pilotagem: Curva em Descida",
-      "text": "Em descidas, a moto tende a 'espalhar' na curva. Comece a frenagem mais cedo e mantenha um pouco de freio traseiro para estabilizar.",
-      "category": "Pilotagem"
+      "text": "A moto tende a espalhar (abrir) em descidas. Comece a frenagem mais cedo e use o freio traseiro para 'assentar' a suspensão e fechar o ângulo.",
+      "category": "pilotagem",
+      "level": "avancado"
     },
     {
       "id": 413,
       "title": "Viagens: Capa de Chuva Preventiva",
-      "text": "Viu o céu escurecer? Pare e coloque a capa. É muito mais difícil e perigoso vestir o equipamento quando você já está molhado.",
-      "category": "Viagens"
+      "text": "Viu o céu escurecer? Pare e vista a capa. Tentar vestir o equipamento já molhado é perigoso, desconfortável e aumenta o risco de hipotermia.",
+      "category": "viagem",
+      "level": "iniciante"
     },
     {
       "id": 414,
-      "title": "Saúde: Cansaço Visual",
+      "title": "Saúde: Fadiga Visual e Sol",
       "text": "Pilotar sob sol forte sem óculos escuros causa fadiga mental rápida. O esforço da pupila para filtrar a luz consome muita energia do cérebro.",
-      "category": "Saúde"
+      "category": "saude",
+      "level": "iniciante"
     },
     {
       "id": 415,
-      "title": "Curiosidades: Motor de Três Cilindros",
-      "text": "É o equilíbrio perfeito: oferece o torque de um motor bicilíndrico com a elasticidade e potência de um motor de quatro cilindros.",
-      "category": "Curiosidades"
+      "title": "Legislacao: Nível de Ruído",
+      "text": "Escapamentos esportivos devem respeitar os decibéis originais da moto. Ruído excessivo é infração grave e gera retenção do veículo.",
+      "category": "legislacao",
+      "level": "intermediario"
     },
     {
       "id": 416,
-      "title": "Equipamento: Protetor de Ouvido",
-      "text": "Não é apenas pelo som; o protetor reduz a fadiga causada pela turbulência do ar, permitindo viagens muito mais longas com menos cansaço.",
-      "category": "Segurança"
+      "title": "Equipamento: Proteção Auditiva",
+      "text": "O protetor auricular reduz o estresse causado pela turbulência do ar, permitindo viagens longas com muito menos cansaço mental.",
+      "category": "saude",
+      "level": "intermediario"
     },
     {
       "id": 417,
       "title": "Tecnologia: Cornering Lights",
-      "text": "Luzes laterais que acendem sozinhas quando você inclina a moto, iluminando exatamente para onde você está virando o guidão.",
-      "category": "Tecnologia"
+      "text": "Luzes laterais que acendem sozinhas ao inclinar a moto iluminam exatamente o ponto cego da curva, aumentando a segurança noturna.",
+      "category": "tecnologia",
+      "level": "avancado"
     },
     {
       "id": 418,
-      "title": "Manutenção: Óleo de Transmissão",
-      "text": "Em motos com cardã ou scooters, não esqueça do óleo da transmissão final. Ele é tão vital quanto o óleo do motor.",
-      "category": "Manutenção"
+      "title": "Manutenção: Óleo de Cardã/Transmissão",
+      "text": "Em motos com cardã ou scooters, o óleo da transmissão final é vital. Se ele degradar, as engrenagens podem travar a roda traseira.",
+      "category": "manutencao",
+      "level": "avancado"
     },
     {
       "id": 419,
-      "title": "Pilotagem: Saída de Curva",
-      "text": "Só acelere forte quando conseguir ver o final da curva. Acelerar cedo demais sem visão pode levar você para o acostamento ou contramão.",
-      "category": "Pilotagem"
+      "title": "Pilotagem: Visão de Saída",
+      "text": "Só acelere forte quando visualizar o final da curva. Acelerar cedo demais sem visão pode levar você para o acostamento ou contramão.",
+      "category": "pilotagem",
+      "level": "intermediario"
     },
     {
       "id": 420,
-      "title": "Segurança: Zonas de Frenagem",
-      "text": "Observe o asfalto: se ele estiver 'ondulado' perto de semáforos, significa que caminhões frearam ali. O piso pode estar sem aderência.",
-      "category": "Segurança"
+      "title": "Segurança: Asfalto Ondulado",
+      "text": "Ondulações perto de semáforos indicam que caminhões frearam ali. O asfalto pode estar polido e sem aderência; reduza a velocidade.",
+      "category": "seguranca",
+      "level": "intermediario"
     },
     {
       "id": 421,
-      "title": "Tecnologia: Sensores de Estacionamento",
-      "text": "Muitos sensores de ré de carros não detectam motos devido à sua área reduzida. Nunca pare exatamente atrás de um carro em manobra.",
-      "category": "Tecnologia"
+      "title": "Legislacao: Pneus de Diferentes Marcas",
+      "text": "É permitido usar marcas diferentes na frente e atrás, mas as medidas devem seguir rigorosamente o manual do fabricante para evitar multas.",
+      "category": "legislacao",
+      "level": "iniciante"
     },
     {
       "id": 422,
-      "title": "Segurança: Farol Alto de Dia",
-      "text": "Em rodovias, use o farol alto durante o dia para ser visto de longe. Na cidade, evite-o para não ofuscar os retrovisores dos motoristas.",
-      "category": "Segurança"
+      "title": "Segurança: Farol Alto Diurno",
+      "text": "Em rodovias simples, use farol alto de dia para ser visto por quem vem no sentido oposto. Na cidade, evite-o para não cegar retrovisores.",
+      "category": "seguranca",
+      "level": "iniciante"
     },
     {
       "id": 423,
-      "title": "Viagens: Roupas Reservas em Sacos",
-      "text": "Embale suas roupas em sacos plásticos dentro do baú. Mesmo malas 'estanques' podem falhar sob chuva torrencial prolongada.",
-      "category": "Viagens"
+      "title": "Fotografia: Use o Tripé (ou Suporte)",
+      "text": "Para fotos noturnas ou de longa exposição, apoie o celular. Isso evita fotos tremidas e permite captar o rastro das luzes na estrada.",
+      "category": "fotografia",
+      "level": "intermediario"
     },
     {
       "id": 424,
-      "title": "Manutenção: Verificação de Cabos",
-      "text": "Gire o guidão totalmente para os dois lados com a moto ligada. Se a rotação subir sozinha, seus cabos estão mal passados ou presos.",
-      "category": "Manutenção"
+      "title": "Manutenção: Teste de Guidão",
+      "text": "Gire o guidão totalmente com a moto ligada. Se a rotação subir, os cabos estão mal passados e podem travar o acelerador em manobras.",
+      "category": "manutencao",
+      "level": "avancado"
     },
     {
       "id": 425,
-      "title": "Pilotagem: Frenagem em Piso Irregular",
-      "text": "Em ruas com muitos calombos, alivie a pressão nos freios ao passar pelo calombo e retome logo em seguida para não travar a roda no ar.",
-      "category": "Pilotagem"
+      "title": "Pilotagem: Frenagem em Calombos",
+      "text": "Em asfalto irregular, alivie a pressão nos freios exatamente ao passar pelo ressalto. Isso evita que a roda trave enquanto está no ar.",
+      "category": "pilotagem",
+      "level": "avancado"
     },
     {
       "id": 426,
-      "title": "Saúde: Proteção do Joelho",
-      "text": "O impacto constante do vento frio nos joelhos pode causar dores articulares precoces. Use calças com forro térmico ou joelheiras.",
-      "category": "Saúde"
+      "title": "Legislacao: Suporte de Celular",
+      "text": "O suporte de celular é permitido desde que não obstrua a visão do painel ou dos retrovisores e esteja firmemente fixado ao guidão.",
+      "category": "legislacao",
+      "level": "iniciante"
     },
     {
       "id": 427,
-      "title": "Curiosidades: Motor de Passo (IAC)",
-      "text": "É este componente que mantém sua marcha lenta estável quando o motor está frio, regulando a entrada de ar automaticamente.",
-      "category": "Curiosidades"
+      "title": "Tecnologia: Sensor Hall de Velocidade",
+      "text": "Se o velocímetro oscilar, limpe o sensor na roda traseira. Limalhas de ferro presas ao imã do sensor causam leituras erradas.",
+      "category": "manutencao",
+      "level": "avancado"
     },
     {
       "id": 428,
-      "title": "Equipamento: Ajuste do Fecho",
-      "text": "Um capacete com a cinta jugular frouxa pode voar da sua cabeça antes mesmo do impacto com o solo. Ajuste-a para dois dedos de folga.",
-      "category": "Segurança"
+      "title": "Equipamento: Ajuste de Jugular",
+      "text": "A cinta jugular deve permitir no máximo dois dedos de folga. Um capacete frouxo sai da cabeça antes do impacto final com o solo.",
+      "category": "equipamentos",
+      "level": "iniciante"
     },
     {
       "id": 429,
-      "title": "Tecnologia: App de Navegação",
-      "text": "Configure seu GPS para 'evitar rodovias' se quiser descobrir estradas cênicas e curvas interessantes fora das grandes retas.",
-      "category": "Tecnologia"
+      "title": "Viagens: Roteiros Cênicos",
+      "text": "Configure seu GPS para 'evitar rodovias' para descobrir estradas secundárias com paisagens melhores e menos fluxo de caminhões.",
+      "category": "viagem",
+      "level": "iniciante"
     },
     {
       "id": 430,
-      "title": "Segurança: Mancha de Óleo em Postos",
-      "text": "Ao parar para abastecer, cuidado ao colocar o pé no chão. Próximo às bombas sempre há resíduos de diesel que fazem a bota escorregar.",
-      "category": "Segurança"
+      "title": "Segurança: Resíduos de Diesel",
+      "text": "Ao abastecer, cuidado ao colocar o pé no chão. Perto das bombas sempre há diesel derramado que faz a bota escorregar instantaneamente.",
+      "category": "seguranca",
+      "level": "iniciante"
     },
     {
       "id": 431,
-      "title": "Manutenção: Limpeza de Rodas",
-      "text": "Nunca use jatos de alta pressão diretamente nos rolamentos das rodas. Isso remove a graxa interna e causa oxidação prematura.",
-      "category": "Manutenção"
+      "title": "Manutenção: Jatos de Alta Pressão",
+      "text": "Nunca direcione jatos de água forte nos rolamentos das rodas ou na corrente. Isso remove a graxa interna e causa oxidação prematura.",
+      "category": "manutencao",
+      "level": "iniciante"
     },
     {
       "id": 432,
       "title": "Pilotagem: Posição do Pé no Câmbio",
-      "text": "Não pilote com o pé 'descansando' sobre o pedal de câmbio ou freio. Isso causa desgaste nas peças e impede reações rápidas.",
-      "category": "Pilotagem"
+      "text": "Não pilote com o pé 'descansando' sobre o pedal. Isso causa desgaste nas engrenagens e pode acionar a luz de freio sem você perceber.",
+      "category": "pilotagem",
+      "level": "intermediario"
     },
     {
       "id": 433,
-      "title": "Viagens: Kit de Lâmpadas",
-      "text": "Se sua moto não for Full LED, carregue uma lâmpada de farol e uma de lanterna reserva. Queimar o farol à noite na estrada é crítico.",
-      "category": "Viagens"
+      "title": "Legislacao: Lâmpadas de LED Coloridas",
+      "text": "Luzes de farol devem ser brancas ou amarelas. LEDs azuis, verdes ou de outras cores são proibidos e geram multa e apreensão.",
+      "category": "legislacao",
+      "level": "iniciante"
     },
     {
       "id": 434,
-      "title": "Saúde: Pausa para a Visão",
-      "text": "Ao pilotar por horas, foque em objetos distantes e depois em objetos próximos durante as paradas para relaxar os músculos oculares.",
-      "category": "Saúde"
+      "title": "Saúde: Exercício Ocular",
+      "text": "Ao parar, foque em um objeto próximo e depois em um distante repetidas vezes. Isso relaxa os músculos oculares fadigados pela estrada.",
+      "category": "saude",
+      "level": "iniciante"
     },
     {
       "id": 435,
-      "title": "Curiosidades: Freio ABS",
-      "text": "O ABS moderno lê a velocidade das rodas mais de 100 vezes por segundo para garantir que você não perca a direção em frenagens.",
-      "category": "Curiosidades"
+      "title": "Legislacao: Câmera no Capacete",
+      "text": "Câmeras presas ao capacete não podem perfurar o casco. Use suportes adesivos certificados para não comprometer a estrutura de segurança.",
+      "category": "legislacao",
+      "level": "intermediario"
     },
     {
       "id": 436,
-      "title": "Equipamento: Luvas Touch",
-      "text": "Se suas luvas não funcionam no celular, costurar um pequeno fio de prata ou usar adesivos condutores na ponta do dedo resolve.",
-      "category": "Tecnologia"
+      "title": "Fotografia: Linhas de Condução",
+      "text": "Use as linhas da estrada (faixas) para guiar o olhar de quem vê a foto em direção à moto, criando profundidade na imagem.",
+      "category": "fotografia",
+      "level": "intermediario"
     },
     {
       "id": 437,
-      "title": "Tecnologia: Tomada 12V vs USB",
-      "text": "Tomadas 12V são melhores para compressores de ar; tomadas USB são ideais para carregar eletrônicos sem necessidade de adaptadores.",
-      "category": "Tecnologia"
+      "title": "Tecnologia: Carregamento Indutivo",
+      "text": "Suportes com carregamento sem fio evitam que a vibração da moto quebre o conector USB do seu celular durante viagens longas.",
+      "category": "tecnologia",
+      "level": "intermediario"
     },
     {
       "id": 438,
-      "title": "Manutenção: Filtro de Óleo Magnético",
-      "text": "Considere usar um bujão de dreno magnético. Ele atrai limalhas de metal microscópicas, protegendo as engrenagens internas do motor.",
-      "category": "Manutenção"
+      "title": "Manutenção: Bujão de Dreno Magnético",
+      "text": "Use um parafuso de dreno com imã. Ele captura partículas metálicas microscópicas que circulam no motor, protegendo os cilindros.",
+      "category": "manutencao",
+      "level": "avancado"
     },
     {
       "id": 439,
-      "title": "Pilotagem: Aquecimento de Pneus",
-      "text": "Ziguezaguear não aquece pneus de moto de forma eficiente. O que aquece é a deformação da carcaça através de aceleração e frenagem.",
-      "category": "Pilotagem"
+      "title": "Pilotagem: Aquecimento por Carga",
+      "text": "O que aquece o pneu é a aceleração e a frenagem, que deformam a borracha. O 'zigue-zague' é pouco eficiente para aquecer a carcaça.",
+      "category": "pilotagem",
+      "level": "intermediario"
     },
     {
       "id": 440,
-      "title": "Segurança: Faixa Lateral de Pontes",
-      "text": "Evite rodar muito próximo às muretas de pontes. Além do vento lateral, costuma haver acúmulo de sujeira e pregos no canto da pista.",
-      "category": "Segurança"
+      "title": "Segurança: Muretas de Pontes",
+      "text": "Evite rodar colado às muretas em pontes. Além do vento lateral forte, ali se acumula sujeira, pregos e pedaços de pneus de caminhão.",
+      "category": "seguranca",
+      "level": "intermediario"
     },
     {
       "id": 441,
-      "title": "Tecnologia: Sensor de Queda",
-      "text": "Se a moto não ligar após um tombo bobo, desligue e ligue a chave. O sensor de inclinação precisa desse 'reset' para liberar a ignição.",
-      "category": "Tecnologia"
+      "title": "Legislacao: Documento Digital (CDV)",
+      "text": "O documento no celular tem o mesmo valor jurídico do impresso, mas se o aparelho estiver descarregado, a multa por falta de documento será aplicada.",
+      "category": "legislacao",
+      "level": "iniciante"
     },
     {
       "id": 442,
-      "title": "Segurança: Visibilidade Noturna",
-      "text": "Use fitas refletivas nas rodas e no capacete. Elas aumentam sua silhueta lateral, facilitando a visão de motoristas em cruzamentos.",
-      "category": "Segurança"
+      "title": "Segurança: Fitas Refletivas",
+      "text": "Refletivos nas rodas e no capacete aumentam sua silhueta lateral à noite, ajudando motoristas em cruzamentos a te enxergarem.",
+      "category": "seguranca",
+      "level": "iniciante"
     },
     {
       "id": 443,
-      "title": "Viagens: Mapa de Postos",
-      "text": "Em regiões de deserto ou serras isoladas, marque os postos no GPS e verifique o horário de fechamento deles antes de partir.",
-      "category": "Viagens"
+      "title": "Viagens: Horário de Postos",
+      "text": "Em áreas isoladas, verifique o horário de fechamento dos postos no GPS. Muitos postos de interior não funcionam 24 horas.",
+      "category": "viagem",
+      "level": "iniciante"
     },
     {
       "id": 444,
-      "title": "Manutenção: Fluidos de Freio",
-      "text": "Fluido de freio escuro indica presença de água e oxidação. Troque-o anualmente para garantir que o freio não falhe em descidas.",
-      "category": "Manutenção"
+      "title": "Manutenção: Cor do Fluido de Freio",
+      "text": "Fluido escuro indica umidade e oxidação. Isso faz o freio 'borrachudo' e pode causar falha total em descidas de serra longas.",
+      "category": "manutencao",
+      "level": "intermediario"
     },
     {
       "id": 445,
-      "title": "Pilotagem: Curva em 'U'",
-      "text": "Para manobras muito fechadas, mantenha a aceleração constante e controle a velocidade apenas pelo pedal do freio traseiro.",
-      "category": "Pilotagem"
+      "title": "Pilotagem: Retornos Fechados",
+      "text": "Para manobras em 'U', mantenha o acelerador constante e controle a velocidade apenas pelo pedal do freio traseiro e embreagem.",
+      "category": "pilotagem",
+      "level": "intermediario"
     },
     {
       "id": 446,
-      "title": "Saúde: Protetor de Coluna",
-      "text": "O uso de cinta abdominal em viagens longas ajuda a sustentar a musculatura lombar, reduzindo drasticamente as dores nas costas.",
-      "category": "Saúde"
+      "title": "Saúde: Cinta Abdominal",
+      "text": "O uso de cinta abdominal em viagens longas sustenta a musculatura lombar, reduzindo drasticamente as dores nas costas ao final do dia.",
+      "category": "saude",
+      "level": "intermediario"
     },
     {
       "id": 447,
-      "title": "Curiosidades: Motor V-Twin",
-      "text": "Motores em 'V' oferecem muito torque em baixas rotações, sendo ideais para motos de viagem que carregam muito peso e bagagem.",
-      "category": "Curiosidades"
+      "title": "Legislacao: Escapamento sem Miolo",
+      "text": "Remover o 'abafador' (DB Killer) do escapamento esportivo torna a moto ilegal para circulação urbana, sujeita a multa e guincho.",
+      "category": "legislacao",
+      "level": "iniciante"
     },
     {
       "id": 448,
-      "title": "Equipamento: Jaqueta Térmica",
-      "text": "O forro térmico deve ficar justo ao corpo. Se estiver largo, o ar gelado circulará entre você e o forro, anulando a proteção.",
-      "category": "Segurança"
+      "title": "Equipamento: Ajuste do Forro Térmico",
+      "text": "O forro térmico deve estar justo. Se houver espaço, o ar gelado circulará entre você e o tecido, anulando a proteção contra o frio.",
+      "category": "equipamentos",
+      "level": "iniciante"
     },
     {
       "id": 449,
-      "title": "Tecnologia: Calibração de Quickshifter",
-      "text": "Se as trocas sem embreagem ficarem duras, a haste do Quickshifter pode precisar de limpeza e lubrificação com spray de silicone.",
-      "category": "Tecnologia"
+      "title": "Tecnologia: Sensor de Quickshifter",
+      "text": "Se as trocas sem embreagem ficarem duras, limpe a haste do sensor com spray de silicone seco. Poeira acumulada trava o acionamento.",
+      "category": "manutencao",
+      "level": "avancado"
+    },
+    {
+      "id": 401,
+      "title": "Tecnologia: Embreagem Deslizante",
+      "text": "O sistema Slipper Clutch evita que a roda traseira trave em reduções de marcha agressivas, garantindo estabilidade na entrada de curvas.",
+      "category": "tecnologia",
+      "level": "avancado"
+    },
+    {
+      "id": 402,
+      "title": "Segurança: Posicionamento em Curva",
+      "text": "Em curvas para a direita, mantenha a cabeça longe da linha central. Mesmo que o pneu esteja na faixa, sua cabeça pode invadir a contramão.",
+      "category": "seguranca",
+      "level": "intermediario"
+    },
+    {
+      "id": 403,
+      "title": "Viagens: Localização de Postos Premium",
+      "text": "Se sua moto exige alta octanagem, mapeie postos confiáveis antes de entrar em trechos rurais onde a gasolina pode ser adulterada.",
+      "category": "viagem",
+      "level": "intermediario"
+    },
+    {
+      "id": 404,
+      "title": "Manutenção: Espessura de Discos",
+      "text": "Discos de freio têm uma espessura mínima (Min. TH) gravada neles. Abaixo disso, o metal esquenta rápido e pode empenar ou quebrar.",
+      "category": "manutencao",
+      "level": "avancado"
+    },
+    {
+      "id": 405,
+      "title": "Pilotagem: Frenagem com os Joelhos",
+      "text": "Em frenagens extremas, aperte o tanque com os joelhos. Isso impede que seu corpo seja jogado à frente, mantendo o controle do guidão.",
+      "category": "pilotagem",
+      "level": "avancado"
+    },
+    {
+      "id": 406,
+      "title": "Saúde: Ângulo dos Manetes",
+      "text": "Se sentir dormência, revise o ângulo dos manetes. Eles devem seguir a linha reta dos braços quando você está sentado em posição de pilotagem.",
+      "category": "saude",
+      "level": "intermediario"
+    },
+    {
+      "id": 407,
+      "title": "Legislacao: Multa por Viseira Levantada",
+      "text": "Circular com a viseira totalmente levantada com a moto em movimento é infração média. Ela deve estar abaixada ou apenas com uma pequena fresta.",
+      "category": "legislacao",
+      "level": "iniciante"
+    },
+    {
+      "id": 408,
+      "title": "Fotografia: Detalhes de Textura",
+      "text": "Aproxime a câmera de detalhes como a costura do banco, o metal escovado do motor ou o desenho dos pneus para criar fotos conceituais.",
+      "category": "fotografia",
+      "level": "iniciante"
+    },
+    {
+      "id": 409,
+      "title": "Tecnologia: Ride-by-Wire",
+      "text": "O acelerador eletrônico elimina o cabo físico, permitindo que a central entregue o torque de forma linear, evitando trancos em baixas rotações.",
+      "category": "tecnologia",
+      "level": "avancado"
+    },
+    {
+      "id": 410,
+      "title": "Segurança: Microesferas de Vidro",
+      "text": "Faixas brancas recém-pintadas são escorregadias devido às microesferas de vidro. Evite frenagens ou inclinações fortes sobre elas.",
+      "category": "seguranca",
+      "level": "intermediario"
+    },
+    {
+      "id": 411,
+      "title": "Legislacao: Placa Mercosul",
+      "text": "Placas do modelo Mercosul não possuem lacre físico, mas devem estar legíveis e sem qualquer tipo de película ou moldura que cubra os caracteres.",
+      "category": "legislacao",
+      "level": "iniciante"
+    },
+    {
+      "id": 412,
+      "title": "Pilotagem: Curva em Descida",
+      "text": "A moto tende a espalhar (abrir) em descidas. Comece a frenagem mais cedo e use o freio traseiro para 'assentar' a suspensão e fechar o ângulo.",
+      "category": "pilotagem",
+      "level": "avancado"
+    },
+    {
+      "id": 413,
+      "title": "Viagens: Capa de Chuva Preventiva",
+      "text": "Viu o céu escurecer? Pare e vista a capa. Tentar vestir o equipamento já molhado é perigoso, desconfortável e aumenta o risco de hipotermia.",
+      "category": "viagem",
+      "level": "iniciante"
+    },
+    {
+      "id": 414,
+      "title": "Saúde: Fadiga Visual e Sol",
+      "text": "Pilotar sob sol forte sem óculos escuros causa fadiga mental rápida. O esforço da pupila para filtrar a luz consome muita energia do cérebro.",
+      "category": "saude",
+      "level": "iniciante"
+    },
+    {
+      "id": 415,
+      "title": "Legislacao: Nível de Ruído",
+      "text": "Escapamentos esportivos devem respeitar os decibéis originais da moto. Ruído excessivo é infração grave e gera retenção do veículo.",
+      "category": "legislacao",
+      "level": "intermediario"
+    },
+    {
+      "id": 416,
+      "title": "Equipamento: Proteção Auditiva",
+      "text": "O protetor auricular reduz o estresse causado pela turbulência do ar, permitindo viagens longas com muito menos cansaço mental.",
+      "category": "saude",
+      "level": "intermediario"
+    },
+    {
+      "id": 417,
+      "title": "Tecnologia: Cornering Lights",
+      "text": "Luzes laterais que acendem sozinhas ao inclinar a moto iluminam exatamente o ponto cego da curva, aumentando a segurança noturna.",
+      "category": "tecnologia",
+      "level": "avancado"
+    },
+    {
+      "id": 418,
+      "title": "Manutenção: Óleo de Cardã/Transmissão",
+      "text": "Em motos com cardã ou scooters, o óleo da transmissão final é vital. Se ele degradar, as engrenagens podem travar a roda traseira.",
+      "category": "manutencao",
+      "level": "avancado"
+    },
+    {
+      "id": 419,
+      "title": "Pilotagem: Visão de Saída",
+      "text": "Só acelere forte quando visualizar o final da curva. Acelerar cedo demais sem visão pode levar você para o acostamento ou contramão.",
+      "category": "pilotagem",
+      "level": "intermediario"
+    },
+    {
+      "id": 420,
+      "title": "Segurança: Asfalto Ondulado",
+      "text": "Ondulações perto de semáforos indicam que caminhões frearam ali. O asfalto pode estar polido e sem aderência; reduza a velocidade.",
+      "category": "seguranca",
+      "level": "intermediario"
+    },
+    {
+      "id": 421,
+      "title": "Legislacao: Pneus de Diferentes Marcas",
+      "text": "É permitido usar marcas diferentes na frente e atrás, mas as medidas devem seguir rigorosamente o manual do fabricante para evitar multas.",
+      "category": "legislacao",
+      "level": "iniciante"
+    },
+    {
+      "id": 422,
+      "title": "Segurança: Farol Alto Diurno",
+      "text": "Em rodovias simples, use farol alto de dia para ser visto por quem vem no sentido oposto. Na cidade, evite-o para não cegar retrovisores.",
+      "category": "seguranca",
+      "level": "iniciante"
+    },
+    {
+      "id": 423,
+      "title": "Fotografia: Use o Tripé (ou Suporte)",
+      "text": "Para fotos noturnas ou de longa exposição, apoie o celular. Isso evita fotos tremidas e permite captar o rastro das luzes na estrada.",
+      "category": "fotografia",
+      "level": "intermediario"
+    },
+    {
+      "id": 424,
+      "title": "Manutenção: Teste de Guidão",
+      "text": "Gire o guidão totalmente com a moto ligada. Se a rotação subir, os cabos estão mal passados e podem travar o acelerador em manobras.",
+      "category": "manutencao",
+      "level": "avancado"
+    },
+    {
+      "id": 425,
+      "title": "Pilotagem: Frenagem em Calombos",
+      "text": "Em asfalto irregular, alivie a pressão nos freios exatamente ao passar pelo ressalto. Isso evita que a roda trave enquanto está no ar.",
+      "category": "pilotagem",
+      "level": "avancado"
+    },
+    {
+      "id": 426,
+      "title": "Legislacao: Suporte de Celular",
+      "text": "O suporte de celular é permitido desde que não obstrua a visão do painel ou dos retrovisores e esteja firmemente fixado ao guidão.",
+      "category": "legislacao",
+      "level": "iniciante"
+    },
+    {
+      "id": 427,
+      "title": "Tecnologia: Sensor Hall de Velocidade",
+      "text": "Se o velocímetro oscilar, limpe o sensor na roda traseira. Limalhas de ferro presas ao imã do sensor causam leituras erradas.",
+      "category": "manutencao",
+      "level": "avancado"
+    },
+    {
+      "id": 428,
+      "title": "Equipamento: Ajuste de Jugular",
+      "text": "A cinta jugular deve permitir no máximo dois dedos de folga. Um capacete frouxo sai da cabeça antes do impacto final com o solo.",
+      "category": "equipamentos",
+      "level": "iniciante"
+    },
+    {
+      "id": 429,
+      "title": "Viagens: Roteiros Cênicos",
+      "text": "Configure seu GPS para 'evitar rodovias' para descobrir estradas secundárias com paisagens melhores e menos fluxo de caminhões.",
+      "category": "viagem",
+      "level": "iniciante"
+    },
+    {
+      "id": 430,
+      "title": "Segurança: Resíduos de Diesel",
+      "text": "Ao abastecer, cuidado ao colocar o pé no chão. Perto das bombas sempre há diesel derramado que faz a bota escorregar instantaneamente.",
+      "category": "seguranca",
+      "level": "iniciante"
+    },
+    {
+      "id": 431,
+      "title": "Manutenção: Jatos de Alta Pressão",
+      "text": "Nunca direcione jatos de água forte nos rolamentos das rodas ou na corrente. Isso remove a graxa interna e causa oxidação prematura.",
+      "category": "manutencao",
+      "level": "iniciante"
+    },
+    {
+      "id": 432,
+      "title": "Pilotagem: Posição do Pé no Câmbio",
+      "text": "Não pilote com o pé 'descansando' sobre o pedal. Isso causa desgaste nas engrenagens e pode acionar a luz de freio sem você perceber.",
+      "category": "pilotagem",
+      "level": "intermediario"
+    },
+    {
+      "id": 433,
+      "title": "Legislacao: Lâmpadas de LED Coloridas",
+      "text": "Luzes de farol devem ser brancas ou amarelas. LEDs azuis, verdes ou de outras cores são proibidos e geram multa e apreensão.",
+      "category": "legislacao",
+      "level": "iniciante"
+    },
+    {
+      "id": 434,
+      "title": "Saúde: Exercício Ocular",
+      "text": "Ao parar, foque em um objeto próximo e depois em um distante repetidas vezes. Isso relaxa os músculos oculares fadigados pela estrada.",
+      "category": "saude",
+      "level": "iniciante"
+    },
+    {
+      "id": 435,
+      "title": "Legislacao: Câmera no Capacete",
+      "text": "Câmeras presas ao capacete não podem perfurar o casco. Use suportes adesivos certificados para não comprometer a estrutura de segurança.",
+      "category": "legislacao",
+      "level": "intermediario"
+    },
+    {
+      "id": 436,
+      "title": "Fotografia: Linhas de Condução",
+      "text": "Use as linhas da estrada (faixas) para guiar o olhar de quem vê a foto em direção à moto, criando profundidade na imagem.",
+      "category": "fotografia",
+      "level": "intermediario"
+    },
+    {
+      "id": 437,
+      "title": "Tecnologia: Carregamento Indutivo",
+      "text": "Suportes com carregamento sem fio evitam que a vibração da moto quebre o conector USB do seu celular durante viagens longas.",
+      "category": "tecnologia",
+      "level": "intermediario"
+    },
+    {
+      "id": 438,
+      "title": "Manutenção: Bujão de Dreno Magnético",
+      "text": "Use um parafuso de dreno com imã. Ele captura partículas metálicas microscópicas que circulam no motor, protegendo os cilindros.",
+      "category": "manutencao",
+      "level": "avancado"
+    },
+    {
+      "id": 439,
+      "title": "Pilotagem: Aquecimento por Carga",
+      "text": "O que aquece o pneu é a aceleração e a frenagem, que deformam a borracha. O 'zigue-zague' é pouco eficiente para aquecer a carcaça.",
+      "category": "pilotagem",
+      "level": "intermediario"
+    },
+    {
+      "id": 440,
+      "title": "Segurança: Muretas de Pontes",
+      "text": "Evite rodar colado às muretas em pontes. Além do vento lateral forte, ali se acumula sujeira, pregos e pedaços de pneus de caminhão.",
+      "category": "seguranca",
+      "level": "intermediario"
+    },
+    {
+      "id": 441,
+      "title": "Legislacao: Documento Digital (CDV)",
+      "text": "O documento no celular tem o mesmo valor jurídico do impresso, mas se o aparelho estiver descarregado, a multa por falta de documento será aplicada.",
+      "category": "legislacao",
+      "level": "iniciante"
+    },
+    {
+      "id": 442,
+      "title": "Segurança: Fitas Refletivas",
+      "text": "Refletivos nas rodas e no capacete aumentam sua silhueta lateral à noite, ajudando motoristas em cruzamentos a te enxergarem.",
+      "category": "seguranca",
+      "level": "iniciante"
+    },
+    {
+      "id": 443,
+      "title": "Viagens: Horário de Postos",
+      "text": "Em áreas isoladas, verifique o horário de fechamento dos postos no GPS. Muitos postos de interior não funcionam 24 horas.",
+      "category": "viagem",
+      "level": "iniciante"
+    },
+    {
+      "id": 444,
+      "title": "Manutenção: Cor do Fluido de Freio",
+      "text": "Fluido escuro indica umidade e oxidação. Isso faz o freio 'borrachudo' e pode causar falha total em descidas de serra longas.",
+      "category": "manutencao",
+      "level": "intermediario"
+    },
+    {
+      "id": 445,
+      "title": "Pilotagem: Retornos Fechados",
+      "text": "Para manobras em 'U', mantenha o acelerador constante e controle a velocidade apenas pelo pedal do freio traseiro e embreagem.",
+      "category": "pilotagem",
+      "level": "intermediario"
+    },
+    {
+      "id": 446,
+      "title": "Saúde: Cinta Abdominal",
+      "text": "O uso de cinta abdominal em viagens longas sustenta a musculatura lombar, reduzindo drasticamente as dores nas costas ao final do dia.",
+      "category": "saude",
+      "level": "intermediario"
+    },
+    {
+      "id": 447,
+      "title": "Legislacao: Escapamento sem Miolo",
+      "text": "Remover o 'abafador' (DB Killer) do escapamento esportivo torna a moto ilegal para circulação urbana, sujeita a multa e guincho.",
+      "category": "legislacao",
+      "level": "iniciante"
+    },
+    {
+      "id": 448,
+      "title": "Equipamento: Ajuste do Forro Térmico",
+      "text": "O forro térmico deve estar justo. Se houver espaço, o ar gelado circulará entre você e o tecido, anulando a proteção contra o frio.",
+      "category": "equipamentos",
+      "level": "iniciante"
+    },
+    {
+      "id": 449,
+      "title": "Tecnologia: Sensor de Quickshifter",
+      "text": "Se as trocas sem embreagem ficarem duras, limpe a haste do sensor com spray de silicone seco. Poeira acumulada trava o acionamento.",
+      "category": "manutencao",
+      "level": "avancado"
     },
     {
       "id": 450,
-      "title": "Segurança: Fumaça de Escape",
-      "text": "Fumaça azulada no escape de carros à frente indica óleo na pista. Fique atento a manchas pretas e brilhantes logo à frente.",
-      "category": "Segurança"
+      "title": "Segurança: O Espírito Wings",
+      "text": "A melhor tecnologia de segurança ainda é o seu bom senso. Respeite seus limites e os da sua máquina. Boa viagem!",
+      "category": "seguranca",
+      "level": "iniciante"
     },
     {
       "id": 451,
-      "title": "Manutenção: Lâmpadas de Painel",
-      "text": "Em painéis analógicos, a vibração pode queimar lâmpadas pequenas. Substitua-as por LEDs para evitar o abre-e-fecha do conjunto.",
-      "category": "Manutenção"
+      "title": "Tecnologia: Sensores de Pressão (TPMS)",
+      "text": "Instale sensores TPMS externos nas válvulas. Eles avisam no celular ou painel sobre furos lentos, permitindo parar antes do pneu esvaziar totalmente.",
+      "category": "tecnologia",
+      "level": "intermediario"
     },
     {
       "id": 452,
-      "title": "Pilotagem: Frenagem em Curva",
-      "text": "Se precisar frear forte inclinado, use o freio traseiro primeiro para 'assentar' a moto e evitar que ela perca a trajetória.",
-      "category": "Pilotagem"
+      "title": "Fotografia: O Reflexo na Viseira",
+      "text": "Capture o reflexo da estrada ou do pôr do sol na viseira espelhada do capacete. É um dos ângulos mais icônicos do motociclismo.",
+      "category": "fotografia",
+      "level": "iniciante"
     },
     {
       "id": 453,
-      "title": "Viagens: Registro de Manutenção",
-      "text": "Mantenha uma nota no celular com a data e km da última troca de óleo. Útil para planejar revisões durante roteiros longos.",
-      "category": "Viagens"
+      "title": "Legislacao: Antena Corta-Pipa",
+      "text": "Embora não seja obrigatória para motos civis em todos os estados, seu uso é altamente recomendado em áreas urbanas para prevenir acidentes fatais.",
+      "category": "legislacao",
+      "level": "iniciante"
     },
     {
       "id": 454,
-      "title": "Saúde: Sono e Pilotagem",
-      "text": "O sono ao guidão é fatal. Se os olhos pesarem, pare em um posto, tome um café e descanse por pelo menos 20 minutos antes de seguir.",
-      "category": "Saúde"
+      "title": "Saúde: Protetor Solar Térmico",
+      "text": "O vento mascara a queimadura solar. Use protetor solar mesmo em dias nublados, pois a radiação UV atravessa as nuvens e queima a pele exposta.",
+      "category": "saude",
+      "level": "iniciante"
     },
     {
       "id": 455,
-      "title": "Curiosidades: Monoposto",
-      "text": "Motos monoposto (sem banco de garupa) são projetadas para melhor aerodinâmica e distribuição de peso focado apenas no piloto.",
-      "category": "Curiosidades"
+      "title": "Tecnologia: Intercomunicadores e GPS",
+      "text": "Configure o áudio do GPS para prioridade no intercomunicador. Assim, a música baixa automaticamente quando uma instrução de direção é dada.",
+      "category": "tecnologia",
+      "level": "intermediario"
     },
     {
       "id": 456,
-      "title": "Equipamento: Viseiras Espelhadas",
-      "text": "Evite limpá-las a seco. A poeira risca a camada metálica e cria reflexos internos que atrapalham a visão sob sol forte.",
-      "category": "Segurança"
+      "title": "Fotografia: Velocidade do Obturador",
+      "text": "Para fotos de ação com fundo borrado (panning), use uma velocidade de obturador baixa e acompanhe o movimento da moto com a câmera.",
+      "category": "fotografia",
+      "level": "avancado"
     },
     {
       "id": 457,
-      "title": "Tecnologia: Carregamento por Indução",
-      "text": "Suportes de celular com carregamento sem fio evitam danos ao conector USB do aparelho devido à vibração constante da moto.",
-      "category": "Tecnologia"
+      "title": "Legislacao: Lâmpadas de Painel e Setas",
+      "text": "Setas que piscam rápido demais indicam uma lâmpada queimada ou incompatibilidade de LED. Isso pode gerar multa por sistema de iluminação deficiente.",
+      "category": "legislacao",
+      "level": "iniciante"
     },
     {
       "id": 458,
-      "title": "Manutenção: Corrente Seca",
-      "text": "Uma corrente fazendo barulho de 'metal com metal' está perdendo vida útil rápido. Lubrifique-a sempre após rodar na chuva.",
-      "category": "Manutenção"
+      "title": "Saúde: Exercício de Trapézio",
+      "text": "Durante as paradas, encolha os ombros em direção às orelhas e solte bruscamente. Isso libera a tensão acumulada pelo peso do capacete.",
+      "category": "saude",
+      "level": "iniciante"
     },
     {
       "id": 459,
-      "title": "Pilotagem: Saída de Semáforo",
-      "text": "Ao abrir o sinal, não acelere tudo de imediato. Espere 2 segundos para garantir que ninguém furou o sinal no sentido oposto.",
-      "category": "Pilotagem"
+      "title": "Tecnologia: Mapas Offline (Google/Waze)",
+      "text": "Sempre baixe o mapa da região da viagem. Em serras e áreas rurais, o sinal 4G falha, mas o GPS do celular continua funcionando via satélite.",
+      "category": "tecnologia",
+      "level": "intermediario"
     },
     {
       "id": 460,
-      "title": "Segurança: Pneus Recauchutados",
-      "text": "Nunca use pneus recauchutados em motos. A força lateral em curvas pode descolar a banda de rodagem, causando acidentes graves.",
-      "category": "Segurança"
-    }, 
+      "title": "Fotografia: A Regra do Olhar",
+      "text": "Deixe mais espaço livre no lado da foto para onde a frente da moto está apontando. Isso cria uma sensação de continuidade e movimento.",
+      "category": "fotografia",
+      "level": "intermediario"
+    },
     {
       "id": 461,
-      "title": "Tecnologia: Sensores Hall",
-      "text": "O sensor de velocidade na roda usa tecnologia Hall. Se o velocímetro oscilar, verifique se não há limalhas de ferro presas ao sensor.",
-      "category": "Tecnologia"
+      "title": "Legislacao: Uso de Mochilas",
+      "text": "Mochilas nas costas são permitidas, mas não devem impedir a visibilidade dos retrovisores ou balançar excessivamente, o que compromete o equilíbrio.",
+      "category": "legislacao",
+      "level": "iniciante"
     },
     {
       "id": 462,
-      "title": "Segurança: Farol de Carro Queimado",
-      "text": "À noite, se vir apenas uma luz vindo, não assuma que é outra moto. Pode ser um carro com um farol queimado. Mantenha-se à direita.",
-      "category": "Segurança"
+      "title": "Saúde: Snacks de Energia",
+      "text": "Carregue barras de cereais ou castanhas. A queda de glicose reduz a atenção e o tempo de reação, aumentando o risco de erros bobos.",
+      "category": "saude",
+      "level": "iniciante"
     },
     {
       "id": 463,
-      "title": "Viagens: Roupas de Baixo Sintéticas",
-      "text": "Evite algodão em viagens longas; ele retém umidade e causa assaduras. Use tecidos dry-fit que transportam o suor para fora.",
-      "category": "Viagens"
+      "title": "Tecnologia: Sensores de Queda (E-Call)",
+      "text": "Alguns apps e motos novas detectam quedas bruscas e enviam automaticamente um SMS com sua localização GPS para contatos de emergência.",
+      "category": "tecnologia",
+      "level": "avancado"
     },
     {
       "id": 464,
-      "title": "Manutenção: Verificação de Raios",
-      "text": "Bata levemente nos raios com uma chave. O som deve ser agudo e igual em todos. Som grave indica raio frouxo que pode quebrar o cubo.",
-      "category": "Manutenção"
+      "title": "Fotografia: Edição em Celular",
+      "text": "Use o ajuste 'Estrutura' ou 'Nitidez' em apps de edição para realçar as texturas do motor e do asfalto em suas fotos de viagem.",
+      "category": "fotografia",
+      "level": "intermediario"
     },
     {
       "id": 465,
-      "title": "Pilotagem: Frenagem em Grades",
-      "text": "Em pontes metálicas (grades), evite frenagens bruscas. A área de contato do pneu é reduzida e o metal molhado é como gelo.",
-      "category": "Pilotagem"
+      "title": "Legislacao: Pneus de Uso Misto",
+      "text": "Pneus de cravo para off-road são permitidos no asfalto, desde que possuam a certificação de velocidade compatível com a moto.",
+      "category": "legislacao",
+      "level": "intermediario"
     },
     {
       "id": 466,
-      "title": "Saúde: Proteção de Audição",
-      "text": "O ruído do vento acima de 90km/h causa estresse e fadiga auditiva. Use protetores de espuma para chegar ao destino mais descansado.",
-      "category": "Saúde"
+      "title": "Saúde: Hidratação e Clima Frio",
+      "text": "No frio, urinamos mais devido à contração vascular. Reponha líquidos mesmo sem sede para evitar a fadiga muscular e cãibras.",
+      "category": "saude",
+      "level": "intermediario"
     },
     {
       "id": 467,
-      "title": "Curiosidades: Quadro de Alumínio",
-      "text": "Quadros de alumínio (Deltabox) são mais leves e rígidos que os de aço, melhorando a precisão da moto em mudanças rápidas de direção.",
-      "category": "Curiosidades"
+      "title": "Tecnologia: Configuração de Suspensão",
+      "text": "Use o manual para ajustar a pré-carga da mola ao levar garupa. Uma moto 'sentada' demais na traseira perde aderência na roda dianteira.",
+      "category": "tecnologia",
+      "level": "avancado"
     },
     {
       "id": 468,
-      "title": "Equipamento: Validade do Capacete",
-      "text": "O EPS (isopor) interno do capacete resseca após 5 anos, perdendo a capacidade de absorver impactos. Verifique a data de fabricação.",
-      "category": "Segurança"
+      "title": "Fotografia: POV (Point of View)",
+      "text": "Prenda o celular no peito ou queixo do capacete para gravar vídeos que mostram exatamente o que o piloto vê. É a perspectiva mais imersiva.",
+      "category": "fotografia",
+      "level": "intermediario"
     },
     {
       "id": 469,
-      "title": "Tecnologia: OBD2 e Bluetooth",
-      "text": "Adaptadores OBD2 permitem ler códigos de falha da injeção no celular, ajudando a identificar sensores sujos sem ir ao mecânico.",
-      "category": "Tecnologia"
+      "title": "Legislacao: Documento de Garupa",
+      "text": "Certifique-se de que seu garupa também está portando documento de identidade. Em blitzes policiais, todos os ocupantes podem ser consultados.",
+      "category": "legislacao",
+      "level": "iniciante"
     },
     {
       "id": 470,
-      "title": "Segurança: Óleo de Compressor",
-      "text": "Caminhões de lixo ou frigoríficos costumam soltar líquidos oleosos em curvas. Redobre a atenção em trevos e rotatórias urbanas.",
-      "category": "Segurança"
+      "title": "Saúde: Sono e Micro-sonos",
+      "text": "Se você piscar e sentir que 'apagou' por um milésimo de segundo, pare imediatamente. O micro-sono é a principal causa de saídas de pista.",
+      "category": "saude",
+      "level": "avancado"
     },
     {
       "id": 471,
-      "title": "Manutenção: Filtro de Ar",
-      "text": "Um filtro de ar muito sujo 'enforca' o motor, aumentando o consumo e carbonizando as velas. Troque-o após rodar em muita poeira.",
-      "category": "Manutenção"
+      "title": "Tecnologia: Carga de Bateria via USB",
+      "text": "Evite carregar o celular com a moto desligada se sua bateria for pequena. Smartphones modernos consomem muita carga e podem impedir a partida.",
+      "category": "tecnologia",
+      "level": "iniciante"
     },
     {
       "id": 472,
-      "title": "Pilotagem: Contra-esterço no Corredor",
-      "text": "Use o contra-esterço para desvios rápidos de retrovisores. Um leve empurrão no guidão move a moto lateralmente com agilidade.",
-      "category": "Pilotagem"
+      "title": "Fotografia: Contraste de Cores",
+      "text": "Procure fundos coloridos (grafites, paredes de tijolo) que contrastem com a cor da sua moto para fazê-la 'saltar' da foto.",
+      "category": "fotografia",
+      "level": "iniciante"
     },
     {
       "id": 473,
-      "title": "Viagens: Localização de Borracharias",
-      "text": "Ao rodar por rotas isoladas, salve no GPS os pontos de borracheiros de caminhão; eles têm compressores potentes para emergências.",
-      "category": "Viagens"
+      "title": "Legislacao: Faixa de Pedestre e Parada",
+      "text": "Avançar a linha de retenção no sinal vermelho, mesmo sem cruzar a via, é infração. Mantenha os pneus antes da faixa de pedestres.",
+      "category": "legislacao",
+      "level": "iniciante"
     },
     {
       "id": 474,
-      "title": "Saúde: Hidratação e Clima Frio",
-      "text": "No frio, você sente menos sede, mas o vento seco desidrata o corpo rápido. Beba água para manter seus reflexos e foco em dia.",
-      "category": "Saúde"
+      "title": "Saúde: Proteção do Ouvido Interno",
+      "text": "O barulho do vento altera o labirinto (equilíbrio). Usar protetores auriculares ajuda a manter a coordenação motora fina em viagens longas.",
+      "category": "saude",
+      "level": "intermediario"
     },
     {
       "id": 475,
-      "title": "Curiosidades: Freio Combinado (CBS)",
-      "text": "O CBS distribui a força de frenagem entre as duas rodas mesmo se você usar só um pedal, reduzindo a distância de parada para novatos.",
-      "category": "Curiosidades"
+      "title": "Tecnologia: Bluetooth de Baixa Latência",
+      "text": "Ao comprar intercomunicadores, prefira os com Bluetooth 5.0 ou superior. Eles conectam mais rápido e têm menor interferência de áudio.",
+      "category": "tecnologia",
+      "level": "intermediario"
     },
     {
       "id": 476,
-      "title": "Equipamento: Luvas de Couro",
-      "text": "Para estrada, prefira luvas de couro com proteção de escafóide (palma da mão). É a área que primeiro toca o chão em uma queda.",
-      "category": "Segurança"
+      "title": "Fotografia: Silhueta no Pôr do Sol",
+      "text": "Posicione a moto entre você e o sol. Diminua a exposição na câmera para criar uma silhueta negra e elegante da máquina contra o céu laranja.",
+      "category": "fotografia",
+      "level": "intermediario"
     },
     {
       "id": 477,
-      "title": "Tecnologia: Lanterna de LED",
-      "text": "LEDs duram mais, mas são sensíveis a picos de voltagem. Se eles queimarem com frequência, verifique o regulador de voltagem da moto.",
-      "category": "Tecnologia"
+      "title": "Legislacao: Placa Suja de Lama",
+      "text": "No off-road, limpe a placa ao retornar para o asfalto. Placa encoberta por barro é infração gravíssima e causa apreensão da moto.",
+      "category": "legislacao",
+      "level": "intermediario"
     },
     {
       "id": 478,
-      "title": "Manutenção: Terminais de Bateria",
-      "text": "Terminais oxidados impedem a carga correta do alternador. Limpe com água quente e aplique graxa para evitar o zinabre.",
-      "category": "Manutenção"
+      "title": "Saúde: Cuidado com a Cafeína",
+      "text": "Café ajuda no alerta, mas o excesso causa tremores e ansiedade. Alterne o café com água para evitar a desidratação e o 'crash' de energia.",
+      "category": "saude",
+      "level": "intermediario"
     },
     {
       "id": 479,
-      "title": "Pilotagem: Olhar Periférico",
-      "text": "Não foque no retrovisor do carro à sua frente; olhe para os pneus dele. O pneu indica a mudança de direção antes da lataria se mover.",
-      "category": "Pilotagem"
+      "title": "Tecnologia: Sensores de Ponto Cego",
+      "text": "Algumas motos premium possuem radares traseiros que fazem vibrar os espelhos se houver um carro no seu ponto cego. Nunca ignore esse alerta.",
+      "category": "tecnologia",
+      "level": "avancado"
     },
     {
       "id": 480,
-      "title": "Segurança: Vento em Caminhões",
-      "text": "Ao ser ultrapassado por um caminhão grande, a moto será 'puxada' para ele e depois 'empurrada'. Segure firme o guidão e incline-se.",
-      "category": "Segurança"
+      "title": "Fotografia: Detalhe do Painel",
+      "text": "Uma foto do painel ligado, mostrando a quilometragem ou a hora da partida, ajuda a contar a história da sua jornada nas redes sociais.",
+      "category": "fotografia",
+      "level": "iniciante"
     },
     {
       "id": 481,
-      "title": "Tecnologia: Atualização de ECU",
-      "text": "Se a moto apresenta 'buracos' na aceleração, verifique na concessionária se há uma atualização de software para o mapa de injeção.",
-      "category": "Tecnologia"
+      "title": "Legislacao: Transporte de Animais",
+      "text": "Animais de estimação devem ser transportados em caixas específicas fixadas no assento ou baú, nunca entre as pernas ou no colo do piloto.",
+      "category": "legislacao",
+      "level": "iniciante"
     },
     {
       "id": 482,
-      "title": "Segurança: Distância de Parada em Ladeira",
-      "text": "Em subidas, não pare colado no carro da frente. Se o motorista for inexperiente, o carro pode recuar ao arrancar e atingir você.",
-      "category": "Segurança"
+      "title": "Saúde: Ergonomia de Manetes",
+      "text": "Seus manetes de freio e embreagem devem ser uma extensão dos seus braços. Se estiverem muito altos, causarão dor no dorso da mão.",
+      "category": "saude",
+      "level": "intermediario"
     },
     {
       "id": 483,
-      "title": "Viagens: Kit de Niples Universais",
-      "text": "Carregue um kit de niples para cabos de aço. Eles permitem consertar um cabo de embreagem ou acelerador partido em poucos minutos.",
-      "category": "Viagens"
+      "title": "Tecnologia: OBD2 e Consumo",
+      "text": "Use o scanner OBD2 para monitorar o consumo real e a saúde da injeção. Se o 'Short Term Fuel Trim' variar muito, limpe os bicos injetores.",
+      "category": "tecnologia",
+      "level": "avancado"
     },
     {
       "id": 484,
-      "title": "Manutenção: Suspensão Traseira",
-      "text": "O 'link' da suspensão precisa de graxa nova a cada 20.000 km. Buchas secas causam ruídos e deixam a traseira da moto instável.",
-      "category": "Manutenção"
+      "title": "Fotografia: Use o Descanso Lateral",
+      "text": "Para fotos paradas, vire o guidão totalmente para o lado do descanso. Isso deixa a moto com uma postura mais agressiva e estável visualmente.",
+      "category": "fotografia",
+      "level": "iniciante"
     },
     {
       "id": 485,
-      "title": "Pilotagem: Posição de Ataque",
-      "text": "No off-road, mantenha os cotovelos altos e para fora. Isso dá mais alavanca para controlar a moto em terrenos acidentados.",
-      "category": "Pilotagem"
+      "title": "Legislacao: Uso de Chinelos",
+      "text": "Pilotar usando calçados que não se firmem nos pés (chinelos, rasteirinhas) é proibido e gera multa. Use sempre calçados fechados.",
+      "category": "legislacao",
+      "level": "iniciante"
     },
     {
       "id": 486,
-      "title": "Saúde: Síndrome do Túnel do Carpo",
-      "text": "Ajuste os manetes para que fiquem na mesma linha reta dos seus braços. Manetes muito altos ou baixos causam dores e formigamento.",
-      "category": "Saúde"
+      "title": "Saúde: Alongamento de Pés",
+      "text": "Ficar muito tempo na mesma posição causa formigamento nos pés. Gire os tornozelos em círculos durante as paradas para reativar a circulação.",
+      "category": "saude",
+      "level": "iniciante"
     },
     {
       "id": 487,
-      "title": "Curiosidades: Rodas de Magnésio",
-      "text": "Motos de alta performance usam rodas de magnésio por serem mais leves, reduzindo a inércia e facilitando as trocas de direção.",
-      "category": "Curiosidades"
+      "title": "Tecnologia: Baterias AGM vs Lítio",
+      "text": "Baterias AGM são melhores para motos com muitos acessórios (GPS, faróis). Baterias de Lítio são ideais para quem busca redução de peso.",
+      "category": "tecnologia",
+      "level": "avancado"
     },
     {
       "id": 488,
-      "title": "Equipamento: Proteção de Peito",
-      "text": "O protetor de tórax protege órgãos vitais contra detritos lançados por outros veículos e reduz a fadiga causada pela pressão do vento.",
-      "category": "Segurança"
+      "title": "Fotografia: Profundidade de Campo",
+      "text": "Use o 'Modo Retrato' do celular para desfocar o fundo e destacar o tanque ou o motor da moto. Isso dá um ar profissional à imagem.",
+      "category": "fotografia",
+      "level": "intermediario"
     },
     {
       "id": 489,
-      "title": "Tecnologia: Reset de Painel",
-      "text": "Muitas motos permitem resetar a luz de revisão através de uma combinação de botões no painel. Consulte o manual para economizar tempo.",
-      "category": "Tecnologia"
+      "title": "Legislacao: Estacionamento de Motos",
+      "text": "Motos devem ser estacionadas em posição perpendicular (90 graus) em relação à guia da calçada, exceto onde houver sinalização específica.",
+      "category": "legislacao",
+      "level": "iniciante"
     },
     {
       "id": 490,
-      "title": "Segurança: Saída de Curva Cega",
-      "text": "Sempre imagine que há um obstáculo parado logo após o ápice de uma curva cega. Ajuste sua velocidade para conseguir parar a tempo.",
-      "category": "Segurança"
+      "title": "Saúde: Proteção Contra Hipotermia",
+      "text": "O frio drena o açúcar do sangue. Se começar a tremer, pare. A tremedeira é um sinal de que sua coordenação motora já está comprometida.",
+      "category": "saude",
+      "level": "avancado"
     },
     {
       "id": 491,
-      "title": "Manutenção: Bujão Magnético",
-      "text": "Use um bujão de óleo com imã. Ele captura partículas metálicas microscópicas que o filtro de óleo não consegue segurar.",
-      "category": "Manutenção"
+      "title": "Tecnologia: Sensores de Luz Inteligentes",
+      "text": "DRLs que não alternam para o farol baixo à noite são perigosos. Verifique se o sensor de luminosidade da sua moto não está obstruído.",
+      "category": "tecnologia",
+      "level": "intermediario"
     },
     {
       "id": 492,
-      "title": "Pilotagem: Frenagem em 'S'",
-      "text": "Em sequências de curvas rápidas, use as pedaleiras para alavancar a moto. Empurrar o lado interno ajuda na agilidade da inclinação.",
-      "category": "Pilotagem"
+      "title": "Fotografia: Capture o Movimento",
+      "text": "Tire fotos de baixo para cima enquanto a moto passa por uma poça (com cuidado!). O respingo de água cria um efeito visual incrível.",
+      "category": "fotografia",
+      "level": "avancado"
     },
     {
       "id": 493,
-      "title": "Viagens: Documentos Digitais Offline",
-      "text": "Salve os PDFs dos documentos da moto e do seguro na memória interna do celular; em áreas sem sinal, a nuvem não funcionará.",
-      "category": "Viagens"
+      "title": "Legislacao: Luzes Auxiliares (Neblina)",
+      "text": "Faróis de milha devem ser instalados abaixo da linha do farol principal e usados apenas em condições de baixa visibilidade (neblina/chuva).",
+      "category": "legislacao",
+      "level": "intermediario"
     },
     {
       "id": 494,
-      "title": "Saúde: Alongamento de Pernas",
-      "text": "A cada 100km, levante-se nas pedaleiras por alguns segundos. Isso ativa a circulação e evita a fadiga muscular precoce.",
-      "category": "Saúde"
+      "title": "Saúde: Postura no Trânsito Urbano",
+      "text": "Não 'desabe' sobre o tanque no trânsito parado. Mantenha a postura ereta para facilitar a visão periférica e a respiração profunda.",
+      "category": "saude",
+      "level": "iniciante"
     },
     {
       "id": 495,
-      "title": "Curiosidades: Suspensão Telelever",
-      "text": "Diferente da suspensão comum, o sistema Telelever separa as funções de amortecimento e direção, evitando que a frente mergulhe.",
-      "category": "Curiosidades"
+      "title": "Tecnologia: Quickshifter e Desgaste",
+      "text": "Evite usar o Quickshifter da primeira para a segunda marcha em baixas rotações. Isso gera um desgaste desnecessário nos garfos do câmbio.",
+      "category": "tecnologia",
+      "level": "avancado"
     },
     {
       "id": 496,
-      "title": "Equipamento: Limpeza de Intercomunicador",
-      "text": "Evite jatos de água nos conectores do intercomunicador. Use um spray limpa-contatos seco para garantir uma comunicação sem ruídos.",
-      "category": "Tecnologia"
+      "title": "Fotografia: O Capacete como Acessório",
+      "text": "Coloque o capacete sobre o banco ou retrovisor ao fotografar a moto parada. Isso humaniza a foto e mostra o estilo do piloto.",
+      "category": "fotografia",
+      "level": "iniciante"
     },
     {
       "id": 497,
-      "title": "Tecnologia: ABS Pro em Curvas",
-      "text": "O ABS de curva usa a inclinação da moto para calcular a pressão exata do freio, evitando que o pneu dianteiro escorregue lateralmente.",
-      "category": "Tecnologia"
+      "title": "Legislacao: Triângulo de Segurança",
+      "text": "Motos não são obrigadas a carregar triângulo, mas em caso de pane, use o capacete a alguns metros da moto para alertar os outros motoristas.",
+      "category": "legislacao",
+      "level": "iniciante"
     },
     {
       "id": 498,
-      "title": "Manutenção: Lâmpada de Placa",
-      "text": "Verifique a lâmpada da placa regularmente. A vibração traseira costuma soltar o filamento, e uma lâmpada queimada gera multa.",
-      "category": "Manutenção"
+      "title": "Saúde: Alcool e Pilotagem",
+      "text": "O álcool afeta o equilíbrio muito antes de afetar a fala. Mesmo uma única dose altera a percepção de inclinação da moto em curvas.",
+      "category": "saude",
+      "level": "avancado"
     },
     {
       "id": 499,
-      "title": "Pilotagem: Reduções de Marcha",
-      "text": "Dê um leve 'golpe' de acelerador (blip) ao reduzir a marcha. Isso iguala as rotações e evita trancos na roda traseira.",
-      "category": "Pilotagem"
+      "title": "Tecnologia: Baterias Keyless Reservas",
+      "text": "Tenha sempre uma bateria (geralmente CR2032) reserva no kit de ferramentas. Se a chave presencial morrer, você ficará a pé.",
+      "category": "tecnologia",
+      "level": "iniciante"
     },
     {
       "id": 500,
-      "title": "Segurança: O Espírito Wings",
-      "text": "A melhor tecnologia de segurança ainda é o seu bom senso. Respeite seus limites e os da sua máquina. Boa viagem!",
-      "category": "Segurança"
+      "title": "Fotografia: Fotos de Grupo",
+      "text": "Ao fotografar várias motos, alinhe-as em 'escada' (diagonal). Isso permite que todas apareçam sem que uma esconda a outra.",
+      "category": "fotografia",
+      "level": "intermediario"
+    },
+    {
+      "id": 501,
+      "title": "Tecnologia: Configuração de Mesh",
+      "text": "A tecnologia Mesh permite que motociclistas entrem e saiam do grupo sem derrubar a conexão dos outros. Ideal para comboios grandes.",
+      "category": "tecnologia",
+      "level": "intermediario"
+    },
+    {
+      "id": 502,
+      "title": "Tecnologia: TPMS e Calor",
+      "text": "Sensores de pressão também medem a temperatura. Se o pneu esquentar demais sem mudança de ritmo, verifique o freio ou carga.",
+      "category": "tecnologia",
+      "level": "avancado"
+    },
+    {
+      "id": 503,
+      "title": "Legislacao: Viseira e Proteção",
+      "text": "Rodar com a viseira aberta é infração média. Se o capacete não tiver viseira, o uso de óculos de proteção (com elástico) é obrigatório.",
+      "category": "legislacao",
+      "level": "iniciante"
+    },
+    {
+      "id": 504,
+      "title": "Fotografia: A Regra do Terço",
+      "text": "Não coloque a moto no centro. Posicione-a em um dos lados do quadro para dar sensação de movimento e destacar a paisagem de fundo.",
+      "category": "fotografia",
+      "level": "iniciante"
+    },
+    {
+      "id": 505,
+      "title": "Saúde: Joelheiras Térmicas",
+      "text": "O vento frio direto nas articulações causa dores crônicas. Use sempre joelheiras ou calças com proteção térmica em viagens longas.",
+      "category": "saude",
+      "level": "iniciante"
+    },
+    {
+      "id": 506,
+      "title": "Tecnologia: GPS 'Caminho Sinuoso'",
+      "text": "Apps de GPS para moto oferecem rotas com mais curvas e menos rodovias. Perfeito para quem busca prazer na pilotagem defensiva.",
+      "category": "tecnologia",
+      "level": "avancado"
+    },
+    {
+      "id": 507,
+      "title": "Legislacao: Escapamento e Selo",
+      "text": "O escapamento esportivo deve manter os níveis de ruído e possuir o selo do Inmetro ou nota fiscal para evitar apreensão em vistorias.",
+      "category": "legislacao",
+      "level": "intermediario"
+    },
+    {
+      "id": 508,
+      "title": "Fotografia: O Ângulo do Chão",
+      "text": "Abaixe o celular até o nível do eixo da roda e incline-o para cima. Isso faz a moto parecer maior e mais imponente na foto.",
+      "category": "fotografia",
+      "level": "iniciante"
+    },
+    {
+      "id": 509,
+      "title": "Saúde: Carboidratos em Viagem",
+      "text": "Evite massas e pães pesados no almoço. O pico de insulina causa sonolência pós-refeição, o que reduz o foco em 40%.",
+      "category": "saude",
+      "level": "iniciante"
+    },
+    {
+      "id": 510,
+      "title": "Tecnologia: Apps de Telemetria",
+      "text": "Use apps que registram ângulo de inclinação e frenagem. Ótimo para estudar sua evolução técnica e identificar erros de postura.",
+      "category": "tecnologia",
+      "level": "avancado"
+    },
+    {
+      "id": 511,
+      "title": "Fotografia: Luz Lateral",
+      "text": "A luz vinda de lado (cedo ou tarde) destaca as texturas do motor e as curvas do tanque, criando sombras que dão volume à moto.",
+      "category": "fotografia",
+      "level": "intermediario"
+    },
+    {
+      "id": 512,
+      "title": "Saúde: O Descanso dos Olhos",
+      "text": "Em viagens, foque em pontos distantes no horizonte para relaxar a musculatura ocular e evitar dores de cabeça por tensão.",
+      "category": "saude",
+      "level": "iniciante"
+    },
+    {
+      "id": 513,
+      "title": "Legislacao: Película de Viseira",
+      "text": "Películas escuras em viseiras cristal são proibidas. Se quiser proteção solar, use um capacete com sub-viseira solar interna retrátil.",
+      "category": "legislacao",
+      "level": "iniciante"
+    },
+    {
+      "id": 514,
+      "title": "Tecnologia: Bateria de Lítio e Frio",
+      "text": "Baterias de lítio sofrem no frio. Se a moto não ligar, deixe o farol aceso por 30 segundos para 'acordar' a bateria quimicamente.",
+      "category": "tecnologia",
+      "level": "avancado"
+    },
+    {
+      "id": 515,
+      "title": "Fotografia: Linhas da Estrada",
+      "text": "Use as faixas da pista para guiar o olhar para a moto. Fotos tiradas do centro da pista (em segurança) dão profundidade infinita.",
+      "category": "fotografia",
+      "level": "intermediario"
+    },
+    {
+      "id": 516,
+      "title": "Saúde: Pausa para Alongar",
+      "text": "A cada 100km, levante-se nas pedaleiras por alguns segundos. Isso ativa a circulação e previne a dormência nas pernas.",
+      "category": "saude",
+      "level": "iniciante"
+    },
+    {
+      "id": 517,
+      "title": "Legislacao: Baú e Largura",
+      "text": "O baú de carga não pode exceder a largura do guidão. Verifique as medidas se usar malas laterais rígidas em motos estreitas.",
+      "category": "legislacao",
+      "level": "iniciante"
+    },
+    {
+      "id": 518,
+      "title": "Tecnologia: Bluetooth 5.0",
+      "text": "Ao escolher um intercomunicador, prefira Bluetooth 5.0. Ele consome menos bateria e reconecta instantaneamente ao celular.",
+      "category": "tecnologia",
+      "level": "intermediario"
+    },
+    {
+      "id": 519,
+      "title": "Fotografia: Reflexo no Tanque",
+      "text": "Use o brilho da pintura para captar reflexos da paisagem ou das nuvens. É um detalhe artístico que valoriza a limpeza da moto.",
+      "category": "fotografia",
+      "level": "intermediario"
+    },
+    {
+      "id": 520,
+      "title": "Saúde: Cinta Lombar",
+      "text": "Use cinta abdominal em viagens longas. Ela sustenta a coluna e evita que os órgãos internos 'chacoalhem' com a vibração da moto.",
+      "category": "saude",
+      "level": "intermediario"
+    },
+    {
+      "id": 521,
+      "title": "Legislacao: Multa de Viseira Aberta",
+      "text": "Levantar a viseira para falar ou ventilar com a moto em movimento gera multa e pontos na CNH. Pare sempre para abrir totalmente.",
+      "category": "legislacao",
+      "level": "iniciante"
+    },
+    {
+      "id": 522,
+      "title": "Tecnologia: Ride-by-Wire",
+      "text": "O acelerador eletrônico permite modos de pilotagem (Rain/Sport). O modo Rain reduz a entrega de torque, evitando derrapagens.",
+      "category": "tecnologia",
+      "level": "avancado"
+    },
+    {
+      "id": 523,
+      "title": "Fotografia: O Fundo Importa",
+      "text": "Evite fundos 'sujos' com postes ou lixeiras saindo de trás da moto. Um fundo limpo faz a máquina ser a única protagonista.",
+      "category": "fotografia",
+      "level": "iniciante"
+    },
+    {
+      "id": 524,
+      "title": "Saúde: Hidratação e Reflexo",
+      "text": "Apenas 2% de desidratação reduz seu tempo de resposta em 20%. Em dias quentes, beba água a cada 30 minutos de pilotagem.",
+      "category": "saude",
+      "level": "iniciante"
+    },
+    {
+      "id": 525,
+      "title": "Legislacao: Placa Mercosul e Lacre",
+      "text": "Placas Mercosul não usam lacre, mas o QR Code deve estar limpo e legível. Se o código for danificado, a placa deve ser trocada.",
+      "category": "legislacao",
+      "level": "iniciante"
+    },
+    {
+      "id": 526,
+      "title": "Tecnologia: Cornering Lights",
+      "text": "Luzes que acendem ao inclinar a moto iluminam o 'buraco negro' no ápice da curva. Essencial para quem roda muito à noite.",
+      "category": "tecnologia",
+      "level": "avancado"
+    },
+    {
+      "id": 527,
+      "title": "Fotografia: Movimento Borrado",
+      "text": "Peça para alguém tirar uma foto sua passando. Com o obturador lento, as rodas girando dão a sensação real de velocidade.",
+      "category": "fotografia",
+      "level": "avancado"
+    },
+    {
+      "id": 528,
+      "title": "Saúde: Fadiga Mental Noturna",
+      "text": "À noite, o cérebro trabalha mais para processar sombras. Reduza a velocidade e faça paradas mais frequentes do que faria de dia.",
+      "category": "saude",
+      "level": "intermediario"
+    },
+    {
+      "id": 529,
+      "title": "Legislacao: Alteração de Cor",
+      "text": "Envelopar a moto com cor diferente da original em mais de 50% exige alteração no documento (CRV) para evitar apreensão.",
+      "category": "legislacao",
+      "level": "intermediario"
+    },
+    {
+      "id": 530,
+      "title": "Tecnologia: Engine Brake Control",
+      "text": "O controle de freio motor ajusta quanto a moto 'segura' ao soltar o acelerador. Mais freio motor ajuda a poupar as pastilhas.",
+      "category": "tecnologia",
+      "level": "avancado"
+    },
+    {
+      "id": 531,
+      "title": "Fotografia: Silhueta de Capacete",
+      "text": "Uma foto do capacete contra o pôr do sol, sobre o banco da moto, transmite a sensação de 'fim de jornada' e aventura concluída.",
+      "category": "fotografia",
+      "level": "iniciante"
+    },
+    {
+      "id": 532,
+      "title": "Saúde: Proteção Auditiva",
+      "text": "O ruído do vento é o maior causador de cansaço em viagens. Protetores auriculares de silicone são baratos e salvam sua audição.",
+      "category": "saude",
+      "level": "iniciante"
+    },
+    {
+      "id": 533,
+      "title": "Legislacao: Rodar em Ponto Morto",
+      "text": "Descer serras em ponto morto ('banguela') é infração de trânsito e perigoso, pois anula o freio motor vital para a segurança.",
+      "category": "legislacao",
+      "level": "iniciante"
+    },
+    {
+      "id": 534,
+      "title": "Tecnologia: Conexão TFT-Smartphone",
+      "text": "Mantenha o firmware do painel atualizado. Isso resolve 90% dos problemas de conexão com intercomunicadores e Spotify.",
+      "category": "tecnologia",
+      "level": "intermediario"
+    },
+    {
+      "id": 535,
+      "title": "Fotografia: Detalhes do Motor",
+      "text": "Fotos de close-up nas aletas de refrigeração ou nas pinças de freio mostram a beleza da engenharia da sua moto.",
+      "category": "fotografia",
+      "level": "iniciante"
+    },
+    {
+      "id": 536,
+      "title": "Saúde: Postura de Braços",
+      "text": "Mantenha os cotovelos relaxados. Braços rígidos transmitem toda a vibração do asfalto para os ombros, causando dor crônica.",
+      "category": "saude",
+      "level": "iniciante"
+    },
+    {
+      "id": 537,
+      "title": "Legislacao: Lâmpada de Placa LED",
+      "text": "Trocar a lâmpada de placa por LED é permitido, desde que a cor seja branca. LEDs azuis na placa geram multa imediata.",
+      "category": "legislacao",
+      "level": "iniciante"
+    },
+    {
+      "id": 438,
+      "title": "Tecnologia: Sensores de Estacionamento",
+      "text": "Cuidado ao estacionar perto de carros modernos. Muitas vezes os sensores deles não detectam a silhueta fina da moto.",
+      "category": "seguranca",
+      "level": "iniciante"
+    },
+    {
+      "id": 539,
+      "title": "Fotografia: O Horizonte Reto",
+      "text": "Certifique-se de que a linha do horizonte está reta. Uma foto de moto inclinada com o horizonte torto gera confusão visual.",
+      "category": "fotografia",
+      "level": "intermediario"
+    },
+    {
+      "id": 540,
+      "title": "Saúde: Snacks de Viagem",
+      "text": "Carregue castanhas e frutas secas. Elas dão energia estável sem causar o 'sono do açúcar' de doces e refrigerantes.",
+      "category": "saude",
+      "level": "iniciante"
+    },
+    {
+      "id": 541,
+      "title": "Legislacao: Documento Digital",
+      "text": "A CNH e o CRLV digitais valem em todo o Brasil. Tenha o PDF baixado no celular, pois você pode ser parado onde não há sinal.",
+      "category": "legislacao",
+      "level": "iniciante"
+    },
+    {
+      "id": 542,
+      "title": "Tecnologia: Quickshifter e Neutro",
+      "text": "Não use o Quickshifter para colocar a moto em neutro. Ele foi feito para trocas de marcha sob carga, não para manobras parado.",
+      "category": "tecnologia",
+      "level": "intermediario"
+    },
+    {
+      "id": 543,
+      "title": "Fotografia: Profundidade de Campo",
+      "text": "Use o modo retrato para desfocar o fundo. Isso isola a moto da bagunça visual da rua e dá um aspecto profissional.",
+      "category": "fotografia",
+      "level": "intermediario"
+    },
+    {
+      "id": 544,
+      "title": "Saúde: Proteção Ocular",
+      "text": "Mesmo de viseira aberta, use óculos. Um inseto no olho a 60km/h pode causar um acidente grave e lesão na córnea.",
+      "category": "saude",
+      "level": "iniciante"
+    },
+    {
+      "id": 545,
+      "title": "Legislacao: Antena Corta-Pipa",
+      "text": "Em cidades com alto índice de pipas, a antena é um item de sobrevivência. Instale uma que seja retrátil e de boa qualidade.",
+      "category": "seguranca",
+      "level": "iniciante"
+    },
+    {
+      "id": 546,
+      "title": "Tecnologia: OBD2 no Celular",
+      "text": "Com um adaptador OBD2 barato, você pode ler códigos de erro no celular. Útil para saber se aquela luz no painel é grave ou não.",
+      "category": "tecnologia",
+      "level": "avancado"
+    },
+    {
+      "id": 547,
+      "title": "Fotografia: Foto POV",
+      "text": "Tire uma foto do guidão e painel enquanto a estrada se estende à frente. Isso coloca quem vê a foto 'dentro' da viagem.",
+      "category": "fotografia",
+      "level": "iniciante"
+    },
+    {
+      "id": 548,
+      "title": "Saúde: Ergonomia de Manetes",
+      "text": "Ajuste os manetes para que fiquem na linha reta dos seus braços. Isso evita tendinite nos punhos em viagens longas.",
+      "category": "saude",
+      "level": "intermediario"
+    },
+    {
+      "id": 549,
+      "title": "Legislacao: Farol Alto à Noite",
+      "text": "Ao cruzar com outro veículo à noite, baixe o farol. O ofuscamento do outro motorista pode fazê-lo invadir a sua faixa.",
+      "category": "seguranca",
+      "level": "iniciante"
+    },
+    {
+      "id": 550,
+      "title": "Tecnologia: IMU de 6 Eixos",
+      "text": "A IMU monitora a inclinação da moto 100 vezes por segundo, ajustando o ABS e o controle de tração para evitar quedas em curvas.",
+      "category": "tecnologia",
+      "level": "avancado"
+    },
+    {
+      "id": 551,
+      "title": "Fotografia: O Elemento Humano",
+      "text": "Não tire fotos apenas da moto. Inclua você ou seus amigos de viagem interagindo com a paisagem para criar memórias mais afetivas.",
+      "category": "fotografia",
+      "level": "iniciante"
+    },
+    {
+      "id": 552,
+      "title": "Economia: Calibragem e Consumo",
+      "text": "Pneus com apenas 2 PSI abaixo do recomendado podem aumentar o consumo de combustível em até 5%. Mantenha a pressão em dia para economizar.",
+      "category": "economia",
+      "level": "iniciante"
+    },
+    {
+      "id": 553,
+      "title": "Legislacao: Capacete com Bluetooth",
+      "text": "Intercomunicadores são permitidos, desde que o som não seja emitido por fones de ouvido que vedem o canal auditivo. Use sempre os alto-falantes internos do capacete.",
+      "category": "legislacao",
+      "level": "intermediario"
+    },
+    {
+      "id": 554,
+      "title": "Saúde: Protetor de Coluna e Postura",
+      "text": "Um bom protetor de coluna rígido força você a manter a postura ereta, evitando que você 'encurve' as costas e sinta dores lombares após horas de estrada.",
+      "category": "saude",
+      "level": "intermediario"
+    },
+    {
+      "id": 555,
+      "title": "Tecnologia: Atualização de GPS via Wi-Fi",
+      "text": "Motos com Wi-Fi integrado permitem baixar mapas novos sem cabos. Verifique atualizações antes de cruzar fronteiras para evitar erros de rota.",
+      "category": "tecnologia",
+      "level": "intermediario"
+    },
+    {
+      "id": 556,
+      "title": "Fotografia: Luz de Preenchimento",
+      "text": "Ao fotografar contra o sol, use o flash do celular manualmente para iluminar as partes escuras do motor e revelar detalhes que ficariam pretos.",
+      "category": "fotografia",
+      "level": "avancado"
+    },
+    {
+      "id": 557,
+      "title": "Economia: Troca de Marcha no Torque",
+      "text": "Trocar marchas na rotação de torque máximo, em vez de esticar até o corte de giro, preserva o motor e garante o melhor consumo por km rodado.",
+      "category": "economia",
+      "level": "intermediario"
+    },
+    {
+      "id": 558,
+      "title": "Legislacao: Adesivos Refletivos",
+      "text": "É obrigatório que o capacete possua adesivos refletivos nas laterais, frente e traseira. Se o seu capacete é novo e importado, verifique se eles foram colados.",
+      "category": "legislacao",
+      "level": "iniciante"
+    },
+    {
+      "id": 559,
+      "title": "Saúde: Audição e Concentração",
+      "text": "O excesso de barulho causa fadiga por 'sobrecarga sensorial'. Reduzir o ruído com protetores melhora sua capacidade de tomar decisões rápidas no trânsito.",
+      "category": "saude",
+      "level": "intermediario"
+    },
+    {
+      "id": 560,
+      "title": "Tecnologia: Sensor de Pressão de Óleo",
+      "text": "Se a luz de óleo acender, desligue o motor imediatamente. Pode ser apenas o sensor sujo, mas insistir pode fundir o motor em poucos segundos.",
+      "category": "tecnologia",
+      "level": "avancado"
+    },
+    {
+      "id": 561,
+      "title": "Fotografia: Posição do Descanso",
+      "text": "Em terrenos macios (grama/terra), use uma pedra ou chapinha sob o descanso para a moto não tombar enquanto você se afasta para tirar a foto.",
+      "category": "fotografia",
+      "level": "iniciante"
+    },
+    {
+      "id": 562,
+      "title": "Economia: Filtro de Óleo K&N vs Papel",
+      "text": "Filtros de alta performance permitem maior fluxo, mas exigem manutenção rigorosa. Para economia e durabilidade em viagens longas, o filtro de papel original é mais seguro.",
+      "category": "manutencao",
+      "level": "avancado"
+    },
+    {
+      "id": 563,
+      "title": "Legislacao: Suporte de Placa lateral",
+      "text": "Placas na lateral da moto são permitidas apenas se o modelo sair assim de fábrica. Adaptações caseiras podem gerar multa por 'placa sem visibilidade'.",
+      "category": "legislacao",
+      "level": "intermediario"
+    },
+    {
+      "id": 564,
+      "title": "Saúde: Temperatura Corporal",
+      "text": "O vento frio no peito acelera a perda de calor. Se sentir calafrios, pare. A hipotermia leve torna os movimentos lentos e imprecisos.",
+      "category": "saude",
+      "level": "intermediario"
+    },
+    {
+      "id": 565,
+      "title": "Tecnologia: Conectividade Mesh 2.0",
+      "text": "Intercomunicadores modernos com Mesh 2.0 criam uma rede auto-regenerativa. Se um piloto se perde, a rede se reajusta sozinha sem interrupções.",
+      "category": "tecnologia",
+      "level": "avancado"
+    },
+    {
+      "id": 566,
+      "title": "Fotografia: O Enquadramento Aberto",
+      "text": "Às vezes, tire fotos onde a moto ocupa apenas 10% da imagem. Isso destaca a imensidão da estrada e o espírito de liberdade da viagem.",
+      "category": "fotografia",
+      "level": "iniciante"
+    },
+    {
+      "id": 567,
+      "title": "Economia: Lubrificação de Cabos",
+      "text": "Cabos lubrificados exigem menos esforço dos componentes internos da embreagem e do acelerador, evitando quebras prematuras e gastos com oficina.",
+      "category": "economia",
+      "level": "iniciante"
+    },
+    {
+      "id": 568,
+      "title": "Legislacao: Escapamento e Catalisador",
+      "text": "Motos novas perdem a garantia e podem ser multadas se o catalisador for removido. Ele é vital para o controle de emissões e ruído legal.",
+      "category": "legislacao",
+      "level": "intermediario"
+    },
+    {
+      "id": 569,
+      "title": "Saúde: Exercício de Antebraço",
+      "text": "Para evitar o 'arm pump' (travamento dos braços), aperte e solte uma bolinha de borracha macia nas paradas. Isso relaxa os tendões flexores.",
+      "category": "saude",
+      "level": "intermediario"
+    },
+    {
+      "id": 570,
+      "title": "Tecnologia: Radar Traseiro",
+      "text": "O radar de ré avisa através de luzes nos espelhos sobre veículos se aproximando em alta velocidade por trás, prevenindo colisões traseiras.",
+      "category": "tecnologia",
+      "level": "avancado"
+    },
+    {
+      "id": 571,
+      "title": "Fotografia: Vidro Limpo",
+      "text": "Antes de tirar a foto, limpe a lente do celular. O suor dos dedos na lente cria um aspecto esfumaçado que estraga a nitidez da moto.",
+      "category": "fotografia",
+      "level": "iniciante"
+    },
+    {
+      "id": 572,
+      "title": "Economia: Uso do Freio Motor",
+      "text": "Usar o freio motor não gasta combustível (cut-off) e economiza pastilhas de freio, que podem durar até o dobro do tempo.",
+      "category": "economia",
+      "level": "intermediario"
+    },
+    {
+      "id": 573,
+      "title": "Legislacao: Faróis Auxiliares Brancos",
+      "text": "Luzes de neblina devem ser brancas ou amarelas. O uso de luzes estroboscópicas (piscantes) é proibido e exclusivo para veículos de emergência.",
+      "category": "legislacao",
+      "level": "iniciante"
+    },
+    {
+      "id": 574,
+      "title": "Saúde: Alongamento de Glúteos",
+      "text": "Ficar sentado horas comprime o nervo ciático. Nas paradas, cruze uma perna sobre a outra e incline o tronco à frente para alongar o glúteo.",
+      "category": "saude",
+      "level": "iniciante"
+    },
+    {
+      "id": 575,
+      "title": "Tecnologia: Keyless e Interferência",
+      "text": "Evite deixar o controle da moto perto de celulares ou imãs potentes na mochila. Isso pode descarregar a bateria do sensor por comunicação contínua.",
+      "category": "tecnologia",
+      "level": "intermediario"
+    },
+    {
+      "id": 576,
+      "title": "Fotografia: Foto Panorâmica",
+      "text": "Em mirantes, use o modo panorâmico. Comece a foto pela moto e gire lentamente para captar toda a paisagem ao redor.",
+      "category": "fotografia",
+      "level": "intermediario"
+    },
+    {
+      "id": 577,
+      "title": "Economia: Gasolina Aditivada",
+      "text": "Use gasolina aditivada de postos confiáveis. Os detergentes evitam o acúmulo de carvão nas válvulas, mantendo a performance e economia originais.",
+      "category": "economia",
+      "level": "iniciante"
+    },
+    {
+      "id": 578,
+      "title": "Legislacao: CNH Vencida",
+      "text": "Você pode dirigir por até 30 dias com a CNH vencida. Após esse prazo, a infração é gravíssima, com multa e retenção da motocicleta.",
+      "category": "legislacao",
+      "level": "iniciante"
+    },
+    {
+      "id": 579,
+      "title": "Saúde: Proteção Contra o Vento",
+      "text": "O vento constante causa ressecamento severo nos lábios e olhos. Use protetor labial e mantenha a viseira fechada para evitar inflamações.",
+      "category": "saude",
+      "level": "iniciante"
+    },
+    {
+      "id": 580,
+      "title": "Tecnologia: Suspensão Semiativa",
+      "text": "A suspensão eletrônica lê o terreno 100 vezes por segundo. Se sentir a moto 'pulando', verifique se o modo de pilotagem selecionado está correto.",
+      "category": "tecnologia",
+      "level": "avancado"
+    },
+    {
+      "id": 581,
+      "title": "Fotografia: Foto no Espelho",
+      "text": "Tire uma foto do seu próprio reflexo no retrovisor da moto enquanto a estrada aparece ao fundo. É uma composição criativa para registrar o trajeto.",
+      "category": "fotografia",
+      "level": "intermediario"
+    },
+    {
+      "id": 582,
+      "title": "Economia: Lavagem em Casa",
+      "text": "Lavar a moto em casa permite inspecionar vazamentos, parafusos soltos e raios frouxos que passariam despercebidos em lava-jatos rápidos.",
+      "category": "economia",
+      "level": "iniciante"
+    },
+    {
+      "id": 583,
+      "title": "Legislacao: Som no Capacete",
+      "text": "O volume do intercomunicador deve permitir que você ouça sons externos como sirenes e buzinas. Som alto demais pode gerar multa por distração.",
+      "category": "legislacao",
+      "level": "intermediario"
+    },
+    {
+      "id": 584,
+      "title": "Saúde: Hidratação e Clima Seco",
+      "text": "Em regiões de baixa umidade, o suor evapora antes de você perceber. Aumente o consumo de água para evitar tonturas e perda de reflexo.",
+      "category": "saude",
+      "level": "iniciante"
+    },
+    {
+      "id": 585,
+      "title": "Tecnologia: Modos de ABS",
+      "text": "Motos Big Trail permitem desligar o ABS da roda traseira no off-road. Isso é vital para conseguir 'cavar' a terra e frear em descidas escorregadias.",
+      "category": "tecnologia",
+      "level": "avancado"
+    },
+    {
+      "id": 586,
+      "title": "Fotografia: Profundidade com Faixas",
+      "text": "Posicione a câmera rente ao chão sobre a faixa lateral da estrada (com a via vazia!). Isso cria uma linha de fuga poderosa em direção à moto.",
+      "category": "fotografia",
+      "level": "intermediario"
+    },
+    {
+      "id": 587,
+      "title": "Economia: Proteção de Pintura",
+      "text": "Aplique cera ou selante no tanque. Isso evita que o atrito da sua jaqueta risque a pintura, preservando o valor de revenda da motocicleta.",
+      "category": "economia",
+      "level": "iniciante"
+    },
+    {
+      "id": 588,
+      "title": "Legislacao: Multas em Grupo",
+      "text": "Em comboios, manter distância segura evita que uma manobra brusca de um piloto gere uma reação em cadeia e multas por direção perigosa.",
+      "category": "seguranca",
+      "level": "intermediario"
+    },
+    {
+      "id": 589,
+      "title": "Saúde: Snacks Práticos",
+      "text": "Bananas e uvas passas combatem cãibras e dão energia rápida. Tenha-as sempre acessíveis na bolsa de tanque ou mochila.",
+      "category": "saude",
+      "level": "iniciante"
+    },
+    {
+      "id": 590,
+      "title": "Tecnologia: Piloto Automático em Curvas",
+      "text": "Nunca use o Cruise Control em trechos sinuosos. Ele não reduz a velocidade automaticamente nas curvas e pode causar perda de controle.",
+      "category": "tecnologia",
+      "level": "intermediario"
+    },
+    {
+      "id": 591,
+      "title": "Fotografia: Foto sob Chuva",
+      "text": "Motos molhadas ficam lindas em fotos noturnas sob luzes de postos. O brilho da água destaca o design e cria um clima de aventura.",
+      "category": "fotografia",
+      "level": "intermediario"
+    },
+    {
+      "id": 592,
+      "title": "Economia: Óleo Semissintético vs Sintético",
+      "text": "Óleos sintéticos duram mais e protegem melhor em altas temperaturas. O investimento extra se paga pela maior vida útil dos componentes do motor.",
+      "category": "manutencao",
+      "level": "intermediario"
+    },
+    {
+      "id": 593,
+      "title": "Legislacao: Estacionar na Calçada",
+      "text": "Mesmo que haja espaço para pedestres, estacionar na calçada é infração sujeita a guincho. Procure sempre bolsões específicos para motos.",
+      "category": "legislacao",
+      "level": "iniciante"
+    },
+    {
+      "id": 594,
+      "title": "Saúde: Descanso Pós-Viagem",
+      "text": "Após uma viagem longa, seu tempo de reação no trânsito urbano (perto de casa) estará reduzido. Mantenha o foco máximo até desligar a moto.",
+      "category": "saude",
+      "level": "avancado"
+    },
+    {
+      "id": 595,
+      "title": "Tecnologia: Sensor de Cavalete Lateral",
+      "text": "Mantenha o pino do cavalete limpo. Se ele travar ou falhar, a moto pode cortar a ignição no meio do corredor, criando um risco alto.",
+      "category": "manutencao",
+      "level": "intermediario"
+    },
+    {
+      "id": 596,
+      "title": "Fotografia: Use o Temporizador",
+      "text": "Para tirar fotos suas pilotando em locais isolados, use um tripé pequeno e o temporizador do celular. Faça passagens lentas e seguras.",
+      "category": "fotografia",
+      "level": "avancado"
+    },
+    {
+      "id": 597,
+      "title": "Economia: Vida Útil de Pastilhas",
+      "text": "Pastilhas sintetizadas duram mais e freiam melhor no calor, mas gastam o disco mais rápido. Avalie o custo-benefício para o seu tipo de uso.",
+      "category": "economia",
+      "level": "avancado"
+    },
+    {
+      "id": 598,
+      "title": "Legislacao: Capacete sem Jugular",
+      "text": "Usar o capacete apenas 'encaixado' na cabeça, sem apertar a jugular, equivale legalmente a estar sem capacete. Multa e retenção da CNH.",
+      "category": "legislacao",
+      "level": "iniciante"
+    },
+    {
+      "id": 599,
+      "title": "Saúde: Alongamento de Pescoço Lateral",
+      "text": "Incline a orelha em direção ao ombro (sem erguer o ombro). Isso relaxa o músculo esternocleidomastoideo, muito exigido pelo vento lateral.",
+      "category": "saude",
+      "level": "iniciante"
+    },
+    {
+      "id": 600,
+      "title": "Segurança: A Missão Wings",
+      "text": "O conhecimento é a sua melhor proteção. Continue treinando, revisando e respeitando a estrada. Nos vemos no próximo destino!",
+      "category": "seguranca",
+      "level": "avancado"
     }
   ]
 }
